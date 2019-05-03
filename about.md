@@ -1,7 +1,7 @@
 ---
 layout: about
 title: A Propos
-permalink: /about/
+permalink: /:site.baseurl/about/
 tags: about
 flicker: true
 headshot: /images/headshot.jpg
