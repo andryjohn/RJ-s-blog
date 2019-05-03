@@ -1,7 +1,7 @@
 ---
 layout: about
 title: A Propos
-permalink: /:about.md/
+permalink: /:site.url/:about.md/
 tags: about
 flicker: true
 headshot: /images/headshot.jpg
