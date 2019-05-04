@@ -7,15 +7,15 @@
       {% for page in site.pages %}
         {% if page.tags contains "about" %}
           <li class="about-anc">
-            <h4><a class="nav-underline about" href="/about">{{page.title}}</a></h4></li>
+            <h4><a class="nav-underline about" href="/about.md">{{page.title}}</a></h4></li>
         {% endif %}
         {% if page.tags contains "contact" %}
           <li class="expertise-anc">
-            <h4><a class="nav-underline contact" href="/contact">{{page.title}}</a></h4></li>
+            <h4><a class="nav-underline contact" href="/contact.html">{{page.title}}</a></h4></li>
         {% endif %}
         {% if page.tags contains "portfolio" %}
           <li class="team-anc">
-            <h4><a class="nav-underline portfolio" href="/design">{{page.title}}</a></h4></li>
+            <h4><a class="nav-underline portfolio" href="/portfollio.html">{{page.title}}</a></h4></li>
         {% endif %}
         {% if page.tags contains "projects" %}
           <li class="beliefs-anc">
@@ -23,7 +23,7 @@
         {% endif %}
         {% if page.tags contains "resume" %}
           <li class="beliefs-anc">
-            <h4><a class="nav-underline resume" href="/resumé">{{page.title}}</a></h4></li>
+            <h4><a class="nav-underline resume" href="/resume.md">{{page.title}}</a></h4></li>
         {% endif %}
       {% endfor %}
           <li>
