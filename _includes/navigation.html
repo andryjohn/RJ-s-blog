@@ -7,7 +7,7 @@
       {% for page in site.pages %}
         {% if page.tags contains "about" %}
           <li class="about-anc">
-            <h4><a class="nav-underline about" href="/about.md">{{page.title}}</a></h4></li>
+            <h4><a class="nav-underline about" href="/about.md{{site.url}}">{{page.title}}</a></h4></li>
         {% endif %}
         {% if page.tags contains "contact" %}
           <li class="expertise-anc">
