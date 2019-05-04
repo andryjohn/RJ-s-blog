@@ -6,7 +6,7 @@ email:       Andry1287@gmail.com
 author:      Andry Rajohnson
 description: "Mon blog fait à partir de Jekyll, ou je parle de de developpement, back ou front et bien d'autre chose. "
 baseurl:     "/jekyll-blog"
-url:         ""
+url:         "https://andryjohn.github.io/jekyll-blog/"
 date_format: "%b %-d, %Y"
 
 # Google services
