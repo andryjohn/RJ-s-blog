@@ -6,3 +6,7 @@ summary:    J’ai voulu établir le classement des villes françaises en foncti
 mathjax: true
 ---
 
+Quitter Paris pour de plus vertes contrées, telle est l’ambition qui habite certains d’entre nous. Mais comme tout développeur qui se respecte, il faut planifier minitieusement la relocalisation. 
+
+Combien de développeurs habitent Tours ? Meetup déçoit car aucun groupe tech n’est constitué. GitHub quant à lui, nous indique que 77 développeurs se sont déclarés, dont 6 avec pour langage principal Ruby.
+
