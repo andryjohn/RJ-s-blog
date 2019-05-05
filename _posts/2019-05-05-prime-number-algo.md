@@ -1,6 +1,6 @@
 ---
 layout:     post
-title:      Aglorithme en Ruby afin de calculer des nombres premiers
+title:      Aglorithme en Ruby, calcul des nombres premiers
 date:       2019-05-05
 summary:    On va essayer de déterminé les nombres premiers, en utilisant le langage Ruby
 categories: Developper skills
