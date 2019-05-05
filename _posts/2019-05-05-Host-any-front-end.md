@@ -57,3 +57,6 @@ git push origin gh-pages
 # Now go to OVH / Gandi / or DOT.tk/ like me, if you want a free domain name , your DNS provider and record a CNAME from
 # "$PROJECT_NAME" to "$GITHUB_USERNAME.github.io." (trailing dot is *SO* important)
 ```
+![suits ](/images/giphy.gif)
+
+You're welcome!
