@@ -2,7 +2,7 @@
 layout:     post
 title:      Aglorithme pour calculer les nombres premiers en "Ruby" ?
 date:       2019-05-05
-summary:    On va essayer de déterminé les nombres premiers, en utilisant le langage *Ruby* 
+summary:    On va essayer de déterminé les nombres premiers, en utilisant le langage Ruby
 categories: Developper skills
 mathjax: true
 ---
