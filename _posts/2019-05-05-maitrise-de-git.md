@@ -1,7 +1,7 @@
 ---
 layout:     post
 title:      Introduction à Git/Github 
-date:       2019-05-04
+date:       2019-05-05
 summary:   Le but de Git est de permettre à une équipe de développement de suivre les différentes versions d’un projet pour en gérer l’évolution
 categories: Developper skills
 mathjax: true
