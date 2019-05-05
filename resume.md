@@ -1,6 +1,6 @@
 ---
 layout: cv
-title: CV
+title: Curriculum
 tags: resume
 permalink: /resume/
 ---
