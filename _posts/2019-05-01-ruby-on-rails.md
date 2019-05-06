@@ -34,6 +34,6 @@ mathjax: true
 
    Depuis toujours, la communauté Ruby repose sur une **culture d'ouverture et de partage.** En supplément des multiples communautés sur le web, vous trouverez de nombreux relais physiques partout dans le monde, à l'image de l'excellent groupe [Paris.rb](https://rubyparis.org/).
 
- <footer><cite title="Antoine de Saint-Exupéry">Source: Sébastien Saunier CTO at le Wagon.org</cite></footer>
+ <footer><cite title="Antoine de Saint-Exupéry">Source: Sébastien Saunier CTO at le Wagon</cite></footer>
 ---
 
