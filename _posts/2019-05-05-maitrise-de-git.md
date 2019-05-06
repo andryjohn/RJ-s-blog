@@ -7,6 +7,7 @@ categories: Developper skills
 mathjax: true
 ---
 
+
 Quand on développe un projet il ne suffit pas de coder pour soi dans son coin ni pour l’instant présent, il faut aussi penser aux évolutions possibles du code, aux erreurs que l’on peut faire, aux personnes qui vont aussi travailler sur le projet… 
 
 C’est pourquoi il est indispensable de mettre en place dès le début du projet, *un outil* qui permet de gérer tout cela. Ils sont nombreux, avec plus ou moins de fonctionnalités, mais celui dont je vais vous parler aujourd’hui est tout d'abord celui que j'utilise au quotidien mais aussi, il est au top depuis quelques temps déjà et est parti pour servir encore de longues années, il s’agit de Git. 
@@ -57,7 +58,7 @@ Puisque chaque commit connaît son précédent, il est possible de remonter de c
 A partir de ce moment précis, la deuxième équipe pourra travailler sur la nouvelle branche récemment crée, sans que la branche principale (master), ne soit affecter.
 
 Et c'est la toute la puissance de **Git**, telle une réalité parallèle, ou l'on va pouvoir effectuer des changements, sans que cela n'affectent la branche principale (*master*).
-
+![git](/images/git.png)
 
 
 

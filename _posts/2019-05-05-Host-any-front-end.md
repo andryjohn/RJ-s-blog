@@ -6,7 +6,7 @@ summary:   Work in the gh-pages branch of your git project, set up your own doma
 categories: Developper skills
 mathjax: true
 ---
-
+![git](/images/github.gif)
 Sometimes you want to work on a simple web page, and you don’t want the burden of having to setup some hosting environment.
 
 Once again, [GitHub Pages](https://pages.github.com/) can help you. By creating a repo and working in the **gh-pages branch** instead of **master**, you will automatically get your site up and running.
@@ -57,6 +57,5 @@ git push origin gh-pages
 # Now go to OVH / Gandi / or DOT.tk/ like me, if you want a free domain name , your DNS provider and record a CNAME from
 # "$PROJECT_NAME" to "$GITHUB_USERNAME.github.io." (trailing dot is *SO* important)
 ```
-![suits ](/images/giphy.gif)
 
 You're welcome!

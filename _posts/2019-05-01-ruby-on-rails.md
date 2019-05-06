@@ -12,11 +12,13 @@ mathjax: true
 
   Une des premières choses agréables avec **Ruby on Rails** repose sur le langage **Ruby** en lui-même. La syntaxe est *simple*, peu *verbeuse*, proche de la langue anglaise et très *souple*. 
 
-### **Un setup pourri ? Pas de problème**
+### **Un tool set minimum**
 
-  Une fois le setup et la config de votre machine réalisés, le *tool set* associé à Ruby on Rails sont : **un éditeur de texte, un terminal et un navigateur.**
+  Une fois le setup et la config de votre machine réalisés, le *tool set* associé à Ruby on Rails est le plus simple qui soit  : **un éditeur de texte, un terminal et un navigateur.**
 
    *Aucun temps et écran* de chargement lorsque vous codez. Votre ordi "respire. Vous aussi."
+
+   ![code](/images/wagon.jpeg)
 
 ### **Une flexibilité extraordinaire**
 
@@ -32,6 +34,6 @@ mathjax: true
 
    Depuis toujours, la communauté Ruby repose sur une **culture d'ouverture et de partage.** En supplément des multiples communautés sur le web, vous trouverez de nombreux relais physiques partout dans le monde, à l'image de l'excellent groupe [Paris.rb](https://rubyparis.org/).
 
-
+ <footer><cite title="Antoine de Saint-Exupéry">Source: Sébastien Saunier CTO at le Wagon.org</cite></footer>
 ---
 
