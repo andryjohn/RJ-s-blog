@@ -1,9 +1,9 @@
 ######################################
 ## Site settings                    ##
 ######################################
-title:       Andry Rajohnson's Blog
-email:       Andry1287@gmail.com
-author:      Andry Rajohnson
+title: Andry Rajohnson's Blog
+email: Andry1287@gmail.com
+author: Andry Rajohnson
 description: "Blog "tech" , on parle de développement, langage de programmation, de nouvelle technogie et bien d'autre chose. N'hésitez pas à partager, commenter! Bonne visite"
 baseurl:     ""
 url:         "http://rajohnson-andry.tk"
@@ -21,7 +21,7 @@ bing_verification:
 ######################################
 ## Optional features                ##
 ######################################
-animated:             true
+animated:             false
 show_related_posts:   false
 show_post_footers:    True
 show_social_icons:    True
