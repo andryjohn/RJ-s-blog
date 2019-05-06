@@ -1,6 +1,7 @@
 ---
 layout: about
 title: A Propos
+permalink: /about/
 tags: about
 flicker: true
 headshot: /images/headshot.jpg
