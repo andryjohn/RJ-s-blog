@@ -6,6 +6,7 @@ summary:    J’ai voulu établir le classement des villes françaises en foncti
 mathjax: true
 
 ---
+![mark](/images/paris.png)
 
 Quitter *Paris* pour des contrées plus verte, telle est l’ambition qui habite certains d’entre nous. Mais comme tout *développeur* qui se respecte, il faut planifier minitieusement sa relocalisation. 
 

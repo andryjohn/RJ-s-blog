@@ -27,6 +27,7 @@ Ce faisant , **Pierre** *enregistre* son document sur une clé USB, qu’il tran
 Ce denier, consulte le document et s’aperçoit qu’il manque *un chapitre entier*, celui consacré au "commerce équitable." Qui est **fautif** ? (vous avez 3 heures…) 
 
 **Git** est là pour répondre à cette question en permettant de garder une copie de toutes les *versions* des documents, avec pour chaque version, l’identité de la personne qui a fait les modifications et les détails de cette modification. Appliquez cela à n’importe quel *projet*, informatique ou non, et vous aurez compris **l’intérêt de Git**.
+![mark](/images/features.png)
 
 ### Le vocabulaire de Git
 
@@ -58,7 +59,7 @@ Puisque chaque commit connaît son précédent, il est possible de remonter de c
 A partir de ce moment précis, la deuxième équipe pourra travailler sur la nouvelle branche récemment crée, sans que la branche principale (master), ne soit affecter.
 
 Et c'est la toute la puissance de **Git**, telle une réalité parallèle, ou l'on va pouvoir effectuer des changements, sans que cela n'affectent la branche principale (*master*).
-![git](/images/git.png)
+
 
 
 

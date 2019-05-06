@@ -49,7 +49,7 @@ Nous sommes régulièrement témoins de la confusion entre les termes front end 
 Le FrontOffice désigne ce que voit l’internaute en navigant sur un site internet.
 
 Le BackOffice désigne quant à lui ce que voit l’administrateur du site quand il se connecte à l’administration.
-
+![mark](/images/word.png)
 >Le *"CMS WordPress"* est un bon exemple pour comprendre la différence entre ces différents termes. En effet, il s’agit d’un outil web basé sur un Framework open source construit en PHP qui s’installe sur un serveur avec une base de données (Back End). Les développeurs Front End personnalisent l’apparence et les fonctionnalités des sites WordPress en utilisant du CSS, du jQuery et du JavaScript. Ces modifications se font principalement depuis le BackOffice (depuis l’interface de WordPress). Ces modifications sont ensuite visibles par les internautes sur le FrontOffice du site (le site internet).
 
 ### Conclusion
