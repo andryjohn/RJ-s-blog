@@ -1,6 +1,6 @@
 ---
 layout:     post
-title:      Les nombres binaires?
+title:      Pourquoi apprendre "Ruby on Rails"?
 date:       2019-05-06
 summary:    Notez que Ruby on Rails est un bon choix pour débuter la programmation, mais pas un choix exclusif.
 categories: Developper skills
