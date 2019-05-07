@@ -138,3 +138,6 @@ exclude: [vendor]
 collections:
   portfolio:
     output: true
+
+plugins:
+  - jekyll-seo-tag
