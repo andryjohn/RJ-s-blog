@@ -1,10 +1,10 @@
 ######################################
 ## Site settings                    ##
 ######################################
-title: Andry Rajohnson's Blog
+title: Andry Rajohnson's Blog | Web developer | amateur photographer | Streamer | Tech 
 email: Andry1287@gmail.com
 author: Andry Rajohnson
-description: "Blog tech , on parle de développement, langage de programmation, de nouvelle technogie et bien d'autre chose. N'hésitez pas à partager, commenter! Bonne visite"
+description: "Blog tech, on parle de développement, langage de programmation, UI/UX, de nouvelle technogie et bien d'autre chose. N'hésitez pas à partager, commenter! Bonne visite"
 baseurl:     ""
 url:         "http://rajohnson-andry.tk"
 date_format: "%b %-d, %Y"
