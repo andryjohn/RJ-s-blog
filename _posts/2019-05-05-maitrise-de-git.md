@@ -59,7 +59,7 @@ Puisque chaque commit connaît son précédent, il est possible de remonter de c
 A partir de ce moment précis, la deuxième équipe pourra travailler sur la nouvelle branche récemment crée, sans que la branche principale (master), ne soit affecter.
 
 Et c'est la toute la puissance de **Git**, telle une réalité parallèle, ou l'on va pouvoir effectuer des changements, sans que cela n'affectent la branche principale (*master*).
-
+<footer><cite title="Workshop">Credit: Andry Rajohnson</cite></footer>
 
 
 

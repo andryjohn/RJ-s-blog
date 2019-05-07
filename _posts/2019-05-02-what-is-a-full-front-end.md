@@ -60,3 +60,4 @@ Le développeur *full stack* est quant à lui idéal pour la création de *site 
 
 -----------
 
+<footer><cite title="Workshop">Credit: Andry Rajohnson</cite></footer>

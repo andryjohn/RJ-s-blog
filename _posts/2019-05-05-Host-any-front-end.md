@@ -59,3 +59,5 @@ git push origin gh-pages
 ```
 
 You're welcome!
+
+<footer><cite title="Workshop">Credit: Andry Rajohnson</cite></footer>

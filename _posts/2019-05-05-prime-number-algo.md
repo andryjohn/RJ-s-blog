@@ -57,5 +57,6 @@ p total_count
 
 Ici on voit toute la puissance du langage *Ruby*, il nous à suffit de quelques lignes de codes pour obtenir le résultat final.
 
+<footer><cite title="Workshop">Credit: Andry Rajohnson</cite></footer>
 
 
