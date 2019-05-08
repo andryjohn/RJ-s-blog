@@ -6,7 +6,7 @@ summary:    99% du design d'une app web est contistué des mêmes composants, j'
 categories: Developper skills
 mathjax: true
 ---
-J'ai décidé de coder les principaux "composants" ou "élément de design" que l'on retrouve de manière récurrents sur une *applications web*.
+J'ai décidé de coder les principaux "composants" ou "éléments de design" que l'on retrouve de manière récurrents sur une *applications web*.
 
 
 ## Landing page:
