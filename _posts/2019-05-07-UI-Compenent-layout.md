@@ -20,24 +20,26 @@ In today’s ecosystem, UI components can also function as UX components, combin
 You can design some compenents, then reuse them to build your *own product very quickly*. So let's *design*!
 
 ## *"UI kit"* : *In this article, I'll show you some compenents, designed by myself*
-Before we start, *most of the components have a dependency on Bootstrap (4.3) & Fontawesome (5.7), so make sure you have the libraries in your project.*
+> *Most of the components have a dependency on [Bootstrap (4.3)](https://getbootstrap.com/) & [Fontawesome (5.7)](https://fontawesome.com/), so make sure you have the libraries in your project.*
 
-So let's start with a simple one, an **"avatar"**
+
+## Avatar & Button design:
+
+So let's begin with a simple one, useful for your *profile* for example.
+
 
 ![avatar](/images/ladies.png)
 
 **HTML**
-```
- <body>
+```C#
 	<div class="container">
 		<h2>Avatar design</h2>
       		<img src="./ladies.jpeg" alt="" class="avatar">
       		 <img src="./ladies.jpeg" alt="" class="avatar-small">
      </div>
-  </body>
 ```
 **CSS**
-```
+```C#
 .avatar {
   border-radius: 50%;
   width: 70px;
@@ -49,32 +51,29 @@ So let's start with a simple one, an **"avatar"**
 }
 ```
 
-
-I choose to design two kind of button, *medium* and *twitter* button.
+Then, **Button**, I choose to design two kind of button, [*Medium*](https://medium.com/) and [*Treehouse*](https://teamtreehouse.com/).
 
 ![buttons](/images/buttons.png)
 
 
 
-**Tips** Custom them to make your own *"style"* for your website.
+>**Tips** Custom them to make your own *"style"* for your website.
 
 
 
-*Lets code!*
+*Let's code!* [*Try it here*](https://codepen.io/andryjohn/pen/gJpQeq)
 
 **HTML**
-```
-<body>
+```C#
 	<div class="container">
 		<h2>Button design</h2>
      	 <a href="#" class="btn-medium">Write stories</a>
          <a href="#" class="btn-treehouse">Start now</a>
      </div>
- </body>
 ```
 **CSS**
 
-```
+```C#
 .btn-medium {
   color: #999999;
   border: 1px solid #999999;
@@ -108,13 +107,18 @@ I choose to design two kind of button, *medium* and *twitter* button.
 
 
 
-Lets move on! The next one is, **cards**
+## Cards design: 
+
+Let's move on! The next one is, **cards**
 
 
 ![card](/images/cards.png)
 
+*Let's code!* [*Try it here*](https://codepen.io/andryjohn/pen/MdaOEY)
+
+
 **HTML**
-```
+``` C#
   <h2>Card design</h2>
       <div class="row">
         <div class="col-xs-12 col-sm-4">
@@ -150,7 +154,7 @@ Lets move on! The next one is, **cards**
       </div>
 ```
 **CSS**
-```
+```C#
 .card {
   position: relative;
   height: 175px;
@@ -160,6 +164,7 @@ Lets move on! The next one is, **cards**
 }
 
 .card-user {
+  border-radius: 50%;
   position: absolute;
   top: 10px;
   right: 10px;
@@ -175,13 +180,16 @@ Lets move on! The next one is, **cards**
   left: 10px;
 }
 ```
+## Banner:
 
-We've almost done, the last one is  **Banner**. Great for *landing page*!
+We've almost done, the last one is  **Banner**. Great for building your *landing page*!
 
 ![banner](/images/Banner.png)
 
+*Let's code!* [*Try it here*](https://codepen.io/andryjohn/pen/EzVoWQ)
+
 **HTML**
-```
+```C#
 <h2>Banner design</h2>
       <div class="banner">
         <div class="banner-content">
@@ -193,7 +201,7 @@ We've almost done, the last one is  **Banner**. Great for *landing page*!
 ```
 
 **CSS**
-```
+```C#
 .banner {
   display: flex;
   height: 100vh;
@@ -215,9 +223,11 @@ We've almost done, the last one is  **Banner**. Great for *landing page*!
   font-weight: lighter;
 }
 ```
-Ok, we're done, just in case, when a component is needed in a specific part of a specific app, it might need some adjustments and modifications. 
-All the source code is available on my github account [right here](https://github.com/andryjohn/UI-sprint)
 
+
+Ok, we're done, just in case, when a component is needed in a specific part of a specific app, it might need some adjustments and modifications. 
+All the source code are available on my github account [right here](https://github.com/andryjohn/UI-sprint) 
 
 
   <footer><cite title="Workshop">Credit: Andry Rajohnson from "workshop le wagon UI"</cite></footer>
+
