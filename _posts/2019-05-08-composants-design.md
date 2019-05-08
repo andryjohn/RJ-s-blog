@@ -1,12 +1,12 @@
 ---
 layout:     post
 title:    Ma librarie de composants design UI Responsive pour vos applications Web
-date:       2019-05-09
-summary:    99% du design d'une app web, on retrouvera souvent les mêmes composants, en voici quelques uns, que j'ai codé! 
+date:       2019-05-08
+summary:    99% du design d'une app web est contistué des mêmes composants, j'ai décidé d'en coder quelques uns! 
 categories: Developper skills
 mathjax: true
 ---
-J'ai décidé de coder, les principaux "composants", ou "élément de design" que l'on retrouve de manière récurrents sur une *applications web*.
+J'ai décidé de coder les principaux "composants" ou "élément de design" que l'on retrouve de manière récurrents sur une *applications web*.
 
 
 ## Landing page:
@@ -29,13 +29,13 @@ J'ai décidé de coder, les principaux "composants", ou "élément de design" qu
 ![Card](/images/breakfast.png)
 
 ### Notification:
-[*View code*](https://codepen.io/andryjohn/pen/XwmYqw)
+[*View code*](https://codepen.io/andryjohn/pen/PvPVRj)
 ![Card](/images/notification.png)
 
 ### Footer:
-[*View code*](https://codepen.io/andryjohn/pen/XwmYqw)
+[*View code*](https://codepen.io/andryjohn/pen/PvPVRj)
 ![footer](/images/Footer.png)
 
- <footer><cite title="Workshop">Credit: ©Andry Rajohnson from "le wagon Kit UI"</cite></footer>
+ <footer><cite title="Workshop">Credit: Made by ©Andry Rajohnson, inspired by "le Wagon Kit UI"</cite></footer>
 
 
