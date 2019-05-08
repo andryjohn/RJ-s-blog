@@ -25,7 +25,7 @@ J'ai décidé de coder les principaux "composants" ou "élément de design" que 
 ![Card](/images/trip.png)
 
 ### Card category:
-[*View code*](https://codepen.io/andryjohn/pen/XwmYqw)
+[*Voir le code*](https://codepen.io/andryjohn/pen/XwmYqw)
 ![Card](/images/breakfast.png)
 
 ### Notification:
