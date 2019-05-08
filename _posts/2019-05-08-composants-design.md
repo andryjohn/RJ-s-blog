@@ -10,18 +10,18 @@ J'ai décidé de coder les principaux "composants" ou "élément de design" que 
 
 
 ## Landing page:
-[*View code*](https://codepen.io/andryjohn/pen/EzVoWQ)
+[*Voir le code*](https://codepen.io/andryjohn/pen/EzVoWQ)
 ![Card](/images/landing-page.png)
 ## Card grid : 
 [*View code*](https://codepen.io/andryjohn/pen/XwmPWR)
 ![Card](/images/Cards-design.png)
 
 ### Card product :
-[*View code*](https://codepen.io/andryjohn/pen/XwmYqw)
+[*Voir le code*](https://codepen.io/andryjohn/pen/XwmYqw)
 ![Card](/images/apple.png)
 
 ### Card trip: 
-[*View code*](https://codepen.io/andryjohn/pen/XwmYqw)
+[*Voir le code*](https://codepen.io/andryjohn/pen/XwmYqw)
 ![Card](/images/trip.png)
 
 ### Card category:
@@ -29,11 +29,11 @@ J'ai décidé de coder les principaux "composants" ou "élément de design" que 
 ![Card](/images/breakfast.png)
 
 ### Notification:
-[*View code*](https://codepen.io/andryjohn/pen/PvPVRj)
+[*Voir le code*](https://codepen.io/andryjohn/pen/PvPVRj)
 ![Card](/images/notification.png)
 
 ### Footer:
-[*View code*](https://codepen.io/andryjohn/pen/PvPVRj)
+[*Voir le code*](https://codepen.io/andryjohn/pen/PvPVRj)
 ![footer](/images/Footer.png)
 
  <footer><cite title="Workshop">Credit: Made by ©Andry Rajohnson, inspired by "le Wagon Kit UI"</cite></footer>
