@@ -6,6 +6,8 @@ summary:    99% du design d'une app web, on retrouvera souvent les mêmes compos
 categories: Developper skills
 mathjax: true
 ---
+Voici quelques un des principaux "composants web", ou élément de design d'une *applications web*, on retrouve souvent les mêmes. 
+
 ## Landing page:
 [*View code*](https://codepen.io/andryjohn/pen/EzVoWQ)
 ![Card](/images/landing-page.png)
