@@ -60,7 +60,7 @@ Si vous ne connaisez pas sa chaine , abonné-vous les yeux fermés!
 
 
 ---
-[<img src="/images/superrb.png">](https://www.superrb.com//)
+[<img src="/images/superrb.png">](https://www.superrb.com/)
 
 ---
 
