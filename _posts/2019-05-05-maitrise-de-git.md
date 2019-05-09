@@ -65,7 +65,7 @@ Et c'est la toute la puissance de **Git**, telle une réalité parallèle, ou l'
 
 ## Pour aller plus loin..
 
-<div class="video"> <figure> <iframe width="640" height="480" src="//www.youtube.com/embed/prFohBWIdQg" frameborder="0" allowfullscreen></iframe> </figure> </div>
+<iframe width="860" height="420" src="https://www.youtube.com/embed/hPfgekYUKgk" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 <footer><cite title="Workshop">Credit: Article made By ©Andry Rajohnson, source video: La Capsule</cite></footer>
 
