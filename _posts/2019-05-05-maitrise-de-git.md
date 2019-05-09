@@ -15,10 +15,9 @@ C’est pourquoi il est indispensable de mettre en place dès le début du proje
 ### Qu’est-ce que Git ? Les concepts à comprendre
 
 Git est un logiciel de **gestion de versions** (outil de "versionning") distribué, créé par [Linus Torwalds](https://fr.wikipedia.org/wiki/Linus_Torvalds)  en 2005 et distribué **gratuitement sous licence publique générale GNU version 2.**
+Si la fin de la phrase est simple à comprendre (quoi que…), nous allons détailler son début :
 
- Si la fin de la phrase est simple à comprendre (quoi que…), nous allons détailler son début :
-
-**un outil de gestion de versions**
+#### Un outil de gestion de versions
 
 Le but de Git est de permettre à une équipe de développement de suivre les différentes versions d’un projet pour en gérer l’évolution.
 
@@ -27,7 +26,6 @@ Ce faisant , **Pierre** *enregistre* son document sur une clé USB, qu’il tran
 Ce denier, consulte le document et s’aperçoit qu’il manque *un chapitre entier*, celui consacré au "commerce équitable." Qui est **fautif** ? (vous avez 3 heures…) 
 
 **Git** est là pour répondre à cette question en permettant de garder une copie de toutes les *versions* des documents, avec pour chaque version, l’identité de la personne qui a fait les modifications et les détails de cette modification. Appliquez cela à n’importe quel *projet*, informatique ou non, et vous aurez compris **l’intérêt de Git**.
-![mark](/images/features.png)
 
 ### Le vocabulaire de Git
 
@@ -55,11 +53,17 @@ La vrai force de Git se trouve dans le concept de "branche". Nous venons de voir
 
 Puisque chaque commit connaît son précédent, il est possible de remonter de commit en commit pour retracer toute la branche. Pour simplifier, imaginons que nous avons créé un projet et fait 3 commits. Alors que nous ne nous sommes pas souciés de créer une branche, Git l’a fait pour nous. Dès le début le projet possède une branche *par défaut*, appelée **master**. Après nos 3 commits, master pointe vers le dernier commit en date.
 
->Nous souhaitons maintenant créer une branche pour permettre à l’équipe *back-office* de travailler de son côté, Git va simplement créer un nouveau pointeur vers le dernier commit de la branche courante (donc master). Nos branches **"master"** et **"backoffice"** sont pour le moment identiques.
-A partir de ce moment précis, la deuxième équipe pourra travailler sur la nouvelle branche récemment crée, sans que la branche principale (master), ne soit affecter.
+>Nous souhaitons maintenant créer une branche pour permettre à une autre équipe de developpeur, de crées de nouvelles fonctionnalités sans affecter la branche principale. Git va simplement créer un nouveau pointeur vers le dernier commit de la branche courante (donc master). Nos branches **"master"** et **"feature"** sont pour le moment identiques.
+A partir de ce moment précis, la deuxième équipe pourra travailler sur la nouvelle branche récemment crée, sans que la branche principale (master), ne soit affecter. Le travaille fini et validé, elle pourra etre fusionné dans *master*.
+![mark](/images/git.png)
+
+<footer><cite title="Workshop"> "Anything in the master branch is deployable". Scott Chacon
+</cite></footer>
+
 
 Et c'est la toute la puissance de **Git**, telle une réalité parallèle, ou l'on va pouvoir effectuer des changements, sans que cela n'affectent la branche principale (*master*).
-<footer><cite title="Workshop">Credit: Andry Rajohnson</cite></footer>
+
+<footer><cite title="Workshop">Credit: Made By ©Andry Rajohnson</cite></footer>
 
 
 

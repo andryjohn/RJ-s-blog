@@ -8,7 +8,10 @@ categories: data-engineering career
 
 Le jargon *"professionnel"* du web est *riche* et si vous avez ouvert de grands yeux interrogateurs en entendant ces mots, alors cet article est fait pour vous ! 
 
+![woman](/images/front.jpeg)
+
 ### Le developpeur Front End
+
 
 Le terme *« frontend »* désigne les éléments d’un site que l’on voit à l’écran et avec lesquels on peut interagir depuis un navigateur. 
 
@@ -31,6 +34,8 @@ Toutes ces informations restent sur le serveur, alors quand vient l’heure des 
 
 La personne qui administre toute cette technologie est le développeur back end. Les technologies Backend se composent généralement de langages comme: PHP, Ruby, Python, etc. 
 
+![back](/images/Backend.jpg)
+
 Pour les rendre encore plus faciles à utiliser, ils sont généralement améliorés par des **Framework** comme **"Ruby on Rails"**, **"Cake PHP", "Symfony" et "Code Igniter"** qui rendent le développement *plus rapide et plus sécurisé*.
 
 De plus en plus de développeurs disposent à la fois de compétences en *backend et en frontend*. On les appelle développeurs *Full Stack.*
@@ -41,6 +46,9 @@ Le développeur *full-stack* maîtrise les principales technologies et les princ
 Il est ainsi capable d’intervenir aussi bien sur le *front end* que sur le*back end* des sites Internet ou des applications. 
 
 Le développeur full stack est très apprécié dans  les milieux "start-ups" pour ses compétences variées. Toutefois, pour des projets d’envergure, il est conseillé de faire appel aux compétences **spécifiques** *des développeurs frontend et backend.*
+
+
+![woman](/images/woman-code.jpeg)
 
 ### Pour aller plus loin : ~~NE PAS CONFONDRE~~ Front End /Back End  Et Front Office/Back Office 
 
