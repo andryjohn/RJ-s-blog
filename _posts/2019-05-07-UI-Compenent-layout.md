@@ -9,7 +9,7 @@ mathjax: true
 Learn how *Uber*, *Shopify* and *Airbnb* are leveraging components to build a consistent **UI/UX design system.**
 
 
-![Branding](/images/airBnB.png)
+
 <blockquote>
   <p>
 In today’s ecosystem, UI components can also function as UX components, combining the power to create both functional and visual consistency.
