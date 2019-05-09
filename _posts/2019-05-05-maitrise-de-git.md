@@ -63,7 +63,11 @@ A partir de ce moment précis, la deuxième équipe pourra travailler sur la nou
 
 Et c'est la toute la puissance de **Git**, telle une réalité parallèle, ou l'on va pouvoir effectuer des changements, sans que cela n'affectent la branche principale (*master*).
 
-<footer><cite title="Workshop">Credit: Made By ©Andry Rajohnson</cite></footer>
+## Pour aller plus loin..
+
+ {% youtube "https://www.youtube.com/watch?v=hPfgekYUKgk" %}
+
+<footer><cite title="Workshop">Credit: Article made By ©Andry Rajohnson, source video: La Capsule</cite></footer>
 
 
 

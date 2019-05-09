@@ -141,3 +141,7 @@ collections:
 
 plugins:
   - jekyll-seo-tag
+
+
+plugins: [jekyll-youtube]
+ # This will require each of these gems automatically.

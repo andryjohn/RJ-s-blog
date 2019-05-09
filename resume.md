@@ -6,6 +6,7 @@ permalink: /resume/
 ---
 # Andry Rajohnson
 
+
 <div id="webaddress">
 <a href="mailto:andry1287@gmail.com">Email</a>
 |
