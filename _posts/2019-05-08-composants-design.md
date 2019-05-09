@@ -12,8 +12,8 @@ J'ai décidé de coder les principaux "composants" ou "éléments de design" que
 ## Landing page:
 [*Voir le code*](https://codepen.io/andryjohn/pen/EzVoWQ)
 ![Card](/images/landing-page.png)
-## Card grid : 
-[*View code*](https://codepen.io/andryjohn/pen/XwmPWR)
+### Card grid : 
+[*Voir le code*](https://codepen.io/andryjohn/pen/XwmPWR)
 ![Card](/images/Cards-design.png)
 
 ### Card product :
@@ -27,6 +27,15 @@ J'ai décidé de coder les principaux "composants" ou "éléments de design" que
 ### Card category:
 [*Voir le code*](https://codepen.io/andryjohn/pen/XwmYqw)
 ![Card](/images/breakfast.png)
+
+#### *"Responsive" sur les appareils mobiles*: 
+
+>![Cards reponsive](/images/Responsive.png)
+
+### Messages: 
+[*Voir le code*](https://codepen.io/andryjohn/pen/RmrrLd)
+![Message](/images/messsage.png)
+
 
 ### Notification:
 [*Voir le code*](https://codepen.io/andryjohn/pen/PvPVRj)
