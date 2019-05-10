@@ -19,11 +19,11 @@ mathjax: true
 
 ### Pourquoi je vous partage cette chaine? 
 
-Tout simplement car, elle est tout géniale.
+Tout simplement car, elle est géniale!
 *Benjamin*, tente de nous transmettre sa *passion du code*. 
-Et il y arrive avec brio, par son humour, mais aussi sa faculté à "vulgariser les concepts".
+Je trouve q'il y arrive avec brio, par son humour et sa bonne humeur mais surtout sa faculté à "vulgariser les concepts".
 
-Si vous ne connaisez pas sa chaine , abonnez-vous les yeux fermés!
+Alors, si vous ne connaisez pas sa chaine , abonnez-vous les yeux fermés!
 [*La chaine de Benjamin code*](https://www.youtube.com/channel/UCLOAPb7ATQUs_nDs9ViLcMw)
 
 Et si vous n'ètes pas encore convaincu, je vous invite à visionner les vidéos suivantes: 
