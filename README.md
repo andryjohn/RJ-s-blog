@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="images/headshot.jpg" style="border-radius: 50%;"/>
+  <img src="images/paris.png"/>
 </p>
 
 # Andry Rajohnson
