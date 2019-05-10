@@ -8,7 +8,7 @@ mathjax: true
 ---
 Learn how *Uber*, *Shopify* and *Airbnb* are leveraging components to build a consistent **UI/UX design system.**
 
-
+![airBnB](/images/airBnB.png)
 
 <blockquote>
   <p>
