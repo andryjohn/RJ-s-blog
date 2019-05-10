@@ -1,10 +1,10 @@
 ######################################
 ## Site settings                    ##
 ######################################
-title: Andry Rajohnson's Blog | Web developer | amateur photographer | Streamer | Tech 
+title: Andry Rajohnson's Blog| Fullstack Junior developer |Amateur Photographer| Tech Addict 
 email: Andry1287@gmail.com
 author: Andry Rajohnson
-description: "Blog tech, on parle de développement, langage de programmation, UI/UX, de nouvelle technogie et bien d'autre chose. N'hésitez pas à partager, commenter! Bonne visite"
+description: "Blog de partage, je parle de développement Front et Back, de langage de programmation, d'UI/UX. Je vous fait découvrir mon travail et ma méthode de travail, mais aussi de mes astuces au quotidien, de nouvelle technogie et bien d'autre chose. Bref n'hésitez pas à partager, commenter, et à laisser un message! Bonne visite"
 baseurl:     ""
 url:         "http://rajohnson-andry.tk"
 date_format: "%b %-d, %Y"
