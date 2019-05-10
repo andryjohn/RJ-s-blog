@@ -19,7 +19,7 @@
         {% endif %}
         {% if page.tags contains "projects" %}
           <li class="beliefs-anc">
-            <h4><a class="nav-underline open-source" href="{{site.url}}/projects">{{page.title}}</a></h4></li>
+            <h4><a class="nav-underline open-source" href="{{site.url}}/project">{{page.title}}</a></h4></li>
         {% endif %}
         {% if page.tags contains "resume" %}
           <li class="beliefs-anc">
@@ -28,6 +28,7 @@
       {% endfor %}
           <li>
           {% if site.show_social_icons %}
+
             {% include social_links.html %}
           {% endif %}
           </li>
