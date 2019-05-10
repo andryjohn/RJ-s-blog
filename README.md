@@ -1,10 +1,9 @@
 <p align="center">
-  <img src="mockups/rsz_junior.png"/>
+  <img src="mockups/headshot.jpg" style="border-radius: 50%;"/>
 </p>
 
 # Andry Rajohnson
 -----
-## Options
 
 By default, we use the following:
 
