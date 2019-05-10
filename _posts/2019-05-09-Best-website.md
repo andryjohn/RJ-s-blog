@@ -37,6 +37,7 @@ Et si vous n'ètes pas encore convaincu, je vous invite à visionner les vidéos
 <style>.embed-container { position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; max-width: 100%; } .embed-container iframe, .embed-container object, .embed-container embed { position: absolute; top: 0; left: 0; width: 100%; height: 100%; }</style><div class='embed-container'><iframe src='https://www.youtube.com/embed//KKZyB3bc52Q' frameborder='0' allowfullscreen></iframe></div>
 
 ---
+*Pour visiter leur site c'est ici!*
 
 [<img src="/images/5scontent.png">](https://5scontent.com/)
 
@@ -48,6 +49,8 @@ Et si vous n'ètes pas encore convaincu, je vous invite à visionner les vidéos
 
 <style>.embed-container { position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; max-width: 100%; } .embed-container iframe, .embed-container object, .embed-container embed { position: absolute; top: 0; left: 0; width: 100%; height: 100%; }</style><div class='embed-container'><iframe src='https://www.youtube.com/embed//511Se3worgg' frameborder='0' allowfullscreen></iframe></div>
 ---
+*Pour visiter leur site c'est ici!*
+
 [<img src="/images/basicagency.png">](https://moves.basicagency.com/)
 
 ---
@@ -64,6 +67,8 @@ Et si vous n'ètes pas encore convaincu, je vous invite à visionner les vidéos
 
 
 ---
+*Pour visiter leur site c'est ici!*
+
 [<img src="/images/superrb.png">](https://www.superrb.com/)
 
 ---
