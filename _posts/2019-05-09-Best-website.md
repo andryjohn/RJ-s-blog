@@ -26,7 +26,7 @@ Je trouve q'il y arrive avec brio, par son humour et sa bonne humeur mais surtou
 Alors, si vous ne connaisez pas sa chaine , abonnez-vous les yeux fermés!
 [*La chaine de Benjamin code*](https://www.youtube.com/channel/UCLOAPb7ATQUs_nDs9ViLcMw)
 
-Et si vous n'ètes pas encore convaincu, je vous invite à visionner les vidéos suivantes: 
+Et si vous n'ètes pas encore convaincu, je vous invite à jeter un coup d'oeil, c'est par ici:
 
 
 
