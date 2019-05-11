@@ -1,6 +1,6 @@
 ---
 layout: about
-title: A Propos
+title: Qui suis-je ?
 permalink: /about/
 tags: about
 flicker: true
