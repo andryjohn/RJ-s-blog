@@ -7,9 +7,9 @@ categories: Developper skills
 mathjax: true
 --- 
 
-Il faut savoir que pour créér ce site j'ai choisi d'utiliser [**Jekyll**](https://jekyllrb.com/).
+Il faut savoir que pour créér ce site j'ai choisi d'utiliser [**Jekyll**](https://jekyllrb.com/). Pourquoi ce choix?
 
-Ce dernier est ecrit en *Ruby* ,que c’est actuellement un pojet *très actif*, et qu’il est compatible avec *Github Pages*, **nativement**, c’est-à-dire que Github détecte, quand vous créez *une branche gh-pages*, que vous allez générer du contenu statique, je vous le montre comment faire [ici](https://rajohnson-andry.tk/developper/skills/2019/05/05/Host-any-front-end/)
+Tout d'abord, *Jekyll* est ecrit en *Ruby* , que c’est actuellement un pojet *très actif*, et qu’il est compatible avec *Github Pages*, **nativement**, c’est-à-dire que Github détecte, quand vous créez *une branche gh-pages*, que vous allez générer du contenu statique, je vous le montre comment faire [ici](https://rajohnson-andry.tk/developper/skills/2019/05/05/Host-any-front-end/)
 
 
 ## Pourquoi ne pas choisir un CMS comme Wordpress?
