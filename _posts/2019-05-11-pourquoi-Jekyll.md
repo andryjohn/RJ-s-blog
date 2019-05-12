@@ -25,9 +25,7 @@ Du fait de sa popularité, (*je n'ai pas les chiffres en téte mais je crois que
 ![cms](/images/cms.jpeg)
 
 
-#### La vitesse du site
-
-Le couple **PHP&MySQL** et **hébergement mutualisé sur OVH**, en plus si vous rajoutez des plugins (inutiles), ne fait pas souvent bon ménage, et cela se fait ressentir par les temps de chargement, un site qui rame comme jamais et ce n'est le top.
+>**La vitesse du site**: Le couple **PHP&MySQL** et **hébergement mutualisé sur OVH**, en plus si vous rajoutez des plugins (inutiles), ne fait pas souvent bon ménage, et cela se fait ressentir par les temps de chargement, un site qui rame comme jamais et ce n'est le top.
  
 ## Jekyll, comment ça marche ?
 
