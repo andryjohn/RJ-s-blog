@@ -7,8 +7,8 @@ categories: Developper skills
 mathjax: true
 ---
 
-
 Quand on développe un projet il ne suffit pas de coder pour soi dans son coin ni pour l’instant présent, il faut aussi penser aux évolutions possibles du code, aux erreurs que l’on peut faire, aux personnes qui vont aussi travailler sur le projet… 
+
 
 C’est pourquoi il est indispensable de mettre en place dès le début du projet, *un outil* qui permet de gérer tout cela. Ils sont nombreux, avec plus ou moins de fonctionnalités, mais celui dont je vais vous parler aujourd’hui est tout d'abord celui que j'utilise au quotidien mais aussi, il est au top depuis quelques temps déjà et est parti pour servir encore de longues années, il s’agit de Git. 
 
@@ -19,19 +19,25 @@ Si la fin de la phrase est simple à comprendre (quoi que…), nous allons déta
 
 ### Un outil de gestion de versions
 
+![mark](/images/Version.png)
+
+
+
 Le but de Git est de permettre à une équipe de développement de suivre les différentes versions d’un projet pour en gérer l’évolution.
 
 >  Dans cet exemple, nous allons oublié un peu le code et imaginons un exposé sur *l’économie du cacao* en *Côte d’Ivoire* réalisé par 3 lycéens : **Pierre** est en charge de l’exposé en lui-même, **Paul** rédigera *l’introduction* et la conclusion, **Jacques** aura la responsabilité des illustrations et de la mise en page. 
 Ce faisant , **Pierre** *enregistre* son document sur une clé USB, qu’il transmet à **Paul** y ajoute son *introduction* et sa *conclusion* sans relire le travail de **Pierre**. Il donne ensuite la clé USB à **Jacques** qui fait son travail de mise en forme avant de donner la clé USB au professeur. 
 Ce denier, consulte le document et s’aperçoit qu’il manque *un chapitre entier*, celui consacré au "commerce équitable." Qui est **fautif** ? (vous avez 3 heures…) 
    
-   ![mark](/images/projet.jpeg)
+
 
 **Git** est là pour répondre à cette question en permettant de garder une copie de toutes les *versions* des documents, avec pour chaque version, l’identité de la personne qui a fait les modifications et les détails de cette modification. Appliquez cela à n’importe quel *projet*, informatique ou non, et vous aurez compris **l’intérêt de Git**.
 
 ## Le vocabulaire de Git
   
 Nous allons vous initier plusieurs mots que vous ne connaissez peut-être pas, mais qui sont indispensable à la maitrise de git.
+
+![mark](/images/projet.jpeg)
 
 ## Dépôt, *repository* ou remote
 

@@ -25,11 +25,11 @@ Du fait de sa popularité, (*je n'ai pas les chiffres en téte mais je crois que
 ![cms](/images/cms.jpeg)
 
 
->**La vitesse du site**: Le couple **PHP&MySQL** et **hébergement mutualisé sur OVH**, en plus si vous rajoutez des plugins (inutiles), ne fait pas souvent bon ménage, et cela se fait ressentir par les temps de chargement, un site qui rame comme jamais et ce n'est le top.
+>**"La vitesse du site"**: Le couple **PHP&MySQL** et **hébergement mutualisé sur OVH**, en plus si vous rajoutez des plugins (inutiles), ne fait pas souvent bon ménage, et cela se fait ressentir par les temps de chargement, un site qui rame comme jamais et ce n'est le top.
  
 ## Jekyll, comment ça marche ?
 
-Jekyll est un générateur de site statiques écrit en Ruby. 
+Jekyll est un générateur de site statiques écrit en "Ruby". 
 
 Cela peut paraître tout à fait absurde par rapport à un CMS mais cela apporte bien des avantages et notamment le fait qu'il peut etre couplé à [git et github](https://rajohnson-andry.tk/developper/skills/2019/05/05/maitrise-de-git/). Et c'est la, tout l'intérets, je m'explique:
 
