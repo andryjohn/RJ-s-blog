@@ -8,8 +8,10 @@ mathjax: true
 
 ## Ligne éditoriale
 
- ![propos](/images/propos.jpeg)
+---
 
+ ![propos](/images/propos.jpeg)
+---
 
 #### Version courte :
  * *workshop*
