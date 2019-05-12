@@ -9,16 +9,16 @@ mathjax: true
 
 Il faut savoir que pour créér ce site j'ai choisi d'utiliser [**Jekyll**](https://jekyllrb.com/). Pourquoi ce choix?
 
-Tout d'abord, *Jekyll* est ecrit en *Ruby* , que c’est actuellement un pojet *très actif*, et qu’il est compatible avec *Github Pages*, **nativement**, c’est-à-dire que Github détecte, quand vous créez *une branche gh-pages*, que vous allez générer du contenu statique, je vous le montre comment faire [ici](https://rajohnson-andry.tk/developper/skills/2019/05/05/Host-any-front-end/)
+Tout d'abord, *Jekyll* est ecrit en [*Ruby*](https://rajohnson-andry.tk/developper/skills/2019/05/03/ruby-on-rails/) , que c’est actuellement un pojet *très actif*, et qu’il est compatible avec *Github Pages*, **nativement**, c’est-à-dire que Github détecte, quand vous créez *une branche gh-pages*, que vous allez générer du contenu statique, je vous le montre comment faire [ici](https://rajohnson-andry.tk/developper/skills/2019/05/05/Host-any-front-end/)
 
 
 ## Pourquoi ne pas choisir un CMS comme Wordpress?
 
 
-Un système de gestion de contenu (CMS) tel que "Wordpress", (*je cite ce dernier du fait de sa popularité auprès des developpeurs mais aussi des particuliers mais il y en à d'autres tel que Joomla, Drupal, Typo3, Magento, Prestashop*), aurait été parfait. 
+Un système de gestion de contenu (CMS) tel que "Wordpress", (*je cite ce dernier du fait de sa popularité auprès des developpeurs et des particuliers, mais il y en à d'autres tel que Joomla, Drupal, Typo3, Magento, Prestashop*), aurait été parfait. 
 
 Le problème justement réside dans sa popularité et aussi la technologie qu'il embarque. 
-Wordpress est écrit en **PHP**, repose sur **une base de données MySQL** et est distribué par l'entreprise américaine Automattic.
+Wordpress est écrit en **PHP**, repose sur **une base de données MySQL** et est distribué par l'entreprise américaine [Automattic](https://automattic.com/).
 Du fait de sa popularité, (*je n'ai pas les chiffres en téte mais je crois que c'est 30% des sites mondiaux, c'est énorme*), les sites Wordpress subissent des attaques incessantes.
 
 
