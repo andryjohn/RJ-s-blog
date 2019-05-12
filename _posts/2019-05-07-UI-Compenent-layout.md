@@ -24,14 +24,15 @@ You can design some compenents, then reuse them to build your *own product very 
 > *Most of the components have a dependency on [Bootstrap (4.3)](https://getbootstrap.com/) & [Fontawesome (5.7)](https://fontawesome.com/), so make sure you have the libraries in your project.*
 
 
-## Avatar & Button design:
+# Avatar & Button design:
 
 So let's begin with a simple one, useful for your *profile* for example.
 
 
 ![avatar](/images/ladies.png)
 
-**HTML**
+---
+## HTML
 ```C#
 	<div class="container">
 		<h2>Avatar design</h2>
@@ -39,7 +40,7 @@ So let's begin with a simple one, useful for your *profile* for example.
       		 <img src="./ladies.jpeg" alt="" class="avatar-small">
      </div>
 ```
-**CSS**
+## CSS
 ```C#
 .avatar {
   border-radius: 50%;
@@ -52,10 +53,48 @@ So let's begin with a simple one, useful for your *profile* for example.
 }
 ```
 
+---
+
 Then, **Button**, I choose to design two kind of button, [*Medium*](https://medium.com/) and [*Treehouse*](https://teamtreehouse.com/).
 
-![buttons](/images/buttons.png)
+---
+<html>
+<div class="container">
+    <h2>Button design</h2>
+       <a href="#" class="btn-medium">Write stories</a>
+         <a href="#" class="btn-treehouse">Free trial</a>
+     </div>
+<style>.btn-medium {
+  color: #999999;
+  border: 1px solid #999999;
+  padding: 10px 15px;
+  border-radius: 50px;
+  font-weight: lighter;
+  opacity: 0.6;
+}
 
+.btn-medium:hover {
+  opacity: 1;
+  text-decoration: none;
+  color: #999999;
+}
+
+.btn-treehouse {
+  color: white;
+  padding: 10px 15px;
+  border-radius: 4px;
+  font-weight: bold;
+  background: #6AD58B;
+  opacity: 0.8;
+}
+
+.btn-treehouse:hover {
+  opacity: 1;
+  background: #6AD58B;
+  text-decoration: none;
+  color: white;
+}</style>
+</html>
 
 
 >**Tips** Custom them to make your own *"style"* for your website.
@@ -64,15 +103,17 @@ Then, **Button**, I choose to design two kind of button, [*Medium*](https://medi
 
 *Let's code!* [*Try it here*](https://codepen.io/andryjohn/pen/gJpQeq)
 
-**HTML**
+---
+## HTML
 ```C#
 	<div class="container">
 		<h2>Button design</h2>
      	 <a href="#" class="btn-medium">Write stories</a>
          <a href="#" class="btn-treehouse">Start now</a>
      </div>
+
 ```
-**CSS**
+## CSS
 
 ```C#
 .btn-medium {
@@ -106,9 +147,9 @@ Then, **Button**, I choose to design two kind of button, [*Medium*](https://medi
 }
 ```
 
+---
 
-
-## Cards design: 
+# Cards design: 
 
 Let's move on! The next one is, **cards**
 
@@ -117,8 +158,10 @@ Let's move on! The next one is, **cards**
 
 *Let's code!* [*Try it here*](https://codepen.io/andryjohn/pen/MdaOEY)
 
+---
 
-**HTML**
+## HTML
+
 ``` C#
   <h2>Card design</h2>
       <div class="row">
@@ -154,7 +197,9 @@ Let's move on! The next one is, **cards**
         </div>
       </div>
 ```
-**CSS**
+
+## CSS
+
 ```C#
 .card {
   position: relative;
@@ -181,7 +226,10 @@ Let's move on! The next one is, **cards**
   left: 10px;
 }
 ```
-## Banner:
+
+---
+
+# Banner:
 
 We've almost done, the last one is  **Banner**. Great for building your *landing page*!
 
@@ -189,7 +237,9 @@ We've almost done, the last one is  **Banner**. Great for building your *landing
 
 *Let's code!* [*Try it here*](https://codepen.io/andryjohn/pen/EzVoWQ)
 
-**HTML**
+---
+
+## HTML
 ```C#
 <h2>Banner design</h2>
       <div class="banner">
@@ -201,7 +251,7 @@ We've almost done, the last one is  **Banner**. Great for building your *landing
       </div>
 ```
 
-**CSS**
+## CSS
 ```C#
 .banner {
   display: flex;
@@ -225,6 +275,7 @@ We've almost done, the last one is  **Banner**. Great for building your *landing
 }
 ```
 
+---
 
 Ok, we're done, just in case, when a component is needed in a specific part of a specific app, it might need some adjustments and modifications. 
 All the source code are available on my github account [right here](https://github.com/andryjohn/UI-sprint) 
@@ -232,3 +283,4 @@ All the source code are available on my github account [right here](https://gith
 
   <footer><cite title="Workshop">Credit: Andry Rajohnson from "workshop le wagon UI"</cite></footer>
 
+---

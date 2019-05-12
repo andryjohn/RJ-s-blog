@@ -12,39 +12,57 @@ J'ai décidé de coder les principaux "composants" ou "éléments de design" que
 ## Landing page:
 [*Voir le code*](https://codepen.io/andryjohn/pen/EzVoWQ)
 ![Card](/images/landing-page.png)
-### Card grid : 
+
+---
+
+## Card grid : 
 [*Voir le code*](https://codepen.io/andryjohn/pen/XwmPWR)
 ![Card](/images/Cards-design.png)
 
-### Card product :
+---
+
+## Card product :
 [*Voir le code*](https://codepen.io/andryjohn/pen/XwmYqw)
 ![Card](/images/apple.png)
 
-### Card trip: 
+---
+
+## Card trip: 
 [*Voir le code*](https://codepen.io/andryjohn/pen/XwmYqw)
 ![Card](/images/trip.png)
 
-### Card category:
+---
+
+## Card category:
 [*Voir le code*](https://codepen.io/andryjohn/pen/XwmYqw)
 ![Card](/images/breakfast.png)
 
-#### *"Responsive" sur les appareils mobiles*: 
+---
 
+## *"Responsive" sur les appareils mobiles*: 
+
+---
 >![Cards reponsive](/images/Responsive.png)
+---
 
-### Messages: 
+## Messages: 
 [*Voir le code*](https://codepen.io/andryjohn/pen/RmrrLd)
 ![Message](/images/messsage.png)
 
+---
 
-### Notification:
+## Notification:
 [*Voir le code*](https://codepen.io/andryjohn/pen/PvPVRj)
 ![Card](/images/notification.png)
 
-### Footer:
+---
+
+## Footer:
+---
+
 [*Voir le code*](https://codepen.io/andryjohn/pen/PvPVRj)
 ![footer](/images/Footer.png)
 
  <footer><cite title="Workshop">Credit: Made by ©Andry Rajohnson, inspired by "le Wagon Kit UI"</cite></footer>
 
-
+---

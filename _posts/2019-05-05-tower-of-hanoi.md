@@ -9,13 +9,17 @@ mathjax: true
 
 ![Tower of Hanoi](/images/Tower_of_Hanoi_4.gif)
 
+---
+
 The objective of the game is to move the entire stack to another rod, obeying the following simple rules:
 
 >1. Only one disk can be moved at a time.
 2. Each move consists of taking the upper disk from one of the stacks and placing it on top of another stack or on an empty rod.
 3. No larger disk may be placed on top of a smaller disk.
 
-### Example
+---
+
+## Example
 
 **Imput**
 
@@ -30,11 +34,14 @@ I need to have the steps (the moves) of each disk to know how to solve the Tower
 # Move from A to B
 # Move from C to B 
 ```
-### Explanation
+## Explanation
 
 I move the first disk (so the smallest) from A to C. Then I can place the biggest disk directly to the destination rod (B). And then, place the smallest (waiting in C) on top of the biggest in B.
 
 ### Code
+
+---
+
 ```ruby 
 def hanoi_tower(n, source = 'A', destination = 'B', auxiliary = 'C')
   return unless n
@@ -79,4 +86,9 @@ hanoi_tower(3)
 # Move from C to B
 # Move from A to B
 ```
+
+---
+
 <footer><cite title="Workshop">Credit: Andry Rajohnson</cite></footer>
+
+---

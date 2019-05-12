@@ -8,7 +8,10 @@ categories: data-engineering career
 
 Le jargon *"professionnel"* du web est *riche* et si vous avez ouvert de grands yeux interrogateurs en entendant ces mots, alors cet article est fait pour vous ! 
 
+---
 ![woman](/images/front.jpeg)
+
+---
 
 ### Le developpeur Front End
 
@@ -32,9 +35,14 @@ Prenons un exemple pour comprendre le fonctionnement du Back End :
 >"Imaginons que vous deviez réserver un vol en ligne pour vos futures vacances. Vous vous rendez sur le site de la compagnie aérienne et recherchez le vol qui vous convient. Une fois le vol sélectionné, vous renseignez vos informations personnelles et validez votre réservation. Vos informations sont alors enregistrées dans une *base de données* stockée sur un serveur.
 Toutes ces informations restent sur le serveur, alors quand vient l’heure des vacances (2 mois plus tard) vous vous connectez à l’espace client (application) pour imprimer vos billets d’avion et toutes les informations que vous aviez renseignées lors de votre réservation sont disponibles sur votre compte."
 
+---
+
 La personne qui administre toute cette technologie est le développeur back end. Les technologies Backend se composent généralement de langages comme: PHP, Ruby, Python, etc. 
 
+
 ![back](/images/Backend.jpg)
+
+---
 
 Pour les rendre encore plus faciles à utiliser, ils sont généralement améliorés par des **Framework** comme **"Ruby on Rails"**, **"Cake PHP", "Symfony" et "Code Igniter"** qui rendent le développement *plus rapide et plus sécurisé*.
 
@@ -47,20 +55,25 @@ Il est ainsi capable d’intervenir aussi bien sur le *front end* que sur le*bac
 
 Le développeur full stack est très apprécié dans  les milieux "start-ups" pour ses compétences variées. Toutefois, pour des projets d’envergure, il est conseillé de faire appel aux compétences **spécifiques** *des développeurs frontend et backend.*
 
+---
 
 ![woman](/images/woman-code.jpeg)
 
-### Pour aller plus loin : ~~NE PAS CONFONDRE~~ Front End /Back End  Et Front Office/Back Office 
+---
+
+## Pour aller plus loin : ~~NE PAS CONFONDRE~~ Front End /Back End  Et Front Office/Back Office 
 
 Nous sommes régulièrement témoins de la confusion entre les termes front end / FrontOffice et back end / BackOffice.
 
 Le FrontOffice désigne ce que voit l’internaute en navigant sur un site internet.
 
 Le BackOffice désigne quant à lui ce que voit l’administrateur du site quand il se connecte à l’administration.
+
+---
 ![mark](/images/word.png)
 >Le *"CMS WordPress"* est un bon exemple pour comprendre la différence entre ces différents termes. En effet, il s’agit d’un outil web basé sur un Framework open source construit en PHP qui s’installe sur un serveur avec une base de données (Back End). Les développeurs Front End personnalisent l’apparence et les fonctionnalités des sites WordPress en utilisant du CSS, du jQuery et du JavaScript. Ces modifications se font principalement depuis le BackOffice (depuis l’interface de WordPress). Ces modifications sont ensuite visibles par les internautes sur le FrontOffice du site (le site internet).
 
-### Conclusion
+# Conclusion
 
 Les développeurs *Front-End et Back-End* ont des **profils complémentaires** qui permettent de par leurs compétences spécifiques de mener à bien des *projets web de grande envergure.* 
 
