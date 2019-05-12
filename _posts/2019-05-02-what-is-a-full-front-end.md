@@ -1,6 +1,6 @@
 ---
 layout:     post
-title:      La difference entre un développeur Front End/Back End/Fullstack
+title:      La différence entre un développeur Front End/Back End/Fullstack
 date:       2019-05-01
 summary:    
 categories: data-engineering career
