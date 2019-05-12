@@ -1,0 +1,273 @@
+<body>
+    <a href="{{ site.baseurl }}/">
+<div class="logo">
+    <div class="wrapper">   
+        <div class="va">TOOL</div>
+        <div class="va type2">BELT</div>
+        <div class="boxes">
+            <div class="one box">JS</div>
+            <div class="two box">UX</div>
+            <div class="three box">GIT</div>
+            <div class="four box">RUBY</div>
+            <div class="five box">UI</div>
+            <div class="six box">CSS3</div>    
+        </div>
+    </div>
+    <div class="tags">
+        <div class="tag">HTML5</div>
+        <div class="tag">CSS3</div>
+        <div class="tag">JS</div>
+        <div class="tag">RAILS</div>
+        <div class="tag">RUBY</div>
+
+    </div>
+
+
+<style>
+
+
+    body {
+    color:#000;
+    font-family:sans-serif;   
+    font-size:18px;
+    margin:20px;
+    
+}
+
+.note {
+  position:absolute;
+ 
+}
+
+.logo {  background:url(http://www.volkanaltinbas.com/images/logo_volkanaltinbas_3d.gif)
+        0 no-repeat;
+  cursor:pointer;
+    width:450px;
+    height:450px;
+    position:absolute;
+    top:55%;
+    left:50%;
+    margin-left:-150px;
+    margin-top:-100px;
+   
+}
+
+.wrapper {
+    font-size:13px; 
+    line-height:40px;    
+    position:absolute;
+    top:70px;
+    left:140px;
+    height:40px;
+    width:40px;
+    -webkit-transform-style: preserve-3d;
+    -webkit-transform-origin:50%;     
+    -webkit-animation-name: ciycle;  
+    -webkit-animation-iteration-count: infinite;
+    -webkit-animation-timing-function: linear;
+    -webkit-animation-duration: 6s;
+}
+
+.boxes {
+    position:absolute;
+    top:0;
+    left:0;
+    -webkit-transition: all 1s ease-in-out;      
+}
+
+.va {
+    background:black;
+    color:#fff;
+    border-radius:50px;
+    position:absolute;
+    top:-50px;
+    left:0;
+    height:40px;
+    width:40px;
+    text-align:center; 
+    -webkit-box-shadow: rgba(0,0,0,0.08) 1px 1px 2px 3px;
+    -webkit-transition:all 0.8s ease-in-out;  
+    -webkit-animation-name: ciycle2;      
+    -webkit-animation-iteration-count: infinite;
+    -webkit-animation-timing-function: linear;
+    -webkit-animation-duration: 1.4s;    
+}
+
+.va.type2 {
+    -webkit-transform:rotateY(180deg) translateZ(1px);  
+    -webkit-animation-name: ciycle3;      
+    -webkit-animation-iteration-count: infinite;
+    -webkit-animation-timing-function: linear;
+    -webkit-animation-duration: 1.4s;        
+}
+
+.tags {
+    position:absolute;
+    top:85px;
+    left:150px;
+    text-align:center;
+    line-height:40px;
+    height:50px;
+    width:50px;
+    opacity:0;
+    -webkit-transition: all .5s ease-out;   
+    -webkit-transition-delay: 0.30s;       
+}
+
+.tag {
+    position:absolute;
+    top:0;
+    left:0;
+    opacity:0;
+    -webkit-animation-name: tag;      
+    -webkit-animation-iteration-count: infinite;
+    -webkit-animation-timing-function: linear; 
+    -webkit-animation-duration: 2.5s;
+}
+
+.tag:nth-child(1) {
+   -webkit-animation-delay:0;
+}
+
+.tag:nth-child(2) {
+    -webkit-animation-delay:.5s;
+}
+
+.tag:nth-child(3) {
+    -webkit-animation-delay:1s;
+}
+
+.tag:nth-child(4) {
+    -webkit-animation-delay:1.5s;
+}
+
+.tag:nth-child(5) {
+    -webkit-animation-delay:2s;
+}
+
+.smile {
+    -webkit-transition: all .6s ease-out;      
+}
+
+.one,
+.two,
+.three,
+.four,
+.five,
+.six{
+    border-radius:2px;
+    position:absolute;
+    top:0;
+    left:0;
+    width:40px;
+    height:40px;
+    opacity:0.50;
+    line-height:40px;
+    text-align:center;
+    color:#fff;
+    -webkit-transition: all 1s ease-in-out;   
+}
+
+.one {
+    background:black;
+    -webkit-transform:translateZ(20px);  
+}
+
+.two {
+    background:red;
+    -webkit-transform: rotateX(90deg) translateY(0) translateZ(-20px);        
+}
+
+.three {
+    background:blue;
+    -webkit-transform: translateY(0) translateZ(-20px);            
+}
+.four {
+    background:green;
+    -webkit-transform: rotateX(90deg) translateY(0) translateZ(20px);            
+}
+.five {
+    background:darkblue;
+    -webkit-transform: rotateY(-90deg) translateX(0) translateY(0) translateZ(20px);            
+}
+.six {
+    background:purple;
+    -webkit-transform: rotateY(90deg) translateX(0) translateZ(20px) translateY(0);            
+}
+
+.logo:hover .box {
+    background:gray;
+    opacity:0.25;
+}
+.logo:hover .one{
+    -webkit-transform: rotateX(90deg) translateZ(20px) translateY(40px);
+    -webkit-transform-origin: 100%; 
+}
+.logo:hover .two{
+    -webkit-transform: rotateX(90deg) translateY(0) translateZ(20px);
+opacity:1;    
+}
+.logo:hover .three {
+    -webkit-transform: rotateX(-90deg) translateY(40px) translateZ(-20px); 
+}
+.logo:hover .five {
+    -webkit-transform: rotateZ(90deg) rotateY(-90deg) translateX(0) translateY(40px) translateZ(20px);  
+}
+.logo:hover .six{
+    -webkit-transform: rotateY(90deg) translateX(20px) translateZ(20px) translateY(-20px) rotateX(90deg);
+    -webkit-transform-origin: 100%; 
+}
+
+.logo:hover .boxes {
+    top:40px;
+}
+
+.logo:hover .va {
+    top:-75px;
+}
+.logo:hover .tags {
+    -webkit-transform-style: preserve-3d;
+    -webkit-transform-origin:50%; 
+    -webkit-transform:  rotateX(-200deg) rotateY(-180deg) rotateZ(-180deg); 
+    left:150px;
+    top:80px;
+    opacity:1;   
+}
+
+@-webkit-keyframes ciycle {
+    from {
+        -webkit-transform: rotateX(-25deg) rotateY(0deg);
+    }
+    to {
+        -webkit-transform: rotateX(-25deg) rotateY(360deg);
+    }
+}
+
+@-webkit-keyframes ciycle2 {
+    from {
+        -webkit-transform: rotateY(0deg);
+    }
+    to {
+        -webkit-transform: rotateY(-360deg);
+    }
+}
+
+@-webkit-keyframes ciycle3 {
+    from {
+        -webkit-transform:rotateY(180deg) translateZ(1px);
+    }
+    to {
+        -webkit-transform:rotateY(-180deg) translateZ(1px);
+    }
+}
+
+@-webkit-keyframes tag {
+    0%{
+        opacity:1;        
+    }
+    100% {
+        opacity:0;  
+        top:-55px;  
+    }
+}
+​</style>
