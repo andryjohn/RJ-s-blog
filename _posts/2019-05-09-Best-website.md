@@ -73,7 +73,7 @@ Et si vous n'ètes pas encore convaincu, je vous invite à jeter un coup d'oeil,
 
 ---
 
-## "Si tu es arrivé jusqu'ici, je t'en félicite et en récompense, voici de quoi te faire passé une bonne journée!"
+## "*Si tu es arrivé jusqu'ici, je t'en félicite et en récompense, voici de quoi te faire passé une bonne journée!"*
 "
 
 
