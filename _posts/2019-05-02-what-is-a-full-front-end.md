@@ -75,10 +75,16 @@ Le BackOffice désigne quant à lui ce que voit l’administrateur du site quand
 
 # Conclusion
 
+---
+![dev](/images/dev.jpeg)
+
+---
+
+
 Les développeurs *Front-End et Back-End* ont des **profils complémentaires** qui permettent de par leurs compétences spécifiques de mener à bien des *projets web de grande envergure.* 
 
-Le développeur *full stack* est quant à lui idéal pour la création de *site internet* et les *projets de faible ampleur*.
+Le développeur *full stack* est quant à lui idéal pour la création de *site internet* et les *projets de faible ampleur*, très apprécié par les "startup"!
 
------------
+
 
 <footer><cite title="Workshop">Credit: Andry Rajohnson</cite></footer>

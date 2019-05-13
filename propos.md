@@ -23,7 +23,7 @@ mathjax: true
 
  Pour en parler plus longuement, j’ai commencé à écrire pour renforcé des connaissances, mais aussi tenté d'expliquer le métier de 'dev' à mon entourage! 
 
- Mais aussi, pour qu’on puisse trouver des astuces qui étaient *mal référencées*, (non pas que ce site soit bien référencé, mais j'y travaille) dans le coin sombre d’un forum obscur. 
+ Mais surtout, pour qu’on puisse y trouver des astuces qui étaient *mal référencées*, (non pas que ce site soit bien référencé, mais j'y travaille) dans le coin sombre d’un forum obscur. 
 
  Après maintes recherches et une journée passée à trouver une solution à mon problème, en faire *un article* pour que quelqu’un d’autre passe moins de temps à se prendre la tête m’a toujours paru normal.
 
@@ -33,11 +33,11 @@ Si vous parcourez quelques articles de ce site, vous vous rendrez compte assez v
 
  C’est tout bonnement parce qu’il n’y en a pas ! C’est un bloc-note “personnel” partagé dans lequel je déverse un peu tout et n’importe quoi. *Bref, c’est moi la ligne éditoriale !*
 
-Ce site est gracieusement hébergé par [Github](https://github.com/).
+[Ce site est gracieusement hébergé par Github](https://rajohnson-andry.tk/developper/skills/2019/05/05/Host-any-front-end/).
 
 ## Gestion de contenu
 
-Le site est généré avec [Jekyll](https://jekyllrb.com/).
+[Le site est généré avec Jekyll](https://rajohnson-andry.tk/developper/skills/2019/05/11/pourquoi-Jekyll/).
 
 
 
