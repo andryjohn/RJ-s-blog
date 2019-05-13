@@ -21,7 +21,7 @@ Et voici les slides utilisés lors de ce workshop:
 <iframe src="//www.slideshare.net/slideshow/embed_code/key/uOu5ftooVrpLVk" width="595" height="485" frameborder="0" marginwidth="0" marginheight="0" scrolling="no" style="border:1px solid #CCC; border-width:1px; margin-bottom:5px; max-width: 100%;" allowfullscreen> </iframe> <div style="margin-bottom:5px"> <strong> <a href="//www.slideshare.net/ssaunier/techical-workflow-for-a-startup" title="Techical Workflow for a Startup" target="_blank">Techical Workflow for a Startup</a> </strong> de <strong><a href="https://www.slideshare.net/ssaunier" target="_blank">Sébastien Saunier</a></strong> </div>
 ---
 
-## If you speack English
+## If you speak English
 
 ---
 
