@@ -4,7 +4,7 @@
 title: Andry Rajohnson's Blog| Fullstack Junior developer |Amateur Photographer| Tech Addict 
 email: Andry1287@gmail.com
 author: Andry Rajohnson
-description: "Blog de partage, je parle de développement Front et Back, de langage de programmation, d'UI/UX. Je vous fait découvrir mon travail et ma méthode de travail, mais aussi de mes astuces au quotidien, de nouvelle technogie et bien d'autre chose. Bref n'hésitez pas à partager, commenter, et à laisser un message! Bonne visite"
+description: "Le métier de 'Dev' est assez obsur pour la plupart des gens, programmeur, codeur, développeur Front/back/fulstack... Tout ces termes vous viennent en tête? Ou pas, vous êtes au bon endroit, C'est par ici! Blog de partage, je parle de développement Front et Back, de langage de programmation, d'UI/UX. Je vous fait découvrir mon travail, mais aussi de mes astuces au quotidien, de nouvelle technogie et bien d'autre chose. Bref que du contenu de qualité, n'hésitez pas à partager, commenter, et à laisser un message! Bonne visite"
 baseurl:     ""
 url:         "http://rajohnson-andry.tk"
 date_format: "%b %-d, %Y"
@@ -67,6 +67,7 @@ youtube_channel_id:
 bitcoin_url:
 paypal_url:
 flattr_button:
+facebook_username: andry johnson
 
 ###################################
 ## Post sharing icons            ##
