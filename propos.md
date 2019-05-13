@@ -27,7 +27,7 @@ mathjax: true
 
  Après maintes recherches et une journée passée à trouver une solution à mon problème, en faire *un article* pour que quelqu’un d’autre passe moins de temps à se prendre la tête m’a toujours paru normal.
 
-> "Je découvre tous les jours des choses sur internet, alors le **partager et participer à enrichir le web me paraît des plus naturel."**
+> **"Je découvre tous les jours des choses sur internet, alors le partager et participer à enrichir le web me paraît des plus naturel."**
 
 Si vous parcourez quelques articles de ce site, vous vous rendrez compte assez vite du manque de '*ligne éditoriale*'. 
 
