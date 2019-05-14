@@ -38,6 +38,8 @@ Chacun des groupes peut donc prendre une valeur positive comprise entre [0, 255]
 
 Une adresse IP est 32 bits, ce qui donne \\(2^{32}\\) = 4 milliards de valeurs possibles. Mais on est 7,5 milliards sur Terre ! ( voyez par [vous-même!](https://www.worldometers.info/fr/population-mondiale/),c'est impréssionnant) et certaines personnes ont plusieurs machines. Du coup, on a déjà atteint notre limite d’adresses IP possibles.
 
+![people](/images/people.jpeg)
+
 >### Comment peut-on attribuer une adresse unique à tout le monde ?
 La solution est de passer de IPv4 (avec une adresse de 32 bits) à …
 
@@ -57,7 +59,7 @@ b:c:d:e:f:g:h:i
 
 ---
 
-L’ensemble représente 128 bits: en se composant de 8 groupes
+L’ensemble représente 128 bits: en se composant de 8 groupes.
 
 Chacun des groupes est représenté par 1 à 4 nombres décimaux compris entre [0, ffff]
 
