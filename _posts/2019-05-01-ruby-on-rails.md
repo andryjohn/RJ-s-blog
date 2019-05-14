@@ -2,13 +2,15 @@
 layout:     post
 title:      Pourquoi apprendre "Ruby on Rails"?
 date:       2019-05-03
-summary:    Notez que Ruby on Rails est un bon choix pour débuter la programmation, mais pas un choix exclusif.
+summary:    
 categories: Developper skills
 mathjax: true
 ---
-### **Ruby, un langage accessible**
 
-     
+![rails](/images/rails.png)
+>Notez que Ruby on Rails est un bon choix pour débuter la programmation, mais pas un choix exclusif.
+
+### **Ruby, un langage accessible**
 
   Une des premières choses agréables avec **Ruby on Rails** repose sur le langage **Ruby** en lui-même. La syntaxe est *simple*, peu *verbeuse*, proche de la langue anglaise et très *souple*. 
 

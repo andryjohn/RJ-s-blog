@@ -6,6 +6,12 @@ summary:
 categories: Developper skills
 mathjax: true
 ---
+
+---
+[<img src="/images/ben.png">](https://www.youtube.com/channel/UCLOAPb7ATQUs_nDs9ViLcMw/videos)
+
+---
+
 <blockquote>
 <p>
 	Scalpel : nouvelle série de vidéos dans laquelle je vous dissèque des sites internet super intéressants d'un point de vue développeur frontend. 
@@ -25,7 +31,7 @@ Tout simplement car, elle est géniale!
 Je trouve q'il y arrive avec brio, par son humour et sa bonne humeur mais surtout sa faculté à "vulgariser les concepts".
  
 Alors, si vous ne connaisez pas sa chaine , abonnez-vous les yeux fermés!
-[*La chaine de Benjamin code*](https://www.youtube.com/channel/UCLOAPb7ATQUs_nDs9ViLcMw)
+
 
 Et si vous n'ètes pas encore convaincu, je vous invite à jeter un coup d'oeil, c'est par ici:
 
