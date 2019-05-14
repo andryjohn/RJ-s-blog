@@ -11,17 +11,20 @@ mathjax: true
 ---
 
  ![propos](/images/propos.jpeg)
+-
 ---
 
 #### Version courte :
- * 'Vulgarisation'
- * *'Workshop'*
- * *'Trouvailles'*
- * *'Tutoriels'*
- * *'Astuces'*
- * *'Bloc-notes perso'*
 
- Pour en parler plus longuement, j’ai commencé à écrire pour renforcé des connaissances, mais aussi tenté d'expliquer le métier de 'dev' à mon entourage! 
+ * Vulgarisation
+ * Workshop
+ * Trouvailles
+ * Tutoriels
+ * Astuces
+ * Bloc-notes perso
+
+
+ Pour en parler plus longuement, j’ai commencé à écrire pour renforcer des connaissances, mais aussi tenté d'expliquer le métier de 'dev' à mon entourage! 
 
  Mais surtout, pour qu’on puisse y trouver des astuces qui étaient *mal référencées*, (non pas que ce site soit bien référencé, mais j'y travaille) dans le coin sombre d’un forum obscur. 
 
