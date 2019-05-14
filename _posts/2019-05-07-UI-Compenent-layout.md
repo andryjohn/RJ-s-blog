@@ -2,14 +2,15 @@
 layout:     post
 title:      Building a UI Component for better design
 date:       2019-05-07
-summary:    Components are a great way to design and develop your UI using smaller, reusable pieces with better consistency.
+summary:    
 categories: Developper skills
 mathjax: true
 ---
 
 Learn how *Uber*, *Shopify* and *Airbnb* are leveraging components to build a consistent **UI/UX design system.**
-
 ![airBnB](/images/airBnB.png)
+
+Components are a great way to design and develop your UI using smaller, reusable pieces with better consistency.
 
 <blockquote>
   <p>

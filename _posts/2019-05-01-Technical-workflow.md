@@ -2,7 +2,7 @@
 layout:     post
 title:      Technical workflow (for a startup)
 date:       2019-05-11
-summary:   Dans toute startup web vous trouverez au moins un développeur. Cette personne donne souvent l'impression de parler une autre langue, d’où l’importance de mettre en place un workflow efficace.
+summary:   
 categories: Developper skills
 mathjax: true
 ---

@@ -2,7 +2,7 @@
 layout:     post
 title:      L'emission Scalpel par Benjamin Code
 date:       2019-05-09
-summary:   Benjamin, un developpeur Front , youtuber , nous fait découvrir des sites incroyables
+summary:  
 categories: Developper skills
 mathjax: true
 ---
@@ -16,13 +16,14 @@ mathjax: true
 </footer>
 </blockquote>
 
+Benjamin, un developpeur Front-end, Youtuber, nous fait découvrir des sites incroyables
 
 ### Pourquoi je vous partage cette chaine? 
 
 Tout simplement car, elle est géniale!
 *Benjamin*, tente de nous transmettre sa *passion du code*. 
 Je trouve q'il y arrive avec brio, par son humour et sa bonne humeur mais surtout sa faculté à "vulgariser les concepts".
-
+ 
 Alors, si vous ne connaisez pas sa chaine , abonnez-vous les yeux fermés!
 [*La chaine de Benjamin code*](https://www.youtube.com/channel/UCLOAPb7ATQUs_nDs9ViLcMw)
 

@@ -2,7 +2,7 @@
 layout:     post
 title:      Pourquoi choisir Jekyll pour son site?
 date:       2019-05-11
-summary:   Jekyll est un générateur de site statiques écrit en Ruby, qui présente de nombreux avantages que je vais vous présenter dans cet article.
+summary:   
 categories: Developper skills
 mathjax: true
 --- 

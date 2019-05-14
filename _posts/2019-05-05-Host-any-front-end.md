@@ -2,7 +2,7 @@
 layout:     post
 title:      Host any Front End projects for free with github-pages
 date:       2019-05-05
-summary:   Work in the gh-pages branch of your git project, set up your own domain with a CNAME
+summary:  
 categories: Developper skills
 mathjax: true
 ---

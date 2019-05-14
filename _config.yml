@@ -121,6 +121,7 @@ text:
 ## Build settings                         ##
 ############################################
 markdown:     kramdown
+mathjax: true
 redcarpet:
   extensions: ['smart', 'tables', 'with_toc_data', 'footnotes']
 permalink:    pretty
