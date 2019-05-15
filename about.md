@@ -13,13 +13,16 @@ Licence formatrice, qui m'a permis d'acquérir une maîtrise des principes du ma
 
 >"Curieux, rigoureux et autodidacte, passionné par la *Tech* et le *Web*."
 
----
-
-![rails](/images/rails.jpeg)
-
----
 
  De part mes expériences, j'ai orienté mon profil vers la maitrise du langage *Ruby* et l'utilisation de son framework [*"Ruby on Rails"*](https://rubyonrails.org/) de part [sa grande productivité et sa fléxibilité.](https://rajohnson-andry.tk/developper/skills/2019/05/03/ruby-on-rails/)
+
+
+---
+![rails](/images/rails.png)
+
+---
+
+
 
 
 
