@@ -3,6 +3,7 @@ blockquote {
   font-style: italic;
   margin-left: $space-1;
   padding: $space-1;
+  font-weight: lighter;
 }
 
 blockquote footer {
@@ -13,6 +14,7 @@ blockquote footer {
   font-style: normal;
   text-align: left;
   padding: 0;
+  font-weight: lighter;
 }
 
 blockquote p {
