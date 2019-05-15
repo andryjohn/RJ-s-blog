@@ -2,15 +2,13 @@
 layout:     post
 title:      Classes & Objects in Ruby 
 date:       2019-05-15
-summary:  In a ruby application we have many objects, As we often read, Everything in Ruby is an Object
+summary:  
 categories: Developper skills
 mathjax: true
 ---
-
-**Classes and Objects** are very important concept in Ruby.
-
 >In a ruby application we have many objects ! As we often read, “Everything in Ruby is an Object”
 
+**Classes and Objects** are very important concept in Ruby.
 *Ruby* is an awesome language, because it used a lot of different types of data inside of our program (strings, number, integers, boolean...).
 
 *The problem* is, a the lot of thing in a real world like credit card, a computer,..can't be represent with just a "string" or a "number".
@@ -40,6 +38,7 @@ book2.pages = 600
 ---
 Ok, that cool!
 
+### Initialize Method
 Now, I'll introduce you to a "Initialize Method"; 
 
 ---
