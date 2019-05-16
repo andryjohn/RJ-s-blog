@@ -5,7 +5,7 @@ tags: Accueil
 ---
  {% include mac.html %}  
 <div class="center">
-  <h2> Un article en particulier?</h2>
+  <h2 id= "search"> Un article en particulier?</h2>
 </div>
   {% include google-search.html %}
 {% assign posts_count = (paginator.posts | size) %}
@@ -92,3 +92,8 @@ tags: Accueil
   {% endif %}
 </div>
 
+<style>
+  h2{
+  font-style: italic;
+}
+</style>
