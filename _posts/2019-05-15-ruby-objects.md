@@ -9,19 +9,20 @@ mathjax: true
 >In a ruby application we have many objects ! As we often read, “Everything in Ruby is an Object”
 
 **Classes and Objects** are very important concept in Ruby.
-*Ruby* is an awesome language, because it used a lot of different types of data inside of our program (strings, number, integers, boolean...).
 
-*The problem* is, a the lot of thing in a real world like credit card, a computer,..can't be represent with just a "string" or a "number".
+*Ruby* is an awesome language, because it use a different types of data inside of our program (strings, number, integers, boolean...).
 
-So, *Ruby* allows us to create our own datatype that called  'Classes'.
+*The problem* is, lot of things in a real world can't be represent with just a "string" or a "number" ( like credit card, a computer,..)
 
- Classes are basically just a custom datatype inside of our program, modelling a real world entities (Book, computer,...)
+So, *Ruby* allows us to create our own datatype that called 'Classes'.
+
+ Classes are basically just "a custom datatype" inside of our program, modelling a real world entities (Book, computer,...)
 
 ---
 
 ```ruby
 class Book 
-	#all book gonna have title, author, pages
+	#givin attribute; all book gonna have title, author, pages
 	attr_accessor :title, :author, :pages
 end 
 #here we create a new book object 
@@ -36,7 +37,7 @@ book2.pages = 600
 
 ```
 ---
-Ok, that cool!
+Ok, that cool! We've create two books, but there're a lot of lines for just a few objects. 
 
 ### Initialize Method
 Now, I'll introduce you to a "Initialize Method"; 
