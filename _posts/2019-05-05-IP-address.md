@@ -7,7 +7,7 @@ categories: Developper skills
 mathjax: true
 ---
 
-![hacker](/images/IP.jpeg)
+![hacker](/images/Ip.jpg)
 
 ---
 
