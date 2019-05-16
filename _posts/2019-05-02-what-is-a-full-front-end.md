@@ -7,6 +7,7 @@ categories: data-engineering career
 ---
 
 Le jargon *"professionnel"* du web est *riche* et si vous avez ouvert de grands yeux interrogateurs en entendant ces mots, alors cet article est fait pour vous ! 
+
 ---
 ![woman](/images/front.jpeg)
 

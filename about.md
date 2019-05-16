@@ -6,6 +6,7 @@ tags: about
 flicker: true
 headshot: /images/headshot.jpg
 ---
+
 Diplomé d'une Licence professionnelle spécialité **Management des Réseaux et Système d'Information,** obtenu au sein de l'université [Panthéon-Assas Paris 2](https://www.u-paris2.fr). 
 Licence formatrice, qui m'a permis d'acquérir une maîtrise des principes du management et des outils informatiques.
 
