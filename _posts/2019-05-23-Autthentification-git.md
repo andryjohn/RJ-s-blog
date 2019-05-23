@@ -7,9 +7,9 @@ categories: Developper skills
 mathjax: true
 ---
 
-Bon, je me suis retrouvé dans une situation où je ne pouvais utiliser qu'une une clé pour m'authentifier, et il faut taper son  mot de passe à chaque push, et cela en devient pénible à la longue.
+>Bon, je me suis retrouvé dans une situation où je ne pouvais utiliser qu'une seule clé pour m'authentifier, et il faut taper son foutu mot de passe à chaque push, et à la longue sa en devenait pénible.
 
-Sa sent le *déja vu* ?
+## Sa sent le *déja vu* ?
 
 --- 
 
