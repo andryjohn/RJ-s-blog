@@ -30,7 +30,7 @@ Et votre authentification sera gardée en mémoire pour une heure. Vous pouvez f
 git config credential.helper 'cache --timeout=3600'
 ```
 
-Pour l’étendre à tous les repos de votre machine. *That"s all folks!"*
+Pour l’étendre à tous les repos de votre machine. *"That's all folks!"*
 ---
 
   <footer><cite title="git">Credit: Andry RAJOHNSON</cite></footer>
