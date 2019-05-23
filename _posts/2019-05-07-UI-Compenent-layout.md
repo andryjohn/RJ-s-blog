@@ -34,7 +34,7 @@ So let's begin with a simple one, useful for your *profile* for example.
 
 ---
 ## HTML
-```C#
+```ruby
 	<div class="container">
 		<h2>Avatar design</h2>
       		<img src="./ladies.jpeg" alt="" class="avatar">
@@ -42,7 +42,7 @@ So let's begin with a simple one, useful for your *profile* for example.
      </div>
 ```
 ## CSS
-```C#
+```ruby
 .avatar {
   border-radius: 50%;
   width: 70px;
@@ -106,7 +106,7 @@ Then, **Button**, I choose to design two kind of button, [*Medium*](https://medi
 
 ---
 ## HTML
-```C#
+```ruby
 	<div class="container">
 		<h2>Button design</h2>
      	 <a href="#" class="btn-medium">Write stories</a>
@@ -116,7 +116,7 @@ Then, **Button**, I choose to design two kind of button, [*Medium*](https://medi
 ```
 ## CSS
 
-```C#
+```ruby
 .btn-medium {
   color: #999999;
   border: 1px solid #999999;
@@ -163,7 +163,7 @@ Let's move on! The next one is, **cards**
 
 ## HTML
 
-``` C#
+``` ruby
   <h2>Card design</h2>
       <div class="row">
         <div class="col-xs-12 col-sm-4">
@@ -201,7 +201,7 @@ Let's move on! The next one is, **cards**
 
 ## CSS
 
-```C#
+```ruby
 .card {
   position: relative;
   height: 175px;
@@ -241,7 +241,7 @@ We've almost done, the last one is  **Banner**. Great for building your *landing
 ---
 
 ## HTML
-```C#
+```ruby
 <h2>Banner design</h2>
       <div class="banner">
         <div class="banner-content">
@@ -253,7 +253,7 @@ We've almost done, the last one is  **Banner**. Great for building your *landing
 ```
 
 ## CSS
-```C#
+```ruby
 .banner {
   display: flex;
   height: 100vh;
