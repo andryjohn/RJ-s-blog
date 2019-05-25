@@ -9,7 +9,7 @@ categories: Technique
 
 A ***Step-by-Step Example*** of using an **HTML Form** to send a "Contact Us" Message via Email without a Backend Server using a Google Script - No PHP, Python, Ruby, Java, Node.js etc.
 
-See a working example here: https://dwyl.github.io/learn-to-send-email-via-google-script-html-no-server/
+See a working example here: [https://dwyl.github.io/learn-to-send-email-via-google-script-html-no-server/](https://dwyl.github.io/learn-to-send-email-via-google-script-html-no-server/)
 
 **_Note:_** With EU's GDPR, we strongly advise [researching recommendations on user privacy;](https://cloud.google.com/security/gdpr) you may be held _responsible_ for the safekeeping of users' personal data and should provide them a way to contact you.
 
@@ -38,7 +38,7 @@ which is *easy* but requires *maintenance*,
 use Google to send mail on your behalf
 and use Google Spreadsheets to keep track of the data!
 
-> You *could* use a "*free*" service like http://formspree.io/ to process your form submissions
+> You *could* use a "*free*" service like [http://formspree.io/](http://formspree.io/) to process your form submissions
 if you don't care where you are sending your data and want to manage the data submitted  
 in your email inbox (*messy ... yuck*!)  
 *Or*... you can *invest* a few minutes and keep data private/manageable.
@@ -48,7 +48,7 @@ in your email inbox (*messy ... yuck*!)
 
 ### 1. Make a Copy of the Sample Spreadsheet
 
-> Sample: https://docs.google.com/spreadsheets/d/1Bn4m6iA_Xch1zzhNvo_6CoQWqOAgwwkOWJKC-phHx2Q/copy
+> Sample: [https://docs.google.com/spreadsheets/d/1Bn4m6iA_Xch1zzhNvo_6CoQWqOAgwwkOWJKC-phHx2Q/copy](https://docs.google.com/spreadsheets/d/1Bn4m6iA_Xch1zzhNvo_6CoQWqOAgwwkOWJKC-phHx2Q/copy)
 
 Sign in to your Google account and click on "**Make a copy**..."
 
@@ -172,7 +172,7 @@ To *prevent* the page from changing to the `JSON` response/result
 we need to submit the form using ***AJAX***.
 
 Download [the following Javascript file](form-submission-handler.js) and update your `index.html` to point to it at the *end* of your file
-(*before the closing `</body>` tag)
+(*before the closing `</body>` tag*)
 
 ```html
 <script data-cfasync="false" type="text/javascript" src="form-submission-handler.js"></script>
@@ -205,7 +205,7 @@ Tailor your message by editing the `thankyou_message` div.
 
 ### 12. Use CSS to Make the Form *Look Good*
 
-For `this` *example* we are using ***Pure CSS***: http://purecss.io/start/
+For `this` *example* we are using ***Pure CSS***: [http://purecss.io/start/](http://purecss.io/start/)
 because its ***light weight*** (***4.0KB minified and gzipped***)
 and *solves* our current "*problem*": Making it Look Good.
 
@@ -250,7 +250,7 @@ MailApp.sendEmail({
 You can uncomment that if you want to add a reply-to field to your email. The example in the script will set the reply-to as the email submitted in the form.
 
 Google's documentation provides more information about MailApp.sendEmail (for example `cc`/`bcc` etc.) if you're interested:
-https://developers.google.com/apps-script/reference/mail/mail-app
+[https://developers.google.com/apps-script/reference/mail/mail-app](https://developers.google.com/apps-script/reference/mail/mail-app)
 
 # *Part Three - Store Submitted Contact Form Data in a Spreadsheet*
 
@@ -305,7 +305,7 @@ locally rather than via GitHub.
 > **Note**: This is a _light_ taste of Node.js for absolute beginners.
 You do **not** need node.js to "deploy" this form,
 you can run it on an **_any_ web server** that serves HTML/CSS/JavaScript.
-If you have never used Node.js before, see: http://nodeguide.com/beginner.html
+If you have never used Node.js before, see: [http://nodeguide.com/beginner.html](http://nodeguide.com/beginner.html)
 but for the purposes of this exercise (_submitting a form **without** a server_)
 you _don't **need**_ node.js or `live-server`
 it's just a _nice_ thing to have when you are creating
@@ -318,7 +318,7 @@ If you want us to take this tutorial further, [***please let us know***!](https:
 
 For your convenience, we have hosted a working demo of the field on GitHub
 Pages, check it out to see the code and how it works:
-https://dwyl.github.io/learn-to-send-email-via-google-script-html-no-server/
+[https://dwyl.github.io/learn-to-send-email-via-google-script-html-no-server/](https://dwyl.github.io/learn-to-send-email-via-google-script-html-no-server/)
 
 
 ## Add your own fields!
@@ -330,7 +330,7 @@ We also created a form, `test.html`, which uses all kinds of form input elements
 so you can just copy and paste elements as desired into your own form. Just be
 sure to update their names and IDs. You can find a working example of this test
 form here:
-https://dwyl.github.io/learn-to-send-email-via-google-script-html-no-server/test.html
+[https://dwyl.github.io/learn-to-send-email-via-google-script-html-no-server/test.html](https://dwyl.github.io/learn-to-send-email-via-google-script-html-no-server/test.html)
 
 Remember to include the fields *inside* the form that has the class `gform`
 and ensure that the `name` of the form element matches the new column heading in your spreadsheet.
@@ -416,13 +416,13 @@ if (validateHuman(data.honeypot)) {  //if form is filled, form will not be submi
 
 ## Background Reading
 
-+ Google Apps Scripts Basics: https://developers.google.com/apps-script/articles
++ Google Apps Scripts Basics: [https://developers.google.com/apps-script/articles](https://developers.google.com/apps-script/articles)
 + Logger (like console.log):
-https://developers.google.com/apps-script/reference/base/logger
+[https://developers.google.com/apps-script/reference/base/logger](https://developers.google.com/apps-script/reference/base/logger)
 + Simple Mail Merge using Google Spreadsheets:
-https://developers.google.com/apps-script/articles/mail_merge
-+ Original Tutorial: AJAX post to google spreadsheet: http://stackoverflow.com/questions/10000020/ajax-post-to-google-spreadsheet which points to:
-  + https://mashe.hawksey.info/2011/10/google-spreadsheets-as-a-database-insert-with-apps-script-form-postget-submit-method/
+[https://developers.google.com/apps-script/articles/mail_merge](https://developers.google.com/apps-script/articles/mail_merge)
++ Original Tutorial: AJAX post to google spreadsheet: [http://stackoverflow.com/questions/10000020/ajax-post-to-google-spreadsheet](http://stackoverflow.com/questions/10000020/ajax-post-to-google-spreadsheet) which points to:
+  + [https://mashe.hawksey.info/2011/10/google-spreadsheets-as-a-database-insert-with-apps-script-form-postget-submit-method/](ttps://mashe.hawksey.info/2011/10/google-spreadsheets-as-a-database-insert-with-apps-script-form-postget-submit-method/)
 
 ---
 
