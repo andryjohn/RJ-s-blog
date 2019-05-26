@@ -1,6 +1,6 @@
 ---
 layout:     post
-title:      Finally Udertanding Flexbox with this tutorial!
+title:      Finally Undertanding Flexbox with this tutorial!
 
 date:       2019-05-26
 summary:    
