@@ -14,6 +14,7 @@ mathjax: true
 
 Don't fret. I really would walk you through all you need to know. So, let's get started.
 
+
 ## Why Use Flexbox?
 
 CSS has evolved a lot over the past few years. Designers loved the introduction of filters, transitions, and transforms. But something was missing. Something we all craved.
@@ -28,12 +29,14 @@ Now we can all ditch those hacky CSS tricks. No more incessant use of floats, ta
 
 It’s time to embrace a cleaner modern syntax for crafting intelligent layouts. Welcome the CSS Flexbox model.
 
+
 ## What Is Flexbox?
 
 According to the specification, the flexbox model provides for an efficient way to layout, align, and distribute space among elements within your document, even when the viewport and the size of your elements is unknown and/or dynamic.  
 If that sound too formal, I understand the feeling. In just a bit, I'll explain what that means in plain English.
 
 Whether you write css in your dreams or you're just getting started, you'll feel right at home.
+
 
 ## How do I start using the flexbox model?
 
@@ -102,7 +105,9 @@ I have used two key words, and I'd like to lay more emphasis on them. They are v
 
 ![flexbox tip 2](http://i1064.photobucket.com/albums/u363/Ohans_Emmanuel/flexbox-article/flexbox-tip-2_zpsgvnqmdhw.jpg)
 
-This is the foundation for using the flexbox model, and as soon as that's understood, more interesting things lie ahead.
+---
+
+>This is the foundation for using the flexbox model, and as soon as that's understood, more interesting things lie ahead.
 
 So, here is where I wrap up the Introduction to the Flexbox model.
 
@@ -122,6 +127,7 @@ In the last article, I established some core principles. What flex-containers an
 Having set a parent element as a flex container, a couple of **alignment properties** are made available to be used on the flex container.  
 Just like you'd define the width property on a block element as `width: 200px`, there are 6 different properties the flex container can take on, and defining these properties do NOT take a different approach.
 
+
 ### 1. Flex-direction
 
 The `Flex-direction` property may take any of four values:, and it controls the direction in which the flex items are laid along the main axis.
@@ -139,6 +145,7 @@ Technically, horizontal and vertical isn't what it's called in the _"flex world"
 ![main axis](http://i.imgur.com/8DgaIMV.jpg)
 
 By default, the `flex-direction` property is set to `row` and it aligns the flex-item(s) along the main axis. This explains what happened with our unordered list at the start of this article. Even though `flex-direction` property wasn't explicitly set, it took on the default value of `row` and so the flex items were laid across the main-axis, stacking horizontally from left to right.
+
 
 ### 2. Flex-wrap
 
@@ -198,6 +205,7 @@ There's one more value, `wrap-reverse`. Yes, you guessed right. It lets the flex
 
 ![Image of much more children elements now in multiple lines with wrap-reverse](http://i1064.photobucket.com/albums/u363/Ohans_Emmanuel/flexbox-article/Screenshot_7_zpsi3w2os3q.png)
 
+
 ### 3. Flex-flow
 
 The `flex-flow` is a shorthand property which takes `flex-direction` and `Flex-wrap` values. Ever used the `border` shorthand property? `border: 1px solid red`. It's the same concept here. Multiple values declared in one line.
@@ -214,6 +222,7 @@ ul {
 
 Try out the other combinations this could take. `flex-flow: row nowrap`, `flex-flow: column wrap`, `flex-flow: column nowrap`
 I'm sure you understand what those would produce. Give it a try.
+
 
 ### 4. Justify-content
 
@@ -325,6 +334,7 @@ A second look doesn't hurt:
 
 Don't worry if these seem like too much to get a hold of. With a bit of practice you will get very comfortable with the syntax.
 
+
 ### 5. Align-items
 
 The `align-items` property is somewhat similar to the `justify-content` property. Having understood the `justify-content` property, this should be easier to take in.
@@ -363,6 +373,7 @@ It defines how flex-items are laid out on the **cross axis**. This is the differ
 ![Understanding-Flexbox: Baseline](http://i.imgur.com/7vwt8Pb.jpg)
 
 Isn't it awesome the amount of layout control you have here?
+
 
 ### 6. Align-content
 
