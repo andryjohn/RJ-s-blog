@@ -11,7 +11,7 @@ Le meilleur moyen de comprendre les propriétés "Flexbox" est de le voir en cas
 
 
 # Card 
-
+<html>
 <body>
 	<div class="pizza">
  		 <div class="pizza__herro">
@@ -33,6 +33,7 @@ Le meilleur moyen de comprendre les propriétés "Flexbox" est de le voir en cas
   <div class="pizza__price">$11.99</div>
 </div>
 </body>
+</html>
 
 
 <style>
@@ -133,16 +134,16 @@ Le meilleur moyen de comprendre les propriétés "Flexbox" est de le voir en cas
       			<h1 class="pizza__heading">Pizza Végétarienne 👌</h1>
       				<div class="pizza__tag pizza__tag--1">#vegetarian</div>
      					 <div class="pizza__tag pizza__tag--2">#italian</div>
-    				 </div>
-    						<p class="pizza__description">Une délicieuse pizza veggie composé d'une sauce tomate maison, mozzarella, champignons, oignons rouges, olives & origan </p>
-   					 	<div class="pizza__details">
-								<p class="pizza__detail"><span class="emoji">🍕</span>850 kcal</p>
-									<p class="pizza__detail"><span class="emoji">⏱</span>30 min</p>
-									 	<p class="pizza__detail"><span class="emoji">⭐</span>4.7 / 5</p>
-   									  </div>
- 								  </div>
- 							   <div class="pizza__price">$11.99</div>
-						   </div>
+    				 		</div>
+    							<p class="pizza__description">Une délicieuse pizza veggie composé d'une sauce tomate maison, mozzarella, champignons, oignons rouges, olives & origan </p>
+   					 				<div class="pizza__details">
+											<p class="pizza__detail"><span class="emoji">🍕</span>850 kcal</p>
+												<p class="pizza__detail"><span class="emoji">⏱</span>30 min</p>
+									 				<p class="pizza__detail"><span class="emoji">⭐</span>4.7 / 5</p>
+   									  			</div>
+ 								  			</div>
+ 							  			 <div class="pizza__price">$11.99</div>
+						   			</div>
 ```
 
 ---
