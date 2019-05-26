@@ -39,7 +39,7 @@ Le meilleur moyen de comprendre les propriétés "Flexbox" est de le voir en cas
 	
 .pizza {
   display: flex;
-  max-width: 900px;
+  max-width: 800px;
   border-radius: 4px;
   overflow: hidden;
   box-shadow: 0 30px 80px 10px rgba(0, 0, 0, 0.2);
