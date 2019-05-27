@@ -16,7 +16,7 @@ mathjax: true
 <!-- HEADER -->
     <header>
       <div class="netflixLogo">
-        <a id="logo" href="#home"><img src="https://github.com/andryjohn/Netflix-Clone/blob/master/img/logo.PNG?raw=true" alt="Logo Image"></a>
+        <a id="logo" href="https://rajohnson-andry.tk/"><img src="https://github.com/andryjohn/Netflix-Clone/blob/master/img/logo.PNG?raw=true" alt="Logo Image"></a>
       </div>      
       <nav class="main-nav">                
         <a href="#home">Accueil</a>
@@ -28,7 +28,7 @@ mathjax: true
       <nav class="sub-nav">
         <a href="#"><i class="fas fa-search sub-nav-logo"></i></a>
         <a href="#"><i class="fas fa-bell sub-nav-logo"></i></a>
-        <a href="#">Comptes</a>        
+        <a href="https://github.com/andryjohn">Codes sources</a>        
       </nav>      
     </header>
     <!-- END OF HEADER -->
@@ -123,7 +123,6 @@ mathjax: true
 <!-- FOOTER -->
     <footer>
       <p>&copy 1997-2019 Netflix, Inc. Design by Andry Rajohnson</p>
-      <a href="https://github.com/andryjohn">Code source</a>
     </footer>
 
 <style>/* CSS VARIABLES */
