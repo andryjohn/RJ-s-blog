@@ -30,11 +30,13 @@ mathjax: true
 
  Après maintes recherches et une journée passée à trouver une solution à mon problème, en faire *un article* pour que quelqu’un d’autre passe moins de temps à se prendre la tête m’a toujours paru normal.
 
-> **"Je découvre tous les jours des choses sur internet, alors le partager et participer à enrichir le web me paraît des plus naturel."**
+> **"J'apprend et je découvre tous les jours des choses sur internet, alors les partagés et participés à enrichir le web me paraît des plus naturels."**
 
 Si vous parcourez quelques articles de ce site, vous vous rendrez compte assez vite du manque de '*ligne éditoriale*'. 
 
- C’est tout bonnement parce qu’il n’y en a pas ! C’est un bloc-note “personnel” partagé dans lequel je déverse un peu tout et n’importe quoi. *Bref, c’est moi la ligne éditoriale !*
+ C’est tout bonnement parce qu’il n’y en a pas !Enfin si, la "Tech" mais pas que...
+
+ C’est un bloc-note “personnel” partagé, un espèce de "fourre-tout" dans lequel je déverse un peu tout et n’importe quoi! *Bref, c’est moi la ligne éditoriale !*
 
 [Ce site est gracieusement hébergé par Github](https://rajohnson-andry.tk/developper/skills/2019/05/05/Host-any-front-end/).
 
