@@ -1,6 +1,6 @@
 ---
 layout:     post
-title:      Let's design some components using Flexbox properties for our web application! 
+title:      Let's design UI components using Flexbox properties for our web application!Part II
 date:       2019-05-26
 summary:    
 categories: Developper skills
@@ -137,15 +137,13 @@ Le design de carte est éxercice parfait pour illustrer les propriétés "Flexbo
 
 ## Card with nice hover effect: 
 
-Ici, on reste sur les "cards", mais on va y ajouté un effet de hover assez sympa!
+Ici, on reste sur les "cards", mais on va y ajouté un "effet de hover" sympa pour donner du cachet!
 
 
 <a href="https://codepen.io/andryjohn/pen/QREPVe">Test Yourself!</a>
 
 ---
 
-
-<body>
 <div class="hero-section">
   <div class="card-grid">
     <a class="card" href="#">
@@ -168,7 +166,6 @@ Ici, on reste sur les "cards", mais on va y ajouté un effet de hover assez symp
         <p class="card__category">Design</p>
         <h3 class="card__heading">Get inspired</h3>
       </div>
-    </li>
     <a class="card" href="#">
       <div class="card__background" style="background-image: url(https://images.unsplash.com/photo-1491933382434-500287f9b54b?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1900&q=80)"></div>
       <div class="card__content">
@@ -194,9 +191,9 @@ Ici, on reste sur les "cards", mais on va y ajouté un effet de hover assez symp
   grid-template-columns: repeat(1, 1fr);
   grid-column-gap: 10px;
   grid-row-gap: 10px;
-  max-width: 1200px;
+  max-width: 900px;
   width: 100%;
-  border-radius: 25px;
+  border-radius: 20px;
 }
 
 @media(min-width: 540px){
