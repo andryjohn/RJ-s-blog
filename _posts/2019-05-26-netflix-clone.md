@@ -1,6 +1,6 @@
 ---
 layout:    
-title:     Un projet front-end où je vais cloner les composants UI de Netflix
+title:     Cloner Netflix et ces composants UI
 date:       2019-05-26
 summary:    
 categories: Developper skills
