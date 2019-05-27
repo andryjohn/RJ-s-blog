@@ -7,10 +7,14 @@ categories: Developper skills
 mathjax: true
 ---
 
-Le meilleur moyen de comprendre les propriétés "Flexbox" est de le voir en cas pratique, donc par ici:
+Le meilleur moyen de comprendre les propriétés "Flexbox" est de le voir en cas pratique, cet article complète [celle-ci.](https://rajohnson-andry.tk/developper/skills/2019/05/08/composants-design/)
 
 
-# Card 
+## Card 
+
+Le design de carte est éxercice parfait pour illustrer les propriétés "Flexbox"
+
+---
 
 ![pizza](/images/pizza.png)
 
@@ -18,7 +22,7 @@ Le meilleur moyen de comprendre les propriétés "Flexbox" est de le voir en cas
 
 [Test yourself!](https://codepen.io/andryjohn/pen/XwqBOZ)
 
-## HTML
+### HTML
 
 ```html
 <div class="pizza">
@@ -44,7 +48,7 @@ Le meilleur moyen de comprendre les propriétés "Flexbox" est de le voir en cas
 
 ---
 
-## CSS
+### CSS
 
 ```css
 
@@ -130,3 +134,142 @@ Le meilleur moyen de comprendre les propriétés "Flexbox" est de le voir en cas
 ```
 
 ---
+
+## Card with nice hover effect: 
+
+Ici, on reste sur les "cards", mais on va y ajouté un effet de hover assez sympa!
+
+
+<a href="https://codepen.io/andryjohn/pen/QREPVe">Test Yourself!</a>
+
+---
+
+
+<body>
+<div class="hero-section">
+  <div class="card-grid">
+    <a class="card" href="#">
+      <div class="card__background" style="background-image: url(https://images.unsplash.com/photo-1556742502-ec7c0e9f34b1?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=334&q=80)"></div>
+      <div class="card__content">
+        <p class="card__category">Stripe</p>
+        <h3 class="card__heading">Cool API</h3>
+      </div>
+    </a>
+    <a class="card" href="#">
+      <div class="card__background" style="background-image: url(https://images.unsplash.com/photo-1531746790731-6c087fecd65a?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=995&q=80)"></div>
+      <div class="card__content">
+        <p class="card__category">Machine</p>
+        <h3 class="card__heading">Join us</h3>
+      </div>
+    </a>
+    <a class="card" href="#">
+      <div class="card__background" style="background-image: url(https://images.unsplash.com/photo-1516638022313-53fa45a84c7f?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1050&q=80)"></div>
+      <div class="card__content">
+        <p class="card__category">Design</p>
+        <h3 class="card__heading">Get inspired</h3>
+      </div>
+    </li>
+    <a class="card" href="#">
+      <div class="card__background" style="background-image: url(https://images.unsplash.com/photo-1491933382434-500287f9b54b?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1900&q=80)"></div>
+      <div class="card__content">
+        <p class="card__category">Apple</p>
+        <h3 class="card__heading">An Ecosystem</h3>
+      </div>
+    </a>
+  <div>
+</div>
+
+
+<style>
+.hero-section{
+  align-items: flex-start;
+  display: flex;
+  min-height: 100%;
+  justify-content: center;
+  padding: 64px 24px;
+}
+
+.card-grid{
+  display: grid;
+  grid-template-columns: repeat(1, 1fr);
+  grid-column-gap: 10px;
+  grid-row-gap: 10px;
+  max-width: 1200px;
+  width: 100%;
+  border-radius: 25px;
+}
+
+@media(min-width: 540px){
+  .card-grid{
+    grid-template-columns: repeat(2, 1fr); 
+  }
+}
+
+@media(min-width: 960px){
+  .card-grid{
+    grid-template-columns: repeat(4, 1fr); 
+  }
+}
+
+.card{
+  list-style: none;
+  position: relative;
+  border-radius: 15px;
+}
+
+.card:before{
+  content: '';
+  display: block;
+  padding-bottom: 150%;
+  width: 100%;
+}
+
+.card__background{
+  background-size: cover;
+  background-position: center;
+  border-radius: 24px;
+  bottom: 0;
+  filter: brightness(0.75) saturate(1.2) contrast(0.85);
+  left: 0;
+  position: absolute;
+  right: 0;
+  top: 0;
+  transform-origin: center;
+  trsnsform: scale(1) translateZ(0);
+  transition: 
+    filter 200ms linear,
+    transform 200ms linear;
+}
+
+.card:hover .card__background{
+  transform: scale(1.05) translateZ(0);
+}
+
+.card-grid:hover > .card:not(:hover) .card__background{
+  filter: brightness(0.5) saturate(0) contrast(1.2) blur(20px);
+}
+
+.card__content{
+  left: 0;
+  padding: 24px;
+  position: absolute;
+  top: 0;
+}
+
+.card__category{
+  color:white;
+  font-size: 0.8rem;
+  margin-bottom: 8px;
+  text-transform: uppercase;
+}
+
+.card__heading{
+  color: white;
+  font-size: 1.4rem;
+  text-shadow: 2px 2px 20px rgba(0,0,0,0.2);
+  line-height: 0.9;
+  word-spacing: 100vw;
+}
+</style>
+
+
