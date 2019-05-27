@@ -84,7 +84,7 @@ mathjax: true
         <a href=""><img src="https://github.com/andryjohn/Netflix-Clone/blob/master/img/m5.PNG?raw=true" alt=""></a>
         <a href=""><img src="https://github.com/andryjohn/Netflix-Clone/blob/master/img/m6.PNG?raw=true" alt=""></a>                
       </div>
-	<h1 id="originals">Originals Netflixs</h1>
+	<h1 id="originals">Originals Netflix</h1>
       <div class="box">
         <a href=""><img src="https://github.com/andryjohn/Netflix-Clone/blob/master/img/o1.PNG?raw=true" alt=""></a>
         <a href=""><img src="https://github.com/andryjohn/Netflix-Clone/blob/master/img/o2.PNG?raw=true" alt=""></a>
