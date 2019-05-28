@@ -6,12 +6,10 @@ summary:
 categories: Developper skills
 mathjax: true
 ---
+<blockquote class="twitter-tweet" data-lang="fr"><p lang="fr" dir="ltr">Méga cool et gentil d&#39;avoir fait ça ! Merci beaucoup ! C&#39;est une illustration très convaincante de la façon dont l&#39;app fonctionne et je n&#39;y avais même pas pensé à le montrer comme ça avec un gif sur Twitter. T&#39;es pro. Moi non. Thanks mate! <a href="https://t.co/cv4BL0LMYv">https://t.co/cv4BL0LMYv</a></p>&mdash; Benjamin Code (@b1jam1code) <a href="https://twitter.com/b1jam1code/status/1133368381040734208?ref_src=twsrc%5Etfw">28 mai 2019</a></blockquote>
+<script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
 ---
-[<img src="/images/ben.png">](https://www.youtube.com/channel/UCLOAPb7ATQUs_nDs9ViLcMw/videos)
-
----
-
 <blockquote>
 <p>
 	Scalpel : nouvelle série de vidéos dans laquelle je vous dissèque des sites internet super intéressants d'un point de vue développeur frontend. 
