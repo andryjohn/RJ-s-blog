@@ -6,9 +6,7 @@ summary:
 categories: Developper skills
 mathjax: true
 ---
-
 ---
-
 
 <html>
 	<body>
