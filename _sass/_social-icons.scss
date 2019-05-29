@@ -10,16 +10,19 @@
 }
 
 .social-icons a.fa {
-  font-size: 30px;
-  color: #7CC6AD;
+  font-size: 25px;
+  font-weight: lighter;
+  color: #252525;
   cursor: pointer;
   opacity: 0.5;
-  padding: 0.2em;
+  padding: 0.4em 0.5em;
+  border: 1px solid #252525;
+  background-color: #fff;
 }
 
 .social-icons a.fa:hover {
   opacity: 1;
-  color: #459069;
+  color: #252525;
 }
 
 .social-icons iframe[title=Flattr] {
