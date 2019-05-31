@@ -7,10 +7,9 @@ summary:
 categories: Developper skills
 mathjax: true
 ---
+![ruby](/images/ruby12.jpeg)
+>"Tirés du [Workshop Paris Ruby ](https://www.meetup.com/fr-FR/parisrb/?chapter_analytics_code=UA-24741027-2),voici quelques problèmes d'entretient d'embauche."
 
-Voici quelques problèmes d'entretient d'embauche, tirés du ["Workshop Paris Ruby "](https://www.meetup.com/fr-FR/parisrb/?chapter_analytics_code=UA-24741027-2).
-
-![ruby](/images/ruby2.png)
 
 Nous essaierons de faire attention à la complexité temporelle/spatiale, le fameux O(n).
 

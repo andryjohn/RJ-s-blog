@@ -2,10 +2,12 @@
 layout:     post
 title:      Aglorithme en Ruby, calcul des nombres premiers
 date:       2019-05-05
-summary:    On va essayer de déterminé les nombres premiers, en utilisant le langage Ruby
+summary:    
 categories: Developper skills
 mathjax: true
 ---
+![algo](/images/algo.jpeg)
+>"Nous allons déterminé les nombres premiers, en utilisant le langage Ruby"
 
 On va utiliser un algorithme en *Ruby*, afin de déterminé les nombres premiers compris entre 0 et 1.000.000.
 

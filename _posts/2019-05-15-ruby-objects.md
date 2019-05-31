@@ -6,6 +6,7 @@ summary:
 categories: Developper skills
 mathjax: true
 ---
+![classe](/images/classe.jpeg)
 >In a ruby application we have many objects ! As we often read, “Everything in Ruby is an Object”
 
 **Classes and Objects** are very important concept in Ruby.

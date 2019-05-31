@@ -7,7 +7,7 @@ summary:
 categories: Developper skills
 mathjax: true
 ---
-
+![flex](/images/flex.jpeg)
 >"Learning Flexbox can be a pain in the butt. For most persons, it's not particularly fun at first. It challenges you to rethink how you've dealt with layouts in css.""
 
 Don't fret. I really would walk you through all you need to know. So, let's get started.

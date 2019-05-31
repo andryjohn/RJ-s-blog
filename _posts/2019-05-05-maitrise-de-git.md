@@ -2,10 +2,12 @@
 layout:     post
 title:      Introduction à Git
 date:       2019-05-05
-summary:   Le but de Git est de permettre à une équipe de développement de suivre les différentes versions d’un projet pour en gérer l’évolution
+summary:   
 categories: Developper skills
 mathjax: true
 ---
+![git](/images/git2.jpeg)
+>Le but de Git est de permettre à une équipe de développement de suivre les différentes versions d’un projet pour en gérer l’évolution
 
 Quand on développe un projet il ne suffit pas de coder pour soi dans son coin ni pour l’instant présent, il faut aussi penser aux évolutions possibles du code, aux erreurs que l’on peut faire, aux personnes qui vont aussi travailler sur le projet… 
 
