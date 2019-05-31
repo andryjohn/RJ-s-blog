@@ -7,7 +7,10 @@ categories: Developper skills
 mathjax: true
 ---
 
+![card](/images/hover.png)
+
 Le meilleur moyen de comprendre les propriétés "Flexbox" est de le voir en cas pratique, cet article complète [celui-ci.](https://rajohnson-andry.tk/developper/skills/2019/05/08/composants-design/)
+
 
 
 ## Card 

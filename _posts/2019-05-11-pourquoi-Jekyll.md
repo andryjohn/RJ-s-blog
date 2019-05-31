@@ -7,7 +7,6 @@ categories: Developper skills
 mathjax: true
 --- 
 
----
 [<img src="/images/jekyll.jpg">](https://jekyllrb.com/)
 
 ---

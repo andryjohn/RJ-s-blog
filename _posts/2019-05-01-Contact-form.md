@@ -7,6 +7,8 @@ categories: Technique
 ---
 
 
+![submit the form](https://cloud.githubusercontent.com/assets/194400/10582654/cf3081e6-7680-11e5-9fd1-b989a8ba0b65.png)
+
 A ***Step-by-Step Example*** of using an **HTML Form** to send a "Contact Us" Message via Email without a Backend Server using a Google Script - No PHP, Python, Ruby, Java, Node.js etc.
 
 See a working example here: [https://dwyl.github.io/learn-to-send-email-via-google-script-html-no-server/](https://dwyl.github.io/learn-to-send-email-via-google-script-html-no-server/)

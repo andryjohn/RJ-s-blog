@@ -7,7 +7,6 @@ categories: Developper skills
 mathjax: true
 ---
 
----
 ![wagon](/images/saunier.jpg)
 
 ---
