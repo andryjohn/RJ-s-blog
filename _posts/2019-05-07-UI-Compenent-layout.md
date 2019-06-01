@@ -7,8 +7,8 @@ categories: Developper skills
 mathjax: true
 ---
 
-Learn how *Uber*, *Shopify* and *Airbnb* are leveraging components to build a consistent **UI/UX design system.**
 ![airBnB](/images/airBnB.png)
+>Learn how *Uber*, *Shopify* and *Airbnb* are leveraging components to build a consistent **UI/UX design system.**
 
 Components are a great way to design and develop your UI using smaller, reusable pieces with better consistency.
 

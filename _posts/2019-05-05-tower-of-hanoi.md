@@ -7,7 +7,7 @@ categories: Developper skills
 mathjax: true
 ---
 ![Tower of Hanoi](/images/Tower_of_Hanoi_4.gif)
-Solving the Tower of Hanoi Algorithm
+>"Our challenge today is solving the Tower of Hanoi Algorithm"
 
 ---
 

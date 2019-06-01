@@ -8,10 +8,7 @@ mathjax: true
 --- 
 
 [<img src="/images/jekyll.jpg">](https://jekyllrb.com/)
-
----
-
-Il faut savoir que pour créér ce site j'ai choisi d'utiliser *Jekyll* .
+>Il faut savoir que pour créér ce site j'ai choisi d'utiliser *Jekyll* .
 Pourquoi ce choix?
 
 

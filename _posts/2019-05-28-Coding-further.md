@@ -1,6 +1,6 @@
 ---
 layout:     post
-title:      Coding further by Clara Morgen
+title:      Coding further project
 date:       2019-05-28
 summary:   
 categories: Developper skills
@@ -9,7 +9,7 @@ mathjax: true
 
 
 ![coding](/images/further.jpeg)
->[**Coding further**](https://github.com/ClaraMorgen/coding_further) is a project made by [Clara Morgen](https://twitter.com/Clara_Morgen) for her students who graduated from "Le Wagon coding bootcamp" and are just now exploring the world of tech.
+>[Coding further](https://github.com/ClaraMorgen/coding_further) is a project made by [Clara Morgen](https://twitter.com/Clara_Morgen) for her students who graduated from "Le Wagon coding bootcamp" and are just now exploring the world of tech.
 She have collected some (free) online courses to help you keep learning as well as other useful resources which will help you to fully immerse yourself in the dev universe.
 
 
