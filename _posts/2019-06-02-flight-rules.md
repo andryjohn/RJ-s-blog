@@ -1657,4 +1657,3 @@ En utilisant `git reset`, il est ensuite possible de changer master vers le comm
 
 ---
 
-Source: *forked from Kate Hudson* [github repos](https://github.com/k88hudson/git-flight-ruless), amazing works!
