@@ -84,3 +84,5 @@ Le comportement d'une page type 'AirBnB' avec flexbox et @media
 
 
 Pour tester sur [codepen](https://codepen.io/andryjohn/pen/xNZYYN)
+
+<footer><cite title="Workshop">Credit: Andry Rajohnson</cite></footer>
