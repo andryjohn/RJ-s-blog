@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="images/paris.png"/>
+  <img src="images/jekyll.png"/>
 </p>
 
 # Andry Rajohnson
