@@ -25,8 +25,6 @@ nav ul {
     transition: all 0.75s ease;
     background: url('/images/cerise.png');
     background-size: cover;
-    opacity: 0,9;
-
 }
 
 nav .flexbox-parent {
@@ -47,13 +45,13 @@ nav .nav-underline:before {
 
 .medium-link h2:before, nav .nav-underline:before, nav a:after {
     content: '';
-    border-bottom: 2px solid $header-fg;
+    border-bottom: 1px solid #8981F7;
 }
 
 nav .nav-underline:before, nav a:after {
     position: absolute;
     left: 0;
-    transition: .4s;
+    transition: .5s;
 }
 
 nav a {
