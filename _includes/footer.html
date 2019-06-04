@@ -121,7 +121,8 @@ opacity: 1;
 
 <footer class="center">
   <div class="desktop-footer">
-    <p>Copyright 2019, ©Andry Rajohnson, Made with <a href="https://jekyllrb.com/">Jekyll</a> hosted on <a href="https://pages.github.com/ ">Github Page.</a></p>
+    <div class="footer-logo">{% include avatar.html %}</div>
+    <p> Copyright 2019, all right reserved, ©Andry Rajohnson, Made with <a href="https://jekyllrb.com/">Jekyll</a> hosted on <a href="https://pages.github.com/ ">Github Page.</a></p>
   </div>
 </footer>
 
@@ -130,6 +131,13 @@ opacity: 1;
 footer .desktop-footer {
     margin-left: auto;
     margin-right: auto;
+}
+
+.footer-logo {
+display: flex;
+justify-content: center;
+margin-bottom: 25px;
+
 }
 
 .client-each, .footer-bar, .section, footer .desktop-footer {
