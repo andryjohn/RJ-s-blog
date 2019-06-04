@@ -94,6 +94,17 @@
     <meta name="twitter:description" content="{% if page.summary %}{{ page.summary }}{% else %}{{ site.description }}{% endif %}" />
     <meta name="twitter:url" content="{{ site.url }}{{ page.url }}" />
 
+    <!-- Did I include an "image" variable in this post's front matter? -->
+    {% if page.image %}
+    <!-- I did! Select the "large image" card type, and supply the image path -->
+    <meta name="twitter:card"  content="summary_large_image">
+    <meta name="twitter:image" content="{{ site.url }}{{ page.image }}">
+    {% else %}
+    <!-- Nope! Select the "summary" card type, supplying the site's title image -->
+    <meta name="twitter:card"  content="summary">
+    <meta name="twitter:image" content="{{ site.title_image }}">
+    {% endif %}
+
     <!-- Icons -->
     <link rel="apple-touch-icon" sizes="57x57" href="/images/favicon57.png">
 <link rel="apple-touch-icon" sizes="60x60" href="/images/favicon/apple-icon-60x60.png">
