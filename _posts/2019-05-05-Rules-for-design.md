@@ -1,11 +1,12 @@
 ---
 layout:     post
-title:      Few Web-design rules for non-designer 
+title:      Few rules for developer/entrepreneur who want to build well design product
 date:       2019-06-05
 summary:   
 categories: Technique
 ---
 ![dribbble](/images/dribbble.jpg)
+<footer>Image from:<a href="https://dribbble.com/"> dribbble.com</a></footer>
 >I often hear engineers/developers telling me “**they are not good at web-design**” because “**they are not artists**”. 
 
 And they're right, if you work in a fancy web agency making fancy websites, you need some kind of artistic sensitivity.
