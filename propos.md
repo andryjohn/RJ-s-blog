@@ -8,11 +8,8 @@ mathjax: true
 
 ## Ligne éditoriale
 
----
-
  ![propos](/images/propos.jpeg)
--
----
+<footer>Image from <a href="https://unsplash.com">unsplash</a></footer>
 
 #### Version courte :
 
