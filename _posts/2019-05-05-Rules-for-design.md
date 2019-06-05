@@ -1,6 +1,6 @@
 ---
 layout:     post
-title:      Few rules for developer/entrepreneur who want to build well-designed products
+title:      Few rules for non-designer who want to build well-designed products
 date:       2019-06-05
 summary:   
 categories: Technique
