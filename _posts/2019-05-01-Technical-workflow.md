@@ -8,9 +8,10 @@ mathjax: true
 ---
 
 ![wagon](/images/saunier.jpg)
+<footer>Lewagon's students</footer>
 >Si l'apprentissage vous intéresse, je vous recommande vivement les workshops du wagon ,ici [Sebastien Saunier CTO](https://sebastien.saunier.me) du [Wagon](https://www.lewagon.com), présente lors du meetup du Wagon les outils et méthodologies qu’une startup doit mettre en place dès qu’elle commence à *produire du code.*
 
-> Au programme :  Git et GitHub, Trello, Heroku,monitoring, gestion de projet, metatravail, Slack, Wercker, Le Test de Joël...
+Au programme :  Git et GitHub, Trello, Heroku,monitoring, gestion de projet, metatravail, Slack, Wercker, Le Test de Joël...
 ---
 Voici la video: 
 

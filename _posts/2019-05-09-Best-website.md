@@ -36,9 +36,8 @@ Et si vous n'ètes pas encore convaincu, je vous invite à jeter un coup d'oeil,
 
 
 
-## 5scontent ---
+## 5scontent 
 ---
-
 <style>.embed-container { position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; max-width: 100%; } .embed-container iframe, .embed-container object, .embed-container embed { position: absolute; top: 0; left: 0; width: 100%; height: 100%; }</style><div class='embed-container'><iframe src='https://www.youtube.com/embed//KKZyB3bc52Q' frameborder='0' allowfullscreen></iframe></div>
 
 ---
@@ -46,10 +45,10 @@ Et si vous n'ètes pas encore convaincu, je vous invite à jeter un coup d'oeil,
 
 [<img src="/images/5scontent.png">](https://5scontent.com/)
 
----
+<footer>Image From: 5scontent website</footer>
 
 
-## Basic Agency ---
+## Basic Agency 
 ---
 
 <style>.embed-container { position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; max-width: 100%; } .embed-container iframe, .embed-container object, .embed-container embed { position: absolute; top: 0; left: 0; width: 100%; height: 100%; }</style><div class='embed-container'><iframe src='https://www.youtube.com/embed//511Se3worgg' frameborder='0' allowfullscreen></iframe></div>
@@ -58,7 +57,7 @@ Et si vous n'ètes pas encore convaincu, je vous invite à jeter un coup d'oeil,
 
 [<img src="/images/basicagency.png">](https://moves.basicagency.com/)
 
----
+<footer>Image From: Basic Agency website</footer>
 
 
 
@@ -76,7 +75,7 @@ Et si vous n'ètes pas encore convaincu, je vous invite à jeter un coup d'oeil,
 
 [<img src="/images/superrb.png">](https://www.superrb.com/)
 
----
+<footer>Image From: Superrb website</footer>
 
 ## Ultranoir ---
 ---
@@ -88,7 +87,7 @@ Et si vous n'ètes pas encore convaincu, je vous invite à jeter un coup d'oeil,
 *Pour visiter leur site c'est ici!*
 [<img src="/images/ultra.png">](https://www.ultranoir.com/)
 
----
+<footer>Image From: Ultranoir website</footer>
 
 
 
@@ -97,4 +96,5 @@ Et si vous n'ètes pas encore convaincu, je vous invite à jeter un coup d'oeil,
 ---
 
 <style>.embed-container { position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; max-width: 100%; } .embed-container iframe, .embed-container object, .embed-container embed { position: absolute; top: 0; left: 0; width: 100%; height: 100%; }</style><div class='embed-container'><iframe src='https://www.youtube.com/embed/B1j9up04Paw' frameborder='0' allowfullscreen></iframe></div>
- ---
+ 
+ <footer>Inspired by:<a href="https://www.youtube.com/channel/UCLOAPb7ATQUs_nDs9ViLcMw"> Benjamin Code</a></footer>
