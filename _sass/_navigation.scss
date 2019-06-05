@@ -45,13 +45,13 @@ nav .nav-underline:before {
 
 .medium-link h2:before, nav .nav-underline:before, nav a:after {
     content: '';
-    border-bottom: 1px solid #8981F7;
+    border-bottom: 1px solid #757575;
 }
 
 nav .nav-underline:before, nav a:after {
     position: absolute;
     left: 0;
-    transition: .5s;
+    transition: .3s;
 }
 
 nav a {
