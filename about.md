@@ -19,8 +19,7 @@ Licence formatrice, qui m'a permis d'acquérir une maîtrise des principes du ma
 
 ---
 ![rails](/images/rails.png)
-
----
+<footer>All famous app build with <a href="https://rubyonrails.org/">Ruby on Rails</a></footer>
 
 
 
@@ -35,7 +34,7 @@ Mon "tool sets": [Ruby on Rails](https://rubyonrails.org/), [Sublime](https://ww
 
 ![tool](/images/tools.jpeg)
 
----
+<footer>Image from <a href="https://unsplash.com">unsplash</a></footer>
 
 
 <footer>
