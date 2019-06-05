@@ -15,7 +15,6 @@ And they're right, if you work in a fancy web agency making fancy websites, you 
 
 [<img src="/images/superrb.png">](https://www.superrb.com/)
 <footer>Superrb.com</footer>
----
 
 But working on a functional web-app like Airbnb, Facebook, Product Hunt, has nothing to do with art, it’s about respecting patterns and simple graphical rules, and mainly stealing others’ work.
 ---
