@@ -1,6 +1,6 @@
 ---
 layout:     post
-title:      Few rules for developer/entrepreneur who want to build well designed product
+title:      Few rules for developer/entrepreneur who want to build well- designed product
 date:       2019-06-05
 summary:   
 categories: Technique
