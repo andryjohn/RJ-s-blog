@@ -8,23 +8,8 @@ categories: Technique
 
 ![jekyll](/images/jekyll2.png)
 <footer>Awesome Series <a href="https://github.com/planetjekyll">@Planet Jekyll</a></footer>
-
-[Jekyll](https://github.com/planetjekyll/awesome-jekyll) •
-[Jekyll Themes](https://github.com/planetjekyll/awesome-jekyll-themes) •
-
-
-
-# Awesome (Gem-Packaged) Jekyll Plugins 
-[![Awesome](https://awesome.re/badge-flat.svg)](https://awesome.re)
-
-A collection of awesome Jekyll plugins adding converters, generators, filters & tags,
+>A collection of awesome Jekyll plugins adding converters, generators, filters & tags,
 importers, new commands & switches, and more.
-
-#### _Contributions welcome. Anything missing? Send in a pull request. Thanks._
-
-> Note: See the [Plugins & Extensions Page @ Planet Jekyll](http://planetjekyll.github.io/plugins) - listing all gem-packaged plugins
-> listed here; add your plugin here to get added - thanks!
-
 
 ## Documentation
 
