@@ -7,7 +7,6 @@ categories: Technique
 ---
 
 ![jekyll](/images/jekyll2.png)
-<footer>Awesome Series <a href="https://github.com/planetjekyll">@Planet Jekyll</a></footer>
 >A collection of awesome Jekyll plugins adding converters, generators, filters & tags,
 importers, new commands & switches, and more.
 
