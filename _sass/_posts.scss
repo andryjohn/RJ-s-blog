@@ -5,7 +5,7 @@
 }
 
 .posts .post {
-  background-color: #fff;
+  background-color: #FAFAFA;
   margin-bottom: 0.75em;
   border-bottom: thin solid #f3f3f3;
   box-shadow: 0 0 10px rgba(0,0,0,0.2);
@@ -13,21 +13,23 @@
   padding-bottom: 30px!important;
   margin-top: 30px;
   border-radius: 5px;
-  background-color: #FAFAFA;
 }
 
 .posts .post:last-child {
   border-bottom: none;
-  margin-bottom: .375em;
+  margin-bottom: .475em;
   padding-bottom: 0;
 }
 
 .post-link .post-title {
-  font-style: sans-serif!important;
   margin-top: 0;
-  font-weight: 450;
+  font-weight: 600;
   color: #2B2B2B;
+  opacity: 0.9;
   
+}
+.post-link .post-title:hover {
+  color: #000;
 }
 
 .post-footer {
@@ -55,4 +57,5 @@
 
 .related-post-title {
   border-bottom: thin solid #f3f3f3;
+  color: $green;
 }
