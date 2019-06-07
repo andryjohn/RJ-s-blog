@@ -26,6 +26,7 @@ footer {
   font-weight: $footer-font-weight;
   padding: $footer-padding;
   text-align: center;
+  border-top: thin solid #E8E8E8
 }
 
 @media screen and (min-width: 770px) {
