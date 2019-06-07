@@ -5,7 +5,6 @@ date:       2019-06-06
 summary:   
 categories: Technique
 ---
-
 ![jekyll](/images/jekyll2.png)
 >A collection of awesome Jekyll plugins adding converters, generators, filters & tags,
 importers, new commands & switches, and more.

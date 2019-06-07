@@ -7,7 +7,7 @@ mathjax: true
 ---
 
 ## Ligne éditoriale
----
+★★★★★
 
  ![propos](/images/propos.jpeg)
 <footer>Image from <a href="https://unsplash.com">Classified newspaper page</a></footer>
