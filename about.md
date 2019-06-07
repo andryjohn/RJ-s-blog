@@ -7,19 +7,25 @@ flicker: true
 headshot: /images/headshot.jpg
 ---
 
+
 Diplomé d'une Licence professionnelle spécialité **Management des Réseaux et Système d'Information,** obtenu au sein de l'université [Panthéon-Assas Paris 2](https://www.u-paris2.fr). 
-Licence formatrice, qui m'a permis d'acquérir une maîtrise des principes du management et des outils informatiques.
+
+Licence formatrice, qui m'a permis d'acquérir une maîtrise des principes du management et des outils informatiques et d'aquérir le *mindset du developpeur: "Get the things done!"*.
 
 
 >"Curieux, rigoureux et autodidacte, passionné par la *Tech* et le *Web*."
 
+Coté "produit", je suis familié avec la méthode [lean startup by Eric Ries](http://theleanstartup.com/).
 
- De part mes expériences, j'ai orienté mon profil vers la culture du "*produit*", le langage *Ruby* et l'utilisation de son framework [*"Ruby on Rails"*](https://rubyonrails.org/) m'a paru pertinent de part [sa grande productivité et sa fléxibilité](https://rajohnson-andry.tk/developper/skills/2019/05/03/ruby-on-rails/) 
+Pour le code, le langage *Ruby* et l'utilisation de son framework [*"Ruby on Rails"*](https://rubyonrails.org/) m'a paru pertinent de part [sa grande productivité et sa fléxibilité](https://rajohnson-andry.tk/developper/skills/2019/05/03/ruby-on-rails/).
 
+ j'adopte un *"workflow" avec git/github*, utilisant les bonnes pratiques autour de *l'integration continue*.
+
+ > As Mark Zuckerberg says “Move Fast and Break Things”
 
 
 ![rails](/images/rails.png)
-<footer>All famous app build with <a href="https://rubyonrails.org/">Ruby on Rails</a></footer>
+<footer>All famous web application build with <a href="https://rubyonrails.org/">Ruby on Rails</a></footer>
 
 
 
@@ -31,11 +37,9 @@ Mon "tool sets": [Ruby on Rails](https://rubyonrails.org/), [Sublime](https://ww
 
 ![tool](/images/cerise.png)
 
-<footer>Image from <a href="https://unsplash.com">unsplash</a></footer>
-
 
 <footer>
-	<cite title="author">Credit: Andry Rajohnson</cite>
+	<cite title="author"> Andry Rajohnson Fullstack developer</cite>
 </footer>
 
 
