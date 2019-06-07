@@ -10,7 +10,7 @@ mathjax: true
 ---
 
  ![propos](/images/propos.jpeg)
-<footer>Image from <a href="https://unsplash.com">unsplash</a></footer>
+<footer>Image from <a href="https://unsplash.com">Classified newspaper page</a></footer>
 
 #### Version courte :
 
@@ -18,7 +18,6 @@ mathjax: true
  * Workshop
  * Trouvailles
  * Tutoriels
- * Astuces
  * Bloc-notes perso!
 
 
@@ -42,9 +41,10 @@ Si vous parcourez quelques articles de ce site, vous vous rendrez compte assez v
 
 [Le site est généré avec Jekyll](https://rajohnson-andry.tk/developper/skills/2019/05/11/pourquoi-Jekyll/).
 
+## Design
 
-
+Inspiration [medium.com](https://medium.com/), et [ligne directrice](https://rajohnson-andry.tk/technique/2019/06/05/Rules-for-design/)
 <footer>
-	<cite title="author">Author et owner: Andry Rajohnson</cite>
+	<cite title="author">Author et design by Andry Rajohnson, Fullstack developer</cite>
 </footer>
 
