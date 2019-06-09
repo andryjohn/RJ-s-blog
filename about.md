@@ -10,9 +10,7 @@ headshot: /images/headshot.jpg
 
 Je suis un developpeur passionné, diplomé d'une Licence professionnelle spécialité **Management des Réseaux et Système d'Information,** obtenu au sein de l'université [Panthéon-Assas Paris 2](https://www.u-paris2.fr).
 
-Licence formatrice, qui m'a permis d'acquérir de solides bases en management et  une bonne compréhension du *web* et de *ces outils*.
-
-De par mes expériences, je me suis orienté vers la conception de "produit web", j'adopte un [workflow](https://rajohnson-andry.tk/developper/skills/2019/05/11/Technical-workflow/) inspiré de la méthode [lean startup by Eric Ries](http://theleanstartup.com/) autour du ["github flow"](https://guides.github.com/introduction/flow/), adoptant les bonnes pratiques de *l'integration continue*.
+De par mes expériences, je me suis orienté vers la conception de "produit web", j'adopte un [workflow](https://rajohnson-andry.tk/developper/skills/2019/05/11/Technical-workflow/) inspiré de la méthode [lean startup by Eric Ries](http://theleanstartup.com/) centré autour du ["github flow"](https://guides.github.com/introduction/flow/), adoptant les bonnes pratiques de *l'integration continue*.
 
 >"Le code n'est pas une finalité en soi, mais un outil puissant pour développer des produits utiles"
 
