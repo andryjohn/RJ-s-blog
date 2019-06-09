@@ -1,6 +1,6 @@
 <div class="share-page">
   <!-- {{ site.text.share_buttons.text }} -->
-   
+
 
   <div class="share-links">
     {% if site.share_facebook %}
@@ -95,13 +95,16 @@
     margin-right: 2%;
     margin-left: 2%;
     background-color: white!important;
-    opacity: 0.9;
 }
 
-.circle-share:hover {
-opacity: 1;
+.circle-share:hover, .circle-share:active {
+  transition: 0.7s;
+  -webkit-transform: scale(1.5);
+  -moz-transform: scale(1.5);
+  -ms-transform: scale(1.5);
+  -o-transform: scale(1.5);
+  transform: scale(1.5);
 }
-
 .circle-share a {
     width: 53%;
     display: block;
