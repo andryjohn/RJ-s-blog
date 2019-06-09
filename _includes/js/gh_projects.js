@@ -1,6 +1,6 @@
 jQuery.gitUser = function (username, callback) {
     /* Change per_page according to your need. */
-    jQuery.getJSON('https://api.github.com/users/'+ username +'/repos?per_page=250&callback=?')
+    jQuery.getJSON('https://api.github.com/users/'+ username +'/repos?per_page=100&callback=?')
         .done(function (data) {
             callback(data);
         })
@@ -36,7 +36,7 @@ jQuery.fn.getRepos = function (username) {
             target.empty().append(list);
             $(repos).each(function () {
                 fork = this.fork;
-                if ((this.name != (username.toLowerCase() + '.github.com')) && (fork != false)) { /* Check for username.github.com repo and for forked projects */
+                if ((this.name = (username.toLowerCase() + '.github.com')) && (fork != true)) { /* Check for username.github.com repo and for forked projects */
                    list.append('<dt> \
                             <a style="font-size:20px;" href="' + (this.homepage ? this.homepage : this.html_url) + '"><h4 style="display: inline; padding-right: 2%;">/' + this.name + '   </h4></a> \
                             <div style="display: inline-block;"><span class="lang" style="background:' + mapLangToColor(this.language) + '"></span> \
