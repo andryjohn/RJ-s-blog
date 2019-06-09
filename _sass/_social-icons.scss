@@ -16,15 +16,22 @@
   cursor: pointer;
   opacity: 0.6;
   padding: 0.4em 0.5em;
-  border: 1px solid #757575;
+  border: thin solid #757575;
   background-color: #fff;
   border-radius: 50%;
 
 }
 
 .social-icons a.fa:hover {
+  transition: 0.7s;
+  -webkit-transform: scale(1.6);
+  -moz-transform: scale(1.6);
+  -ms-transform: scale(1.6);
+  -o-transform: scale(1.6);
+  transform: scale(1.6);
   opacity: 1;
   color: #8981F7;
+  border: thin solid #8981F7;
 }
 
 .social-icons iframe[title=Flattr] {
