@@ -12,7 +12,7 @@ Je suis un developpeur passionné, diplomé d'une Licence professionnelle spéci
 
 Licence formatrice, qui m'a permis d'acquérir de solides bases en management et  une bonne compréhension du *web* et de *ces outils*.
 
-De par mes expériences, je me suis orienté vers la conception de "produit web", j'adopte un [workflow](https://rajohnson-andry.tk/developper/skills/2019/05/11/Technical-workflow/) inspiré de la méthode [lean startup by Eric Ries](http://theleanstartup.com/) autour du ["github flow"](https://guides.github.com/introduction/flow/), apdoptant les bonnes pratiques de *l'integration continue*.
+De par mes expériences, je me suis orienté vers la conception de "produit web", j'adopte un [workflow](https://rajohnson-andry.tk/developper/skills/2019/05/11/Technical-workflow/) inspiré de la méthode [lean startup by Eric Ries](http://theleanstartup.com/) autour du ["github flow"](https://guides.github.com/introduction/flow/), adoptant les bonnes pratiques de *l'integration continue*.
 
 >"Le code n'est pas une finalité en soi, mais un outil puissant pour développer des produits utiles"
 
