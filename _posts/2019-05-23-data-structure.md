@@ -1,9 +1,9 @@
 ---
 layout:     post
-title:      Les structures de données, Array et Set en Ruby
+title:    (French)Les structures de données, Array et Set en Ruby
 
 date:       2019-05-23
-summary:    
+summary:
 categories: Developper skills
 mathjax: true
 ---
@@ -15,13 +15,13 @@ Nous essaierons de faire attention à la complexité temporelle/spatiale, le fam
 
 Je tiens à préciser que c'est pour un niveau junior, et si vous voulez essayer, lisez l'énoncé et regarder les exemples. Si vous le sentez, écrivez vos tests d'abord !
 
-# Les Tableaux 
+# Les Tableaux
 
 ### Les anagrammes
 
 **Problème**
 
-Vérifier si deux chaînes de caractères données sont des anagrammes. 
+Vérifier si deux chaînes de caractères données sont des anagrammes.
 
 >*Un anagramme* est présent si les deux chaînes contiennent exactement les mêmes lettres, chacune le même nombre de fois (donc en extrayant toutes les lettres de la première chaîne, vous pouvez écrire la seconde sans qu'une lettre de la première ne manque ou soit en trop).
 
@@ -40,29 +40,29 @@ Vérifier si deux chaînes de caractères données sont des anagrammes.
 
 ```ruby
 def anagrams(string1, string2)
-	# à vous 
+	# à vous
 end
 ```
 
 
 ---
 
-C'est partie! 
+C'est partie!
 
 
 
-```ruby 
+```ruby
 	def anagrams(string1, string2)
 	#On compare les 2 chaines de caractère
 	string1.chars.sort == string2.chars.sort
 
-end 
+end
 puts anagrams("god";"dog")
 ```
 
 "The `chars method` returns an enumeration of the string's characters."
 
-Et sa nous donne: 
+Et sa nous donne:
 
 ![anagram](/images/anagram.png)
 
@@ -75,7 +75,7 @@ Et sa nous donne:
 Soit un tableau d'entiers, renvoyer toutes les paires ** *uniques* ** telles que la somme de leurs deux élèments soit égale à la valuer spécifique donnée **k**
 
 Ainsi avec:
-    
+
     pair_sum([1,3,2,2],4)
 
 retournera **2** paires:
@@ -93,7 +93,7 @@ require 'set'
 
 def pair_sum(int_array, k)
 
-  # It's up to you !  
+  # It's up to you !
 end
 ```
 
@@ -114,26 +114,26 @@ L'algorithme est vraiment simple une fois que nous avons compris pourquoi utilis
 
 ---
 
-## Trouver l'élément manquant 
+## Trouver l'élément manquant
 
 ### Problème
 
-Considérez un tableau d'entiers non négatifs. Un second tableau est formé en mélangeant les éléments du premier tableau et en supprimant au hasard un élément. Étant donné ces deux tableaux, recherchez l’élément manquant dans le deuxième tableau. 
+Considérez un tableau d'entiers non négatifs. Un second tableau est formé en mélangeant les éléments du premier tableau et en supprimant au hasard un élément. Étant donné ces deux tableaux, recherchez l’élément manquant dans le deuxième tableau.
 
 Voici un exemple d’entrée, le premier tableau est mélangé et le nombre 5 est supprimé pour construire le deuxième tableau.
 
-Entrée: finder([1,2,3,4,5,6,7], [3,7,2,1,4,6]) 
+Entrée: finder([1,2,3,4,5,6,7], [3,7,2,1,4,6])
 
-Sortie: 5 est le nombre manquant 
+Sortie: 5 est le nombre manquant
 
-### Solution 
+### Solution
 
 Remplissez votre solution ci-dessous:
 
 
 ```ruby
 def finder(full_array, missing_array)
-  
+
 end
 ```
 
@@ -141,7 +141,7 @@ end
 
 La solution naïve consiste à parcourir chaque élément du second tableau et à vérifier s’il apparaît dans le premier tableau. Notez qu'il peut y avoir des éléments en double dans les tableaux, nous devons donc y porter une attention particulière. La complexité de cette approche est O(N ^ 2), car nous aurions besoin de deux boucles imbriquées.
 
-Une solution plus efficace consiste à trier le premier tableau. Ainsi, tout en vérifiant si un élément du premier tableau apparaît dans le second, nous pouvons effectuer une recherche binaire. Mais nous devons toujours faire attention aux éléments en double. La complexité est O(NlogN). 
+Une solution plus efficace consiste à trier le premier tableau. Ainsi, tout en vérifiant si un élément du premier tableau apparaît dans le second, nous pouvons effectuer une recherche binaire. Mais nous devons toujours faire attention aux éléments en double. La complexité est O(NlogN).
 
 Si nous ne voulons pas traiter le cas particulier des numéros en double, nous pouvons trier les deux tableaux et les parcourir simultanément. Une fois que deux "itérateurs" ont des valeurs différentes, nous pouvons nous arrêter. La valeur du premier "itérateur" est l'élément manquant. Cette solution est aussi O (NlogN). Voici la solution pour cette approche:
 
@@ -171,11 +171,11 @@ Dans la plupart des entretiens d'embauche, on s'attendrait à ce que vous trouvi
 
 ```ruby
 def finder3(full_array, missing_array)
-  
+
 end
 ```
 
-Une solution possible consiste à calculer la somme de tous les nombres dans full_array et missing_array et à soustraire la somme de missing_array à la somme de full_array. La différence est le nombre manquant dans missing_array. 
+Une solution possible consiste à calculer la somme de tous les nombres dans full_array et missing_array et à soustraire la somme de missing_array à la somme de full_array. La différence est le nombre manquant dans missing_array.
 
 Cependant, cette approche pourrait poser problème si les tableaux sont trop longs ou si les nombres sont très importants. Ensuite, il pourrait y avoir débordement en additionnant les nombres.
 
@@ -183,14 +183,14 @@ Mais il y a un truc, grâce à une astuce très "astucieuse", nous pouvons réal
 
 
 ```ruby
-def finder3(full_array, missing_array) 
+def finder3(full_array, missing_array)
 
 end
 ```
 
 ---
 
-## Plus grande somme continue 
+## Plus grande somme continue
 
 ### Problème
 
@@ -203,9 +203,9 @@ Remplissez votre solution ci-dessous:
 
 ```ruby
 def large_cont_sum(array_int)
-  
+
   # It's up to you !
-  
+
 end
 ```
 
@@ -227,7 +227,7 @@ Si le tableau est constitué uniquement d'entiers positifs, le résultat est sim
 
 
 ```ruby
-def large_cont_sum(array_int) 
+def large_cont_sum(array_int)
   #
 end
 ```
@@ -240,13 +240,13 @@ end
 
 ---
 
-## Caractères uniques dans la chaîne 
+## Caractères uniques dans la chaîne
 
 ### Problème
 
 Étant donné une chaîne, déterminez si elle est composée de caractères n'apparaissant chacun qu'une seule fois. Par exemple, la chaîne 'abcde' a tous les caractères uniques et doit renvoyer True. La chaîne 'aabcde' contient des caractères en double et doit renvoyer false.
 
-### Solution 
+### Solution
 
 Remplissez votre solution ci-dessous:
 
@@ -280,7 +280,7 @@ uni_char "abcdefghzz"
 
 
 
-### (une) Solution 
+### (une) Solution
 Nous allons montrer deux solutions possibles, une utilisant une structure de données (Set) et une fonction intégrée et une autre utilisant la même structure de données (Set) mais utilisant une méthode de recherche pour vérifier si les caractères sont uniques.
 
 
@@ -311,13 +311,13 @@ end
 
 ---
 
-## Compression de chaîne 
+## Compression de chaîne
 
-### Problème 
+### Problème
 
 Si une chaîne au format "AAAABBBBCCCCCDDEEEE" est compressée, elle devient "A4B4C5D2E4". Pour ce problème, vous pouvez faussement "compresser" des chaînes de lettres simples ou doubles. Par exemple, il est normal que «AAB» renvoie «A2B1» même si, techniquement, cela prend plus de place. La fonction doit également être sensible à la casse, de sorte qu'une chaîne 'AAAaaa' retourne 'A3a3'.
 
-### Solution 
+### Solution
 
 Remplissez votre solution ci-dessous:
 

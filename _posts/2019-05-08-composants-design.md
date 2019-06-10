@@ -1,8 +1,8 @@
 ---
 layout:     post
-title:    Ma librarie de composants design UI Responsive pour vos applications Web
+title:   (French)Ma librarie de composants design UI Responsive pour vos applications Web
 date:       2019-05-08
-summary:    
+summary:
 categories: Developper skills
 mathjax: true
 ---
@@ -18,7 +18,7 @@ J'ai décidé de coder les principaux "composants" ou "éléments de design" que
 
 ---
 
-## Card grid : 
+## Card grid :
 [*Voir le code*](https://codepen.io/andryjohn/pen/XwmPWR)
 ![Card](/images/Cards-design.png)
 
@@ -30,7 +30,7 @@ J'ai décidé de coder les principaux "composants" ou "éléments de design" que
 
 ---
 
-## Card trip: 
+## Card trip:
 [*Voir le code*](https://codepen.io/andryjohn/pen/XwmYqw)
 ![Card](/images/trip.png)
 
@@ -42,13 +42,13 @@ J'ai décidé de coder les principaux "composants" ou "éléments de design" que
 
 ---
 
-## *"Responsive" sur les appareils mobiles*: 
+## *"Responsive" sur les appareils mobiles*:
 
 ---
 >![Cards reponsive](/images/Responsive.png)
 ---
 
-## Messages: 
+## Messages:
 [*Voir le code*](https://codepen.io/andryjohn/pen/RmrrLd)
 ![Message](/images/messsage.png)
 

@@ -1,8 +1,8 @@
 ---
 layout:     post
-title:     Qu’est-ce qu’une adresse IP, et quelle difference entre IPv4 et IPv6 ?
+title:   (French)Qu’est-ce qu’une adresse IP, et quelle difference entre IPv4 et IPv6 ?
 date:   2019-05-14
-summary: 
+summary:
 categories: Developper skills
 mathjax: true
 ---
@@ -23,7 +23,7 @@ On alloue à l’ordinateur une adresse unique de 32 bits. Pour la rendre plus f
 a.b.c.d
 ```
 ---
-Chacun des 4 groupes est de 8 bits. 
+Chacun des 4 groupes est de 8 bits.
  \\(2^{8}\\) donne 256 possibilités
 
 Chacun des groupes peut donc prendre une valeur positive comprise entre [0, 255]

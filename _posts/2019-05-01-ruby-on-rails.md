@@ -1,8 +1,8 @@
 ---
 layout:     post
-title:      Pourquoi apprendre "Ruby on Rails"?
+title:      (French)Pourquoi apprendre "Ruby on Rails"?
 date:       2019-05-03
-summary:    
+summary:
 categories: Developper skills
 mathjax: true
 ---
@@ -12,7 +12,7 @@ mathjax: true
 
 ### **Ruby, un langage accessible**
 
-  Une des premières choses agréables avec **Ruby on Rails** repose sur le langage **Ruby** en lui-même. La syntaxe est *simple*, peu *verbeuse*, proche de la langue anglaise et très *souple*. 
+  Une des premières choses agréables avec **Ruby on Rails** repose sur le langage **Ruby** en lui-même. La syntaxe est *simple*, peu *verbeuse*, proche de la langue anglaise et très *souple*.
 
 ### **Un tool set minimum**
 

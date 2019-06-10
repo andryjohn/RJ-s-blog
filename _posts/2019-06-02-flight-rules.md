@@ -1,8 +1,8 @@
 ---
 layout:     post
-title:      Règles de vol ou 'Flight rules' pour Git
-date:       2019-06-02 
-summary:   
+title:     (French) Règles de vol ou 'Flight rules' pour Git
+date:       2019-06-02
+summary:
 categories: Technique
 ---
 
@@ -1113,7 +1113,7 @@ Admettons que vous avez une branche master, une branche feature-1 créée à par
 (feature-2)$ git rebase --onto feature-1 <le premier commit dans votre branche feature-2 que vous ne voulez pas ramene> feature-2
 ```
 
-Cela peut vous venir en aide dans les situations délicates où vous avez une fonctionnalité créée sur la base d'une autre fonctionnalité qui n'a pas encore été fusionnée, et qu'une correction de bug sur la branche feature-1 a besoin d'être reflétée sur votre branche feature-2.  
+Cela peut vous venir en aide dans les situations délicates où vous avez une fonctionnalité créée sur la base d'une autre fonctionnalité qui n'a pas encore été fusionnée, et qu'une correction de bug sur la branche feature-1 a besoin d'être reflétée sur votre branche feature-2.
 
 ### Vérifier si tous les commits d'une branche sont fusionnés
 
@@ -1369,7 +1369,7 @@ $ git push <remote> :refs/tags/<nom_du_tag>
 <a name="recover-tag"></a>
 ### Récupérer un tag supprimé
 
-Si vous voulez récupérer un tag qui a déjà été supprimé, vous pouvez le faire en suivant ces étapes :  
+Si vous voulez récupérer un tag qui a déjà été supprimé, vous pouvez le faire en suivant ces étapes :
 Tout d'abord, vous devez retrouver le tag inaccessible en question :
 
 ```sh

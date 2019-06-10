@@ -1,8 +1,8 @@
 ---
 layout:     post
-title:      Marre des authentifications répètés à chaque push sur git?
+title:    (french) Marre des authentifications répètés à chaque push sur git?
 date:       2019-05-21
-summary:    
+summary:
 categories: Developper skills
 mathjax: true
 ---
@@ -11,7 +11,7 @@ mathjax: true
 
 ## Sa sent le *déja vu* ?
 
---- 
+---
 
 ![mask](/images/push.jpg)
 

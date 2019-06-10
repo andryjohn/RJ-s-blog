@@ -1,8 +1,8 @@
 ---
 layout:     post
-title:      Responsive design
+title:   (French) Responsive design
 date:       2019-06-03
-summary:   
+summary:
 categories: Technique
 ---
 
@@ -73,7 +73,7 @@ Finalement, on peut également utiliser `@media all` pour appliquer des déclara
 
 Avec `@media screen`, nous préciserons également une taille ou un intervalle de tailles d’écran au sein duquel les propriétés vont s’appliquer. C’est cette fonctionnalité qui va nous permettre de créer un site responsive en soi.
 
-Le comportement d'une page type 'AirBnB' avec flexbox et @media 
+Le comportement d'une page type 'AirBnB' avec flexbox et @media
 
 ---
 ![airbnb](/images/airrespon2.png)

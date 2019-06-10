@@ -4,7 +4,7 @@
 title: Fullstack Junior developer |Amateur Photographer| Tech Addict
 email: Andry1287@gmail.com
 author: Andry Rajohnson
-description: "Project I've made where I put some interesting contents a found online to achieve developer journey! Main topic ,ruby on rails, git,  back/front end  and another stuff, let me know what you think!
+description: "Project I've made where I put some interesting contents a found online to achieve developer journey! Main topic ,ruby on rails, git,  back/front end  and another stuff, let me know what you think!"
 baseurl:     ""
 url:         "http://rajohnson-andry.tk"
 date_format: "%b %-d, %Y"
@@ -145,5 +145,3 @@ plugins:
   - jekyll-seo-tag
 
 
-plugins: [jekyll-youtube]
- # This will require each of these gems automatically.

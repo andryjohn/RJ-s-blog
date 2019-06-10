@@ -1,12 +1,12 @@
 ---
 layout:     post
-title:      La différence entre un développeur Front End/Back End/Fullstack
+title:      (French)La différence entre un développeur Front End/Back End/Fullstack
 date:       2019-05-01
-summary:    
+summary:
 categories: data-engineering career
 ---
 ![woman](/images/front.jpeg)
->Le jargon *"professionnel"* du web est *riche* et si vous avez ouvert de grands yeux interrogateurs en entendant ces mots, alors cet article est fait pour vous ! 
+>Le jargon *"professionnel"* du web est *riche* et si vous avez ouvert de grands yeux interrogateurs en entendant ces mots, alors cet article est fait pour vous !
 
 
 ---
@@ -14,7 +14,7 @@ categories: data-engineering career
 ### Le developpeur Front End
 
 
-Le terme *« frontend »* désigne les éléments d’un site que l’on voit à l’écran et avec lesquels on peut interagir depuis un navigateur. 
+Le terme *« frontend »* désigne les éléments d’un site que l’on voit à l’écran et avec lesquels on peut interagir depuis un navigateur.
 
 Ces outils sont: le **HTML**, le **CSS** et le **JavaScript**. Ces langages de programmation utilisés par *le développeur Front End* sont interprétés par le navigateur de votre ordinateur pour afficher un résultat *« visuel »*. Il s’agit notamment de polices, de menus déroulants, de boutons, de transitions, de curseurs, de formulaires de contact, etc.
 
@@ -29,13 +29,13 @@ Le *« backend »* est un peu comme la partie **immergée d’un iceberg**. On n
 * Une application (site web, administration)
 * Une base de données (sorte de feuille de calcul pour organiser les données)
 
-Prenons un exemple pour comprendre le fonctionnement du Back End : 
+Prenons un exemple pour comprendre le fonctionnement du Back End :
 >"Imaginons que vous deviez réserver un vol en ligne pour vos futures vacances. Vous vous rendez sur le site de la compagnie aérienne et recherchez le vol qui vous convient. Une fois le vol sélectionné, vous renseignez vos informations personnelles et validez votre réservation. Vos informations sont alors enregistrées dans une *base de données* stockée sur un serveur.
 Toutes ces informations restent sur le serveur, alors quand vient l’heure des vacances (2 mois plus tard) vous vous connectez à l’espace client (application) pour imprimer vos billets d’avion et toutes les informations que vous aviez renseignées lors de votre réservation sont disponibles sur votre compte."
 
 ---
 
-La personne qui administre toute cette technologie est le développeur back end. Les technologies Backend se composent généralement de langages comme: PHP, Ruby, Python, etc. 
+La personne qui administre toute cette technologie est le développeur back end. Les technologies Backend se composent généralement de langages comme: PHP, Ruby, Python, etc.
 
 
 ![back](/images/Backend.jpg)
@@ -48,8 +48,8 @@ De plus en plus de développeurs disposent à la fois de compétences en *backen
 
 ### Le Developpeur Full Stack
 
-Le développeur *full-stack* maîtrise les principales technologies et les principaux langages de programmation actuels. 
-Il est ainsi capable d’intervenir aussi bien sur le *front end* que sur le*back end* des sites Internet ou des applications. 
+Le développeur *full-stack* maîtrise les principales technologies et les principaux langages de programmation actuels.
+Il est ainsi capable d’intervenir aussi bien sur le *front end* que sur le*back end* des sites Internet ou des applications.
 
 Le développeur full stack est très apprécié dans  les milieux "start-ups" pour ses compétences variées. Toutefois, pour des projets d’envergure, il est conseillé de faire appel aux compétences **spécifiques** *des développeurs frontend et backend.*
 
@@ -59,7 +59,7 @@ Le développeur full stack est très apprécié dans  les milieux "start-ups" po
 
 ---
 
-## Pour aller plus loin : ~~NE PAS CONFONDRE~~ Front End /Back End  Et Front Office/Back Office 
+## Pour aller plus loin : ~~NE PAS CONFONDRE~~ Front End /Back End  Et Front Office/Back Office
 
 Nous sommes régulièrement témoins de la confusion entre les termes front end / FrontOffice et back end / BackOffice.
 
@@ -79,7 +79,7 @@ Le BackOffice désigne quant à lui ce que voit l’administrateur du site quand
 ---
 
 
-Les développeurs *Front-End et Back-End* ont des **profils complémentaires** qui permettent de par leurs compétences spécifiques de mener à bien des *projets web de grande envergure.* 
+Les développeurs *Front-End et Back-End* ont des **profils complémentaires** qui permettent de par leurs compétences spécifiques de mener à bien des *projets web de grande envergure.*
 
 Le développeur *full stack* est quant à lui idéal pour la création de *site internet* et les *projets de faible ampleur*, très apprécié par les "startup"!
 
