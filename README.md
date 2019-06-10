@@ -18,6 +18,8 @@ html {
     font-size: 20px;
   }
 }
+```
+  
 ## Usage
 
 ### Install dependencies
