@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: default_post
 comments: true
 ---
 {% assign minutes = content | strip_html | number_of_words | divided_by: 180 %}
@@ -69,7 +69,7 @@ p .reversefootnote:hover, p .reversefootnote:active, p .reversefootnote:focus {
   <script type="text/javascript">
     var disqus_shortname  = '{{ site.disqus_shortname }}';
     var disqus_identifier = "{{ page.id }}";
-    var disqus_title      = "{{ page.title }}"; 
+    var disqus_title      = "{{ page.title }}";
 
     (function() {
       var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
