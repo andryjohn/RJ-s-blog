@@ -1,10 +1,10 @@
 ######################################
 ## Site settings                    ##
 ######################################
-title: Fullstack Junior developer |Amateur Photographer| Tech Addict 
+title: Fullstack Junior developer |Amateur Photographer| Tech Addict
 email: Andry1287@gmail.com
 author: Andry Rajohnson
-description: "Je parle de code, de technique, mais pas que.. Internet est vaste, j'apprend tous les jours, alors les partagés et participés à enrichir le web me paraît des plus naturels. C'est par ici! Blog de partage, je parle de développement Front et Back, de langage de programmation, d'UI/UX. Je vous fait découvrir mon travail, mais aussi de mes astuces au quotidien, de nouvelle technogie et bien d'autre chose. Bref que du contenu de qualité, n'hésitez pas à partager, commenter, et à laisser un message! Bonne visite"
+description: "Project I've made where I put some interesting contents a found online to achieve developer journey! Main topic ,ruby on rails, git,  back/front end  and another stuff, let me know what you think!
 baseurl:     ""
 url:         "http://rajohnson-andry.tk"
 date_format: "%b %-d, %Y"
@@ -46,8 +46,8 @@ disqus_shortname: 'jekyll-blog-2'
 ## Facebook Comments plugin                                             ##
 ## (leave blank to disable Facebook Comments, otherwise set it to true) ##
 ##########################################################################
-facebook_comments: true 
-facebook_appid: true 
+facebook_comments: true
+facebook_appid: true
 facebook_comments_number: 10
 
 ###################################
@@ -60,10 +60,10 @@ twitter_username: RajohnsonAndry
 skype_username:
 steam_nickname:
 google_plus_id:
-linkedin_username: 
+linkedin_username:
 angellist_username:
-medium_id: 
-youtube_channel_id: 
+medium_id:
+youtube_channel_id:
 bitcoin_url:
 paypal_url:
 flattr_button:
