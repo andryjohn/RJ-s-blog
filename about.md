@@ -23,19 +23,22 @@ Pour le code, le langage *Ruby* et l'utilisation de son framework [*"Ruby on Rai
 ---
 
 ![rails](/images/rails.png)
-<footer>All famous web application build with <a href="https://rubyonrails.org/">Ruby on Rails</a></footer>
+<div class="center"><p>All famous web application build with <a href="https://rubyonrails.org/">Ruby on Rails</a></p></div>
 
 
 
 *Vous êtes une "Startup" ou un particulier avec "un projet Tech", mais vous manquez de **connaissances techniques**, n'hésitez pas à me contacter, je serai ravi d'intégrer votre équipe ou vous orientez vers la *technologie appropriée* et vous aider à réaliser votre **"Vision"**
-
-
-
-Mon "tool sets": [Ruby on Rails](https://rubyonrails.org/), [Sublime](https://www.sublimetext.com/3) , [Acer Nitro 5](https://fr-store.acer.com/nitro-5-ordinateur-portable-an515-51-noir?gclid=Cj0KCQjwh6XmBRDRARIsAKNInDGPRr4FTvpxXL1_g60gNICZaKxeRXDWG9x0E-vDAcnTdeFbEJQwT_AaArCsEALw_wcB&gclsrc=aw.ds) (sous Ubuntu et Win10 ), [Git/Github](https://github.com/andryjohn), des lignes de commande, et beaucoup de *latte*.
-
-
 ---
-![tool](/images/coffee.jpeg)
+
+
+
+
+
+>Mon "tool sets": [Ruby on Rails](https://rubyonrails.org/), [Sublime](https://www.sublimetext.com/3) , [Acer Nitro 5](https://fr-store.acer.com/nitro-5-ordinateur-portable-an515-51-noir?gclid=Cj0KCQjwh6XmBRDRARIsAKNInDGPRr4FTvpxXL1_g60gNICZaKxeRXDWG9x0E-vDAcnTdeFbEJQwT_AaArCsEALw_wcB&gclsrc=aw.ds) (sous Ubuntu et Win10 ), [Git/Github](https://github.com/andryjohn), des lignes de commande, et beaucoup de *latte*.
+
+
+
+
 
 
 <footer>
