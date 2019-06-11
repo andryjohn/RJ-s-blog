@@ -1,0 +1,25 @@
+[1mdiff --git a/_layouts/post.html b/_layouts/post.html[m
+[1mindex 7a3ca2f..e380d51 100644[m
+[1m--- a/_layouts/post.html[m
+[1m+++ b/_layouts/post.html[m
+[36m@@ -1,5 +1,5 @@[m
+ ---[m
+[31m-layout: default_post[m
+[32m+[m[32mlayout: default[m
+ comments: true[m
+ ---[m
+ {% assign minutes = content | strip_html | number_of_words | divided_by: 180 %}[m
+[1mdiff --git a/images/free.jpeg b/images/free.jpeg[m
+[1mindex 5698ff7..11a5021 100644[m
+Binary files a/images/free.jpeg and b/images/free.jpeg differ
+[1mdiff --git a/project.html b/project.html[m
+[1mindex 13014d1..5bc3510 100644[m
+[1m--- a/project.html[m
+[1m+++ b/project.html[m
+[36m@@ -1,5 +1,5 @@[m
+ ---[m
+[31m-layout: default[m
+[32m+[m[32mlayout: default_project[m
+ title: Open-Source for learning[m
+ tags: projects[m
+ permalink: /projects/[m
