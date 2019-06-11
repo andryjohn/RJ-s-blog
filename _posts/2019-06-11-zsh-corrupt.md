@@ -13,12 +13,15 @@ zsh: corrupt history file /home/andry/.zsh_history
 ---
 
 Few day ago, when I logged into my console, I saw following error message,so I decided to fix it, doing a quick search on google, I was able to reach a [stackoverflow link](https://superuser.com/questions/957913/how-to-fix-and-recover-a-corrupt-history-file-in-zsh/957924#957924) that recommended I run following set of commands
+---
 
 ```zsh
 mv .zsh_history .zsh_history_bad
 strings .zsh_history_bad > .zsh_history
 fc -R .zsh_history
 ```
+
+---
 
 I ran them and everything come back again. So I was searching again and found this solution, thanks to [Rishi Baldawa](https://twitter.com/rishibaldawa), ok let's hack!
 
@@ -54,9 +57,9 @@ It seems `strings` is a nice way to actually get the printable characters in a f
 fc -R .zsh_history
 ```
 
-fc was interesting. It doesn't show up in the manpage. I ended up in a searching a fair amount to realize that this is a zsh-built in feature. There's some information about it within zsh documentation.
+`fc` was interesting. It doesn't show up in the manpage. I ended up in a searching a fair amount to realize that this is a zsh-built in feature. There's some information about it within zsh documentation.
 
->...'fc -R’ reads the history from the given file
+>...'`fc -R`’ reads the history from the given file
 
 It seems fc will interact with your `zsh_history`. In this case, we are reading from the file and, since no second file was mentioned, putting it back into the same history file. i.e. re-writing history by parsing the same file.
 
