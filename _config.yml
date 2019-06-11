@@ -77,9 +77,9 @@ show_sharing_icons: True
 share_facebook: True
 share_twitter: True
 share_googleplus: True
-share_linkedin: false
+share_linkedin: true
 share_digg: false
-share_tumblr: false
+share_tumblr: true
 share_reddit: True
 share_stumbleupon: false
 share_hackernews: True
