@@ -12,7 +12,9 @@ zsh: corrupt history file /home/andry/.zsh_history
 
 ---
 
-Few day ago, when I logged into my console, I saw following error message, so I decided to fix it, doing a quick search on google, I was able to reach a [stackoverflow link](https://superuser.com/questions/957913/how-to-fix-and-recover-a-corrupt-history-file-in-zsh/957924#957924) that recommended I run following set of commands
+Few day ago, when I logged into my console, I saw following error message, so I decided to fix it, doing a quick search on google.
+
+I was able to reach a [stackoverflow link](https://superuser.com/questions/957913/how-to-fix-and-recover-a-corrupt-history-file-in-zsh/957924#957924) that recommended I run following set of commands
 ---
 
 ```zsh
