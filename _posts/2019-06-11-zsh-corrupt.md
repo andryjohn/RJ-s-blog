@@ -42,7 +42,7 @@ Well `mv` should be familiar to anyone who's toyed with linux. It moves files fr
 strings .zsh_history_bad > .zsh_history
 ```
 
-Strings is interesting. I had not come upon it before. Based on the man page:
+`Strings` is interesting. I had not come upon it before. Based on the man page:
 
 >... strings prints the printable character sequences that are at least 4 characters long (or the number given with the options below) and are followed by an unprintable character...
 
@@ -64,6 +64,8 @@ fc -R .zsh_history
 It seems fc will interact with your `zsh_history`. In this case, we are reading from the file and, since no second file was mentioned, putting it back into the same history file. i.e. re-writing history by parsing the same file.
 
 ## Cleanup
+
+---
 
 ```zsh
 rm .zsh_history_bad
