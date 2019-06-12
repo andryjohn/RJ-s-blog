@@ -2,11 +2,11 @@
 layout:     post
 title:      UI design ressources
 date:       2019-06-06
-summary:   
+summary:
 categories: Technique
 ---
 
-![UI Banner](/images/design.jpg)
+![UI Banner](/images/design.jpeg)
 > A curated list of useful resources related to User Interface Design
 
 * Use <kbd>Ctrl</kbd> + <kbd>F</kbd> or <kbd>Cmd</kbd> + <kbd>F</kbd> to search faster

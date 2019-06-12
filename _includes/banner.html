@@ -1,12 +1,14 @@
 
 <div class="container">
-<div class="banner"></div>
+<div class="banner">
+   <blockquote>
+        <h1 class="quote">"If you're stuck in Vim, it's too late"</h1>
+    </blockquote>
+</div>
 </div>
 <div class="center">
       <p>Students learning to code at Le Wagon</p>
-    <blockquote>
-        <h1>"If you're stuck in Vim, it's too late"</h1>
-    </blockquote>
+
 </div>
 
 <style>
@@ -21,14 +23,22 @@
   transition: visibility 0s linear 0s,opacity .4s 0s;
   box-shadow: 0 0 5px rgba(0,0,0,0.5);
   display: block;
-  background-image: linear-gradient(rgba(39, 71, 118, 0.1), rgba(39, 71, 118, 0.2)), url(/images/student.jpeg);
+  background-image: linear-gradient(180deg,rgba(0,0,0,.3),rgba(0,0,0,.5) 70%), url(/images/student.jpeg);
   background-size: cover;
   background-position: center;
   margin: 0px;
   padding: 0px;
-  width: 200vh;
+  width: 250vh;
   min-height: 50vh;
   -webkit-box-sizing: border-box;
   box-sizing: border-
+}
+.quote {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  font-size: 3em;
+
 }
 </style>
