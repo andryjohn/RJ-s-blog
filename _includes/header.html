@@ -1,15 +1,16 @@
 <header class="site-header px-responsive">
   <div class="mt2 wrap">
       <nav class="">
-{% include navigation.html %}
+    {% include navigation.html %}
       </nav>
 </header>
-<div class="menu-btn">
-  <span class="menu-line"></span>
-  <span class="menu-line"></span>
-  <span class="menu-text">MENU</span>
-</div>
  {% include banner.html %}
+<div class="menu-btn">
+         <span class="menu-line"></span>
+         <span class="menu-line"></span>
+         <span class="menu-text">MENU</span>
+  </div>
+
 <div class="home-btn" onclick="window.location.href = '{{site.url}}/'">
   <span class="static-menu-line"></span>
   <span class="home-text">HOME</span>
