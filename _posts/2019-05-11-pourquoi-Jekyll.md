@@ -2,10 +2,10 @@
 layout:     post
 title:      Pourquoi choisir Jekyll pour son site?
 date:       2019-05-11
-summary:   
+summary:
 categories: Developper skills
 mathjax: true
---- 
+---
 
 [<img src="/images/jekyll.jpg">](https://jekyllrb.com/)
 >Il faut savoir que pour créér ce site j'ai choisi d'utiliser *Jekyll* .
@@ -19,9 +19,9 @@ Tout d'abord, *Jekyll* est ecrit en [*Ruby*](https://rajohnson-andry.tk/developp
 ## Pourquoi ne pas choisir un CMS comme Wordpress?
 
 
-Un système de gestion de contenu (CMS) tel que "Wordpress", (*je cite ce dernier du fait de sa popularité auprès des developpeurs et des particuliers, mais il y en a  d'autres tel que Joomla, Drupal, Typo3, Magento, Prestashop*), aurait été parfait. 
+Un système de gestion de contenu (CMS) tel que "Wordpress", (*je cite ce dernier du fait de sa popularité auprès des developpeurs et des particuliers, mais il y en a  d'autres tel que Joomla, Drupal, Typo3, Magento, Prestashop*), aurait été parfait.
 
-Le problème justement réside dans sa popularité et aussi la technologie qu'il embarque. 
+Le problème justement réside dans sa popularité et aussi la technologie qu'il embarque.
 Wordpress est écrit en **PHP**, repose sur **une base de données MySQL** et est distribué par l'entreprise américaine [Automattic](https://automattic.com/).
 Du fait de sa popularité, (*je n'ai pas les chiffres en téte mais je crois que c'est 30% des sites mondiaux, c'est énorme*), les sites Wordpress subissent des attaques incessantes.
 
@@ -29,13 +29,13 @@ Du fait de sa popularité, (*je n'ai pas les chiffres en téte mais je crois que
 
 ![cms](/images/cms.jpeg)
 
----
+
 
 >*" La vitesse du site "*: Le couple **PHP&MySQL** et **hébergement mutualisé sur OVH**, en plus si vous rajoutez des plugins inutiles, bah sa ne fait pas  bon ménage! Et cela se fait ressent, Comment? Par les temps de chargement.. Votre site qui rame comme jamais et ce n'est le top!
- 
+
 ## Jekyll, comment ça marche ?
 
-Jekyll est un générateur de site statiques écrit en "Ruby". 
+Jekyll est un générateur de site statiques écrit en "Ruby".
 
 Cela peut paraître tout à fait absurde par rapport à un CMS mais cela apporte bien des avantages et notamment le fait qu'il peut etre couplé à [git et github](https://rajohnson-andry.tk/developper/skills/2019/05/05/maitrise-de-git/). Et c'est la, tout l'intérets, je m'explique:
 
@@ -62,7 +62,7 @@ Pour d’autres services, il est possible de les déployer aussi sur Github (ou 
 
 Enfin, Jekyll n’est pas limité aux blogs, on peut tout à fait réaliser d'autres projets, de faible envergures, j'entend, tel que les sites personnels, portefolio, site vitrines,  des pages produits en rajoutant les "layouts" correspondants. Il suffit en suite de définir dans chaque "fichier source" le layout à utiliser pour sa génération.
 
----
+
 
 <footer>
 	<cite title="author">Author: Andry Rajohnson</cite>
