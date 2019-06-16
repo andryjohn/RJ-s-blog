@@ -1,11 +1,10 @@
 ---
-layout: post
+layout: default_UI
 title: RJ's UI kit
 tags: design
 permalink: /design/
 ---
 
-![kit](/images/UI.png)
 
 >"99% du design d'une application web est contistué des mêmes composants, j'ai décidé d'en coder quelques uns et de vous les partagés!"
 
