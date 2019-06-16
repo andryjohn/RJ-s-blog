@@ -8,7 +8,7 @@ headshot: /images/headshot.jpg
 ---
 
 
-Je suis un developpeur passionné, diplomé d'une Licence professionnelle spécialité **Management des Réseaux et Système d'Information,** obtenu au sein de l'université [Panthéon-Assas Paris 2](https://www.u-paris2.fr).
+Je suis un developpeur passionné, diplomé d'une Licence professionnelle spécialité **Management des Réseaux et Système d'Informations,** obtenu au sein de l'université [Panthéon-Assas Paris 2](https://www.u-paris2.fr).
 
 De par mes expériences, je me suis orienté vers la conception de "produit web", j'adopte un [workflow](https://rajohnson-andry.tk/developper/skills/2019/05/11/Technical-workflow/) inspiré de la méthode [lean startup by Eric Ries](http://theleanstartup.com/) centré autour du ["github flow"](https://guides.github.com/introduction/flow/), adoptant les bonnes pratiques de *l'integration continue*.
 
@@ -17,7 +17,7 @@ De par mes expériences, je me suis orienté vers la conception de "produit web"
 
 
 
-Pour le code, le langage *Ruby* et l'utilisation de son framework [*"Ruby on Rails"*](https://rubyonrails.org/) m'a paru pertinent de part [sa grande productivité et sa fléxibilité](https://rajohnson-andry.tk/developper/skills/2019/05/03/ruby-on-rails/).
+Pour le code, le langage *Ruby* et l'utilisation de son framework [*"Ruby on Rails"*](https://rubyonrails.org/) m'a paru pertinent de part [sa grande productivité et sa flexibilité](https://rajohnson-andry.tk/developper/skills/2019/05/03/ruby-on-rails/).
 
 
 ---
