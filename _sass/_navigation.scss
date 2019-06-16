@@ -25,12 +25,13 @@ nav ul {
     transition: all 0.75s ease;
     background: url('/images/cerise.png');
     background-size: cover;
+    background-position: center;
 }
 
 nav .flexbox-parent {
     width: 100000%;
 }
-   
+
 nav li {
     list-style: none;
     margin: 4vh auto;
