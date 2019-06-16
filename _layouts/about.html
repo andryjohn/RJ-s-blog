@@ -3,7 +3,7 @@ layout: default_post
 ---
 
 <div style="text-align: center;">
-  <img style="border-radius: 50%; max-width: 20em;filter: grayscale(100%) contrast(100%); border: 1px solid #7CC6AD;padding: 5px;" src="{{site.url}}/{{ page.headshot }}">
+  <img src="{{site.url}}/{{ page.headshot }}" class="head blur">
 </div>
 <div class="post">
   <header class="post-header">
@@ -16,3 +16,16 @@ layout: default_post
   {{ content }}
   </article>
 </div>
+
+
+<style>
+
+.head {
+border-radius: 50%;
+max-width: 25em;
+filter: grayscale(25%), contrast(100%);
+border: 1px solid #7CC6AD;
+padding: 5px;
+}
+
+</style>
