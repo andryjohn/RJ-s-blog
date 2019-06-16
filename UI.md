@@ -13,6 +13,11 @@ J'ai décidé de coder les principaux "composants" ou "éléments de design" que
 ## *"UI kit"* :
 > *La majorité des composants utilisent [Bootstrap (4.3)](https://getbootstrap.com/) & [Fontawesome (5.7)](https://fontawesome.com/), si vous décidez d'en utiliser un ou plusieurs , incorporez ces librairies à vos projets!*
 
+## Avatar:
+[*Voir le code*](https://codepen.io/andryjohn/pen/KjVzbw)
+
+![avatar](/images/avatar.png)
+
 ## Landing page:
 
 [*Voir le code*](https://codepen.io/andryjohn/pen/EzVoWQ)
