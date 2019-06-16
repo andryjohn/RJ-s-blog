@@ -1,22 +1,47 @@
 <div class="container">
-<div class="banner-project"></div>
+<div class="banner-project">
+     {% include mac.html %}
+
+              <span class="quote-p">
+
+                <blockquote>
+                  <h1 class="quote">Open source project from "Freecodecamp repository"</h1>
+                </blockquote>
+              </span>
 </div>
-<div class="center"><p></p></div>
+</div>
+<div class="center">
+      <p>Thank for sharing this useful ressources</p>
+</div>
+
 <style>
+
+.container {
+  display: flex;
+  padding: 0px;
+}
 .banner-project {
-  position: relative;
-  -webkit-transition: visibility 0s linear 0s,opacity .4s 0s;
-  transition: visibility 0s linear 0s,opacity .4s 0s;
-  box-shadow: 0 0 5px rgba(0,0,0,0.5);
   display: block;
-  background-image: url(/images/free.gif);
-  margin-bottom: 5em;
+  box-shadow: 0 0 15px rgba(0,0,0,0.2);
+  background-image: linear-gradient(180deg,rgba(0,0,0,.3),rgba(0,0,0,.5) 70%), url(/images/van.jpeg);
+  background-size: cover;
   background-position: center;
-  background-size: cover:
-  padding: 5em;
-  min-width: 50vh;
-  min-height: 80vh;
-  -webkit-box-sizing: border-box;
-  box-sizing: border-
+  margin-left: 5em;
+  margin-right: 5em;
+  padding: 0px;
+  width: 200vh;
+  min-height: 50vh;
+}
+.quote {
+  display: flex;
+  justify-content: center;
+  color: white;
+  font-size: 2em;
+
+}
+.quote-p p {
+  display: flex;
+  justify-content: center;
+  color: white;
 }
 </style>
