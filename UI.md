@@ -18,13 +18,14 @@ Les codes sont visible sur [codepen.io](https://codepen.io/dashboard/), pour cha
 
 ## Avatar:
 
-Ce composant simple, néamoins indispensable sur nos profils de nos réseaux sociaux.
+Ce composant simple, néamoins indispensable sur les profils de nos réseaux sociaux.
 
 [*Voir le code*](https://codepen.io/andryjohn/pen/KjVzbw)
 
 ![avatar](/images/avatar.png)
 
 ## Buttons:
+
 [*Voir le code*](https://codepen.io/andryjohn/pen/KjVzbw)
 
 <div class="container-card">
@@ -59,6 +60,59 @@ Ce composant simple, néamoins indispensable sur nos profils de nos réseaux soc
   color: #4AB66A;
   opacity: 1;
 } </style>
+
+
+## Alerts!
+
+[*Voir le code*](https://codepen.io/andryjohn/pen/OYywBd)
+
+<div class="flash flash-success alert alert-dismissible fade show" role="alert">
+  <span><strong>Yay!</strong> 🎉 you successfully signed in to our service.</span>
+</div>
+
+<div class="flash flash-warning alert alert-dismissible fade show" role="alert">
+  <span><strong>Mmh</strong> 🤔 seems like you don't have <a href="#">profile picture</a> yet.</span>
+</div>
+
+<div class="flash flash-danger alert alert-dismissible fade show" role="alert">
+  <span><strong>Oops!</strong> 😱 a problem has occurred while processing your booking.</span>
+</div>
+
+
+<style>
+.flash {
+  padding: 16px 24px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: whitesmoke;
+  box-shadow: 0 0 8px rgba(0,0,0,0.2);
+  border-radius: 4px;
+  margin: 8px;
+}
+
+.flash-success {
+  border: 2px solid #1EDD88;
+}
+
+.flash-warning {
+  border: 2px solid #FFC65A;
+}
+
+.flash-danger {
+  border: 2px solid #FD1015;
+}
+.flash:hover {
+  webkit-transform: scale(1.2);
+  -moz-transform: scale(1.2);
+  -ms-transform: scale(1.2);
+  -o-transform: scale(1.2);
+  transform: scale(1.2);
+  transition: 0.9s;
+
+}
+</style>
+
 
 ## Landing page:
 
@@ -108,8 +162,8 @@ Ce composant simple, néamoins indispensable sur nos profils de nos réseaux soc
 <style>
 
 .card {
-  width: 25em;
-  height: 9em;
+  width: 15em;
+  height: 8em;
   text-shadow: 0 1px 3px rgba(0,0,0,0.6);
   background-size: cover !important;
   background-position: center;
@@ -170,7 +224,43 @@ Ce composant simple, néamoins indispensable sur nos profils de nos réseaux soc
 }
 </style>
 
+## Cards Netflix like:
+[*Voir le code*](https://codepen.io/andryjohn/pen/xoOxVq)
+<div class="container">
+        <div class="box">
+            <a href=""><img src="https://github.com/andryjohn/Netflix-Clone/blob/master/img/p1.PNG?raw=true" alt=""></a>
+            <a href=""><img src="https://github.com/andryjohn/Netflix-Clone/blob/master/img/p2.PNG?raw=true" alt=""></a>
+            <a href=""><img src="https://github.com/andryjohn/Netflix-Clone/blob/master/img/p3.PNG?raw=true" alt=""></a>
+            <a href=""><img src="https://github.com/andryjohn/Netflix-Clone/blob/master/img/p4.PNG?raw=true" alt=""></a>
+          </div>
+      </div>
 
+<style>
+.container {
+display: flex;
+}
+.box {
+  display: grid;
+  grid-gap: 5px;
+  grid-template-columns: repeat(2, minmax(110px, 1fr));
+}
+
+.box a {
+  transition: transform .3s;
+}
+
+.box a:hover {
+  transition: transform .3s;
+  -ms-transform: scale(1.4);
+  -webkit-transform: scale(1.4);
+  transform: scale(1.4);
+}
+
+.box img {
+  border-radius: 3px;
+   box-shadow: 0 0 15px rgba(0,0,0,0.2);
+}
+ </style>
 
 ## Card product :
 
