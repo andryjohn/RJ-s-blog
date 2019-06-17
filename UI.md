@@ -71,7 +71,7 @@ Ce composant simple, néamoins indispensable sur nos profils de nos réseaux soc
 [*Voir le code*](https://codepen.io/andryjohn/pen/ZdQRmb)
 <div class="row">
     <div class="col-xs-12 col-sm-4">
-    <div class="card" style="background-image: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.2)), url('https://source.unsplash.com/hrlvr2ZlUNk');">
+    <div class="card" style="background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.4)), url('https://source.unsplash.com/hrlvr2ZlUNk');">
   <div class="card-category">Popular</div>
   <div class="card-description">
     <h2>Breakfast</h2>
@@ -82,7 +82,7 @@ Ce composant simple, néamoins indispensable sur nos profils de nos réseaux soc
 </div>
     </div>
     <div class="col-xs-12 col-sm-4">
-  <div class="card" style="background-image: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.2)), url('https://source.unsplash.com/Pt_YmiYm7a4');">
+  <div class="card" style="background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.4)), url('https://source.unsplash.com/Pt_YmiYm7a4');">
   <div class="card-category">Popular</div>
   <div class="card-description">
     <h2>Brunch</h2>
@@ -93,8 +93,7 @@ Ce composant simple, néamoins indispensable sur nos profils de nos réseaux soc
 </div>
     </div>
     <div class="col-xs-12 col-sm-4">
-      <!-- insert <div class="card"> -->
-<div class="card" style="background-image: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.2)), url('https://source.unsplash.com//D-vDQMTfAAU');">
+<div class="card" style="background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.4)), url('https://source.unsplash.com//D-vDQMTfAAU');">
   <div class="card-category">Popular</div>
   <div class="card-description">
     <h2>Asian Foods</h2>
@@ -108,7 +107,7 @@ Ce composant simple, néamoins indispensable sur nos profils de nos réseaux soc
 
 <style>
 
-  .card {
+.card {
   width: 25em;
   height: 9em;
   text-shadow: 0 1px 3px rgba(0,0,0,0.6);
@@ -146,7 +145,7 @@ Ce composant simple, néamoins indispensable sur nos profils de nos réseaux soc
   font-size: 14px;
   opacity: 0.7;
   font-weight: lighter;
-  color: #0000;
+  color: #ffff;
 }
 .card-link {
   position: absolute;
