@@ -9,7 +9,7 @@ mathjax: true
 
 >"99% du design d'une application web est contistué des mêmes composants, j'ai décidé d'en coder quelques uns et de vous les partagés!"
 
-Ce sont des composants web que l'on trouve de manière récurrents sur nos applications web préférés, je vais en intégrer les principaux tels que l'avatar, les boutons, les bannières,... afin de vous les partagés et que vous puissiez  de les utilisés.
+Ce sont des **"composants web"** que l'on trouve de manière **récurrents** sur nos **applications web** préférés, je vais en intégrer les principaux tels que l'avatar, les boutons, les bannières,... afin de vous les partagés et que vous puissiez les utilisés.
 
 Les codes sont visible sur [codepen.io](https://codepen.io/dashboard/), pour chaques éléments, je vous renseigne le lien.
 
@@ -17,6 +17,9 @@ Les codes sont visible sur [codepen.io](https://codepen.io/dashboard/), pour cha
 > *La majorité des composants utilisent [Bootstrap (4.3)](https://getbootstrap.com/) & [Fontawesome (5.7)](https://fontawesome.com/), si vous décidez d'en utiliser un ou plusieurs , incorporez ces librairies à vos projets!*
 
 ## Avatar:
+
+Ce composant simple, néamoins indispensable sur nos profils de nos réseaux sociaux.
+
 [*Voir le code*](https://codepen.io/andryjohn/pen/KjVzbw)
 
 ![avatar](/images/avatar.png)
@@ -267,7 +270,6 @@ Les codes sont visible sur [codepen.io](https://codepen.io/dashboard/), pour cha
   </div>
 </div>
   <style>
-    }
 .card-trip {
   margin: 35px;
   overflow: hidden;
@@ -308,6 +310,14 @@ Les codes sont visible sur [codepen.io](https://codepen.io/dashboard/), pour cha
   top: -20px;
   width: 45px;
   border-radius: 50%;
+}
+.card-trip:hover {
+   webkit-transform: scale(1.2);
+  -moz-transform: scale(1.2);
+  -ms-transform: scale(1.2);
+  -o-transform: scale(1.2);
+  transform: scale(1.2);
+  transition: 0.9s;
 }
   </style>
 
