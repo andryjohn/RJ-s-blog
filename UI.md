@@ -125,7 +125,7 @@ Ce composant simple, néamoins indispensable sur les profils de nos réseaux soc
 [*Voir le code*](https://codepen.io/andryjohn/pen/ZdQRmb)
 <div class="row">
     <div class="col-xs-12 col-sm-4">
-    <div class="card" style="background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.4)), url('https://source.unsplash.com/hrlvr2ZlUNk');">
+    <div class="card" style="background-image: linear-gradient(rgba(0,0,0,0.2), rgba(0,0,0,0.3)), url('https://source.unsplash.com/hrlvr2ZlUNk');">
   <div class="card-category">Popular</div>
   <div class="card-description">
     <h2>Breakfast</h2>
@@ -136,7 +136,7 @@ Ce composant simple, néamoins indispensable sur les profils de nos réseaux soc
 </div>
     </div>
     <div class="col-xs-12 col-sm-4">
-  <div class="card" style="background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.4)), url('https://source.unsplash.com/Pt_YmiYm7a4');">
+  <div class="card" style="background-image: linear-gradient(rgba(0,0,0,0.2), rgba(0,0,0,0.3)), url('https://source.unsplash.com/Pt_YmiYm7a4');">
   <div class="card-category">Popular</div>
   <div class="card-description">
     <h2>Brunch</h2>
@@ -147,7 +147,7 @@ Ce composant simple, néamoins indispensable sur les profils de nos réseaux soc
 </div>
     </div>
     <div class="col-xs-12 col-sm-4">
-<div class="card" style="background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.4)), url('https://source.unsplash.com//D-vDQMTfAAU');">
+<div class="card" style="background-image: linear-gradient(rgba(0,0,0,0.2), rgba(0,0,0,0.3)), url('https://source.unsplash.com//D-vDQMTfAAU');">
   <div class="card-category">Popular</div>
   <div class="card-description">
     <h2>Asian Foods</h2>
@@ -415,14 +415,107 @@ display: flex;
 
 [*Voir le code*](https://codepen.io/andryjohn/pen/ZdQRmb)
 
-![Card](/images/breakfast.png)
+<figure class="pizza">
+  <div class="pizza">
+  <div class="pizza__herro">
+      <img src="https://images.unsplash.com/photo-1474600056930-615c3d706456?ixlib=rb-1.2.1&auto=format&fit=crop&w=1052&q=80" alt="pizza" class="pizza__img">
+  </div>
+    <div class="pizza__content">
+        <div class="pizza__title">
+            <h1 class="pizza__heading">Pizza Végétarienne 👌</h1>
+              <div class="pizza__tag pizza__tag--1">#vegetarian</div>
+               <div class="pizza__tag pizza__tag--2">#italian</div>
+                </div>
+                  <p class="pizza__description">Une délicieuse pizza veggie composé d'une sauce tomate maison, mozzarella, champignons, oignons rouges, olives & origan </p>
+                    <div class="pizza__details">
+                      <p class="pizza__detail"><span class="emoji">🍕</span>850 kcal</p>
+                        <p class="pizza__detail"><span class="emoji">⏱</span>30 min</p>
+                          <p class="pizza__detail"><span class="emoji">⭐</span>4.7 / 5</p>
+                            </div>
+                        </div>
+                       <div class="pizza__price">$11.99</div>
+                    </div>
+                </figure>
+  <style>
 
+.pizza {
+  max-width: 800px;
+  border-radius: 4px;
+  overflow: hidden;
+  box-shadow: 0 30px 80px 10px rgba(0, 0, 0, 0.2);
+  display: flex;
+  height: 250px;
+}
+.pizza__herro {
+  flex: 0 0 45%;
+}
+.pizza__img {
+  width: 100%;
+  height: 100%;
+}
+.pizza__content {
+  flex: 1;
+  background-color: white;
+  padding: 10px 45px;
+  display: flex;
+  flex-direction: column;
+}
+.pizza__price {
+  flex: 0 0 50px;
+  background: linear-gradient(to bottom, #67b26f, #4ca2cd);
+  color: white;
+  writing-mode: vertical-rl;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.pizza__title {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+}
+.pizza__heading {
+  font-size: 20px;
+  /*flex: 1;*/
+  margin-right: auto;
+}
+.pizza__tag {
+  font-size: 10px;
+  text-transform: uppercase;
+  padding: 2px 7px;
+  margin-left: 7px;
+  border-radius: 100px;
+}
+.pizza__tag--1 { background-color: #67b26f; }
+.pizza__tag--2 { background-color: #4ca2cd; }
+.pizza__description {
+  font-size: 14px;
+}
+.pizza__details {
+  display: flex;
+  margin-top: auto;
+}
+.pizza__detail {
+  font-size: 15px;
+  text-transform: uppercase;
+  margin-right: 20px;
+  font-weight: 700;
+  display: flex;
+  align-items: center;
+}
+.emoji {
+  font-size: 18px;
+  margin-right: 3px;
+}
+.pizza:hover {
+ webkit-transform: scale(1.1);
+  -moz-transform: scale(1.1);
+  -ms-transform: scale(1.1);
+  -o-transform: scale(1.1);
+  transform: scale(1.1);
+  transition: 0.6s;
 
-
-## *"Responsive" sur les appareils mobiles*:
-[*Voir le code*](https://codepen.io/andryjohn/pen/agdRYm)
-
-![Cards reponsive](/images/Responsive.png)
+}2</style>
 
 ## Messages:
 
