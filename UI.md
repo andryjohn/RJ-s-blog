@@ -221,10 +221,12 @@ Ce composant simple, néamoins indispensable sur les profils de nos réseaux soc
   transition: 0.9s;
 }
 
-}
 </style>
 
+
 ## Cards Netflix like:
+
+
 [*Voir le code*](https://codepen.io/andryjohn/pen/xoOxVq)
 <div class="container">
         <div class="box">
@@ -274,6 +276,8 @@ display: flex;
     </div>
 </div>
 <style>
+
+
 .card-product {
   margin: 35px;
   overflow: hidden;
@@ -359,6 +363,8 @@ display: flex;
   </div>
 </div>
   <style>
+
+
 .card-trip {
   margin: 35px;
   overflow: hidden;
@@ -411,9 +417,11 @@ display: flex;
   </style>
 
 
+
+
 ## Card category:
 
-[*Voir le code*](https://codepen.io/andryjohn/pen/ZdQRmb)
+[*Voir le code*](https://codepen.io/andryjohn/pen/XwqBOZ)
 
 <figure class="pizza">
   <div class="pizza">
@@ -436,7 +444,10 @@ display: flex;
                        <div class="pizza__price">$11.99</div>
                     </div>
                 </figure>
-  <style>
+
+
+ <style>
+
 
 .pizza {
   max-width: 800px;
@@ -476,7 +487,6 @@ display: flex;
 }
 .pizza__heading {
   font-size: 20px;
-  /*flex: 1;*/
   margin-right: auto;
 }
 .pizza__tag {
@@ -515,7 +525,9 @@ display: flex;
   transform: scale(1.1);
   transition: 0.6s;
 
-}2</style>
+}
+</style>
+
 
 ## Messages:
 
