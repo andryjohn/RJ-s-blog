@@ -63,6 +63,73 @@ Ce composant simple, néamoins indispensable sur les profils de nos réseaux soc
   opacity: 1;
 } </style>
 
+## Nav Bar:
+
+[*Voir le code*](https://codepen.io/andryjohn/pen/rELRwx)
+
+<div class="container">
+  <ul>
+    <li class="default"><a href="#"><i class="fa fa-home"></i></a></li>
+    <li><a href="#">About</a></li>
+    <li><a href="#">Services</a></li>
+    <li><a href="#">Blog</a></li>
+    <li><a href="#">Contact</a></li>
+  </ul>
+</div>
+
+
+
+<style>
+
+.container {
+  display: flex;
+  text-align: center;
+  font-size: 1.35em;
+  }
+
+.container ul {
+  width: 100%;
+  padding: 0px;
+  border-radius: .25em;
+  background: whitesmoke;
+  list-style:none;
+  text-align: center;
+  }
+
+.container li {
+  position:relative;
+  display:inline-block;
+  border-bottom: none;
+  border-radius: .25em .25em 0 0;
+  }
+
+.container li:hover { box-shadow: 0 -5px 0 #f47321; }
+
+.container a {
+  color:#f47321;
+  display:block;
+  padding: .5em;
+  text-decoration:none;
+  }
+
+.container a:hover {
+  border-radius: 0 0 .25em .25em;
+  background: #f47321;
+  box-shadow: 0 5px 0 #dc6519;
+  color:white;
+  text-shadow: 0 -1px 0 rgba(0,0,0,0.3);
+  }
+.default { box-shadow: 0 -5px 0 #f47321; }
+
+.default a {
+  background: #f47321;
+  box-shadow: 0 5px 0 #dc6519;
+  color:white;
+  border-radius: 0 0 .25em .25em;
+  text-shadow: 0 -1px 0 rgba(0,0,0,0.3);
+  }
+</style>
+
 
 ## Alerts!
 
@@ -232,10 +299,10 @@ Ce composant simple, néamoins indispensable sur les profils de nos réseaux soc
 [*Voir le code*](https://codepen.io/andryjohn/pen/xoOxVq)
 <div class="container">
         <div class="box">
-            <a href=""><img src="https://github.com/andryjohn/Netflix-Clone/blob/master/img/p1.PNG?raw=true" alt=""></a>
-            <a href=""><img src="https://github.com/andryjohn/Netflix-Clone/blob/master/img/p2.PNG?raw=true" alt=""></a>
-            <a href=""><img src="https://github.com/andryjohn/Netflix-Clone/blob/master/img/p3.PNG?raw=true" alt=""></a>
-            <a href=""><img src="https://github.com/andryjohn/Netflix-Clone/blob/master/img/p4.PNG?raw=true" alt=""></a>
+            <img src="https://github.com/andryjohn/Netflix-Clone/blob/master/img/p1.PNG?raw=true" alt="">
+            <img src="https://github.com/andryjohn/Netflix-Clone/blob/master/img/p2.PNG?raw=true" alt="">
+            <img src="https://github.com/andryjohn/Netflix-Clone/blob/master/img/p3.PNG?raw=true" alt="">
+            <img src="https://github.com/andryjohn/Netflix-Clone/blob/master/img/p4.PNG?raw=true" alt="">
           </div>
       </div>
 
@@ -249,15 +316,15 @@ display: flex;
   grid-template-columns: repeat(2, minmax(110px, 1fr));
 }
 
-.box a {
+.box {
   transition: transform .3s;
 }
 
-.box a:hover {
+.box img:hover {
   transition: transform .3s;
-  -ms-transform: scale(1.4);
-  -webkit-transform: scale(1.4);
-  transform: scale(1.4);
+  -ms-transform: scale(1.1);
+  -webkit-transform: scale(1.1);
+  transform: scale(1.1);
 }
 
 .box img {
@@ -409,11 +476,11 @@ display: flex;
   border-radius: 50%;
 }
 .card-trip:hover {
-   webkit-transform: scale(1.2);
-  -moz-transform: scale(1.2);
-  -ms-transform: scale(1.2);
-  -o-transform: scale(1.2);
-  transform: scale(1.2);
+   webkit-transform: scale(1.1);
+  -moz-transform: scale(1.1);
+  -ms-transform: scale(1.1);
+  -o-transform: scale(1.1);
+  transform: scale(1.1);
   transition: 0.9s;
 }
   </style>
@@ -520,11 +587,11 @@ display: flex;
   margin-right: 3px;
 }
 .pizza:hover {
- webkit-transform: scale(1.1);
-  -moz-transform: scale(1.1);
-  -ms-transform: scale(1.1);
-  -o-transform: scale(1.1);
-  transform: scale(1.1);
+ webkit-transform: scale(1.025);
+  -moz-transform: scale(1.025);
+  -ms-transform: scale(1.025);
+  -o-transform: scale(1.025);
+  transform: scale(1.025);
   transition: 0.6s;
 
 }
