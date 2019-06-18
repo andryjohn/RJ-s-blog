@@ -5,13 +5,11 @@ tags: design
 permalink: /design/
 mathjax: true
 ---
-
-
 >"99% du design d'une application web est contistué des mêmes composants, j'ai décidé d'en coder quelques uns et de vous les partagés!"
 
 Ce sont des **"composants web"** que l'on trouve de manière **récurrents**.
 
- je vais en intégrer les plus connus, tels que les avatars, les boutons, les bannières,... afin de vous les partagés  et cela me permet d'avoir ma propre librairie.
+ je vais en intégrer les plus connus, tels que les avatars, les boutons, les bannières,... afin de vous les partagés  et cela me permettra d'avoir ma propre librairie.
 
 Les codes sont visible sur [codepen.io](https://codepen.io/dashboard/), pour chaques éléments, je vous renseigne le lien.
 
