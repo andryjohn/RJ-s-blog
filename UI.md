@@ -4,6 +4,7 @@ title: RJ's UI kit
 tags: design
 permalink: /design/
 mathjax: true
+anchorjs: true
 ---
 
 
