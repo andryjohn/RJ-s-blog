@@ -493,7 +493,6 @@ display: flex;
 
 [*Voir le code*](https://codepen.io/andryjohn/pen/XwqBOZ)
 
-<figure class="pizza">
   <div class="pizza">
   <div class="pizza__herro">
       <img src="https://images.unsplash.com/photo-1474600056930-615c3d706456?ixlib=rb-1.2.1&auto=format&fit=crop&w=1052&q=80" alt="pizza" class="pizza__img">
@@ -513,7 +512,7 @@ display: flex;
                         </div>
                        <div class="pizza__price">$11.99</div>
                     </div>
-                </figure>
+
 
 
  <style>
@@ -602,6 +601,8 @@ display: flex;
 ## Contact form:
 
 [*Voir le code*](https://codepen.io/andryjohn/pen/Wqxpox)
+
+
 <form id="contact" action="" method="post">
     <h3>Get in Touch</h3>
     <fieldset>
