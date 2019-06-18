@@ -11,7 +11,7 @@ Ce sont des **"composants web"** que l'on trouve de manière **récurrents**.
 
  je vais en intégrer les plus connus, tels que les avatars, les boutons, les bannières,... afin de vous les partagés  et cela me permettra d'avoir ma propre librairie.
 
-Les codes sont visible sur [codepen.io](https://codepen.io/dashboard/), pour chaques éléments, je vous renseigne le lien.
+Pour chaques éléments, les codes sont visible sur [codepen.io](https://codepen.io/dashboard/).
 
 ## *"UI kit"* :
 > *La majorité des composants utilisent [Bootstrap (4.3)](https://getbootstrap.com/) & [Fontawesome (5.7)](https://fontawesome.com/), si vous décidez d'en utiliser un ou plusieurs , incorporez ces librairies à vos projets!*
