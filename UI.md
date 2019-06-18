@@ -4,7 +4,6 @@ title: RJ's UI kit
 tags: design
 permalink: /design/
 mathjax: true
-anchorjs: true
 ---
 
 
@@ -334,6 +333,101 @@ display: flex;
 }
  </style>
 
+## Product Hunt list:
+
+[*Voir le code*]()
+
+<div class="wrap">
+  <ul class="list-unstyled">
+        <li class="product">
+ <div class="product-upvote text-center">
+            <i class="fa fa-caret-up"></i>
+            <p>685</p>
+       </div>
+<img src="http://source.unsplash.com/200x120" alt="" class="product-image img-rounded">
+<div class="product-description">
+            <h3>Slack</h3>
+            <p>The best chat tool.</p>
+          </div>
+<ul class="list-inline product-controls">
+            <li><a href=""><i class="fa fa-heart"></i></a></li>
+            <li><a href=""><i class="fa fa-share"></i></a></li>
+            <li><a href=""><i class="fa fa-star"></i></a></li>
+          </ul>
+        </li>
+        <li class="product">
+<div class="product-upvote text-center">
+            <i class="fa fa-caret-up"></i>
+            <p>1250</p>
+          </div>
+<img src="http://source.unsplash.com/200x120" alt="" class="product-image img-rounded">
+<div class="product-description">
+            <h3>Stripe</h3>
+            <p>The best payment API.</p>
+    </div>
+<ul class="list-inline product-controls">
+            <li><a href=""><i class="fa fa-heart"></i></a></li>
+            <li><a href=""><i class="fa fa-share"></i></a></li>
+            <li><a href=""><i class="fa fa-star"></i></a></li>
+          </ul>
+        </li>
+        <li class="product">
+ <div class="product-upvote text-center">
+            <i class="fa fa-caret-up"></i>
+            <p>542</p>
+          </div>
+ <img src="http://unsplash.it/200/120/?random" alt="" class="product-image img-rounded">
+<div class="product-description">
+            <h3>Intercom</h3>
+            <p>The best CRM tool.</p>
+          </div>
+<ul class="list-inline product-controls">
+            <li><a href=""><i class="fa fa-heart"></i></a></li>
+            <li><a href=""><i class="fa fa-share"></i></a></li>
+            <li><a href=""><i class="fa fa-star"></i></a></li>
+          </ul>
+        </li>
+      </ul>
+</div>
+
+<style>
+
+.product {
+  margin: 0px;
+  background-color: whitesmoke;
+  box-shadow: 0 0 3px rgba(0,0,0,0.2);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  transition: all 0.3s ease;
+  border-radius: 3px;
+}
+
+.product:hover {
+  background: #cccc;
+}
+
+.product:hover .product-upvote {
+  font-size: 25px;
+}
+
+.product-upvote {
+  font-size: 20px;
+  padding: 20px;
+  transition: all 0.3s ease;
+}
+
+.product-description {
+  flex: 1 0 auto;
+  padding: 20px;
+}
+.product-controls a {
+  font-size: 15px;
+  color: #CCCCCC;
+}
+</style>
+
 ## Card product :
 
 [*Voir le code*](https://codepen.io/andryjohn/pen/XwmYqw)
@@ -343,7 +437,7 @@ display: flex;
   <div class="card-product-infos">
     <h2>Macbook Pro</h2>
     <p>Product description with <strong>relevant info</strong> only.</p>
-    </div>
+   </div>
 </div>
 <style>
 
@@ -512,12 +606,7 @@ display: flex;
                         </div>
                        <div class="pizza__price">$11.99</div>
                     </div>
-
-
-
- <style>
-
-
+<style>
 .pizza {
   max-width: 800px;
   border-radius: 4px;
@@ -602,7 +691,6 @@ display: flex;
 
 [*Voir le code*](https://codepen.io/andryjohn/pen/Wqxpox)
 
-
 <form id="contact" action="" method="post">
     <h3>Get in Touch</h3>
     <fieldset>
@@ -618,7 +706,6 @@ display: flex;
       <button name="submit" type="submit" id="contact-submit" data-submit="...Sending">Submit</button>
     </fieldset>
   </form>
-
 <style>
 #contact input[type="text"],
 #contact input[type="email"],

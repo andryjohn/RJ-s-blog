@@ -41,9 +41,6 @@ Si vous parcourez les articles de ce site, vous vous rendrez vite compte que la 
 
 [Le site est généré avec Jekyll](https://rajohnson-andry.tk/developper/skills/2019/05/11/pourquoi-Jekyll/).
 
-## Design
-
-Inspiration [medium.com](https://medium.com/), et [ligne directrice](https://rajohnson-andry.tk/technique/2019/06/05/Rules-for-design/)
 <footer>
 	<cite title="author">Author et design by Andry Rajohnson, Fullstack developer</cite>
 </footer>
