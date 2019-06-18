@@ -39,7 +39,7 @@ Ce composant simple, néamoins indispensable sur les profils de nos réseaux soc
   color: #999999;
   border: 1px solid #999999;
   padding: 10px 15px;
-  margin: px;
+  margin: 10px;
   border-radius: 50px;
   font-weight: lighter;
   opacity: 0.6;
