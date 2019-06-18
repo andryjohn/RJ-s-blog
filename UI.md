@@ -397,7 +397,7 @@ display: flex;
 
 ## Card trip:
 
-[*Voir le code*](https://codepen.io/andryjohn/pen/XwmYqw)
+[*Voir le code*](https://codepen.io/andryjohn/pen/agdRYm)
 
 <div class="card-trip">
   <img src="https://source.unsplash.com/vO0hUESehtc">
