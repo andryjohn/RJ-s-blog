@@ -1,6 +1,6 @@
 ---
 layout:     post
-title:      PostgreSQL Command Cheasheet
+title:      PostgreSQL Command Cheatsheet
 date:       2019-06-19
 summary:
 categories: Technique
