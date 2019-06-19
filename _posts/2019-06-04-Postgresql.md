@@ -247,7 +247,7 @@ This will group the rows together by the venue_id, count is then performed on ea
 - [Tech Republic](http://www.techrepublic.com/blog/diy-it-guy/diy-a-postgresql-database-server-setup-anyone-can-handle/)
 - [PostGIS install](http://postgis.net/install/)
 - [PostGIS docs](http://postgis.net/docs/manual-2.3/)
--  [Stating with Postgres](https://rajohnson-andry.tk/technique/2019/06/04/Postgresql/)
+
 
 
 
