@@ -5,6 +5,7 @@ tags: design
 permalink: /design/
 mathjax: true
 ---
+
 >"99% du design d'une application web est contistué des mêmes composants, j'ai décidé d'en coder quelques uns et de vous les partagés!"
 
 Ce sont des **"composants web"** que l'on trouve de manière **récurrents**.
@@ -290,47 +291,6 @@ Ce composant simple, néamoins indispensable sur les profils de nos réseaux soc
 
 </style>
 
-
-## Cards Netflix like:
-
-
-[*Voir le code*](https://codepen.io/andryjohn/pen/xoOxVq)
-<div class="container">
-        <div class="box">
-            <img src="https://github.com/andryjohn/Netflix-Clone/blob/master/img/p1.PNG?raw=true" alt="">
-            <img src="https://github.com/andryjohn/Netflix-Clone/blob/master/img/p2.PNG?raw=true" alt="">
-            <img src="https://github.com/andryjohn/Netflix-Clone/blob/master/img/p3.PNG?raw=true" alt="">
-            <img src="https://github.com/andryjohn/Netflix-Clone/blob/master/img/p4.PNG?raw=true" alt="">
-          </div>
-      </div>
-
-<style>
-.container {
-display: flex;
-}
-.box {
-  display: grid;
-  grid-gap: 5px;
-  grid-template-columns: repeat(2, minmax(110px, 1fr));
-}
-
-.box {
-  transition: transform .3s;
-}
-
-.box img:hover {
-  transition: transform .3s;
-  -ms-transform: scale(1.1);
-  -webkit-transform: scale(1.1);
-  transform: scale(1.1);
-}
-
-.box img {
-  border-radius: 3px;
-   box-shadow: 0 0 15px rgba(0,0,0,0.2);
-}
- </style>
-
 ## Product Hunt list:
 
 [*Voir le code*]()
@@ -585,7 +545,7 @@ display: flex;
 
 [*Voir le code*](https://codepen.io/andryjohn/pen/XwqBOZ)
 
-  <div class="pizza">
+<div class="pizza">
   <div class="pizza__herro">
       <img src="https://images.unsplash.com/photo-1474600056930-615c3d706456?ixlib=rb-1.2.1&auto=format&fit=crop&w=1052&q=80" alt="pizza" class="pizza__img">
   </div>
@@ -594,7 +554,7 @@ display: flex;
             <h1 class="pizza__heading">Pizza Végétarienne 👌</h1>
               <div class="pizza__tag pizza__tag--1">#vegetarian</div>
                <div class="pizza__tag pizza__tag--2">#italian</div>
-                </div>
+                 </div>
                   <p class="pizza__description">Une délicieuse pizza veggie composé d'une sauce tomate maison, mozzarella, champignons, oignons rouges, olives & origan </p>
                     <div class="pizza__details">
                       <p class="pizza__detail"><span class="emoji">🍕</span>850 kcal</p>
@@ -685,7 +645,7 @@ display: flex;
 </style>
 
 
-## Contact form:
+<!-- ## Contact form:
 
 [*Voir le code*](https://codepen.io/andryjohn/pen/Wqxpox)
 
@@ -815,7 +775,7 @@ fieldset {
 :-ms-input-placeholder {
   color: #888;
 }
-</style>
+</style>-->
 
 
 ## Messages:
