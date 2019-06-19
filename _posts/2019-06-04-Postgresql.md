@@ -2,19 +2,19 @@
 layout:     post
 title:      Starting with Postgresql
 date:       2019-06-04
-summary:   
+summary:
 categories: Technique
 ---
 
 
 ![pg](/images/pg.jpeg)
->PostgreSQL is a powerful, open source object-relational database system that uses and extends the **SQL language** combined with many features that safely store and scale the most complicated data workloads. 
+>PostgreSQL is a powerful, open source object-relational database system that uses and extends the **SQL language** combined with many features that safely store and scale the most complicated data workloads.
 
 The origins of PostgreSQL date back to 1986 as part of the POSTGRES project at the University of California at Berkeley and has more than 30 years of active development on the core platform.
 
 ## Why use PostgreSQL?
 
-PostgreSQL comes with many features aimed to help developers build applications, administrators to protect data integrity and build fault-tolerant environments, and help you manage your data no matter how big or small the dataset. 
+PostgreSQL comes with many features aimed to help developers build applications, administrators to protect data integrity and build fault-tolerant environments, and help you manage your data no matter how big or small the dataset.
 
 In addition to being free and open source, PostgreSQL is highly extensible. For example, you can define your own data types, build out custom functions, even write code from different programming languages without recompiling your database!
 <footer>
@@ -91,11 +91,11 @@ You can now connect to PostgreSQL by running `psql`.
 
 ### Create your first PostgreSQL database
 
-1. To start PostgreSQL, type this command into the terminal:  
-`psql`  
+1. To start PostgreSQL, type this command into the terminal:
+`psql`
 
-2. Next type this command into the PostgreSQL interface:  
-`CREATE DATABASE test;`  
+2. Next type this command into the PostgreSQL interface:
+`CREATE DATABASE test;`
 **NOTE:** Don't forget the semi-colon. If you do, useful error messages won't
 show up.
 
@@ -105,10 +105,10 @@ You should see something like this in your terminal:
 
 ### Create new users for your database
 
-1. If you closed the PostgreSQL server, start it again with:  
-` psql`  
+1. If you closed the PostgreSQL server, start it again with:
+` psql`
 
-2. To create a new user, type the following into the psql prompt:  
+2. To create a new user, type the following into the psql prompt:
     ```sql
     CREATE USER testuser;
     ```
@@ -120,7 +120,7 @@ Users can be given certain permissions to access any given database you have
 created.
 
 4. Next we need to give our user permissions to access the test database we
-created above. Enter the following command into the `psql` prompt:  
+created above. Enter the following command into the `psql` prompt:
     ```sql
     GRANT ALL PRIVILEGES ON DATABASE test TO testuser;
     ```
@@ -137,13 +137,13 @@ extend it to include PostGIS. Follow these steps to begin using PostGIS:
 steps above to enable your default user to be able to access the `psql` prompt.
 (_[installation step 7](#installation)_)
 
-2. Type the following into the `psql` prompt to add the extension:  
+2. Type the following into the `psql` prompt to add the extension:
 `CREATE EXTENSION postgis;`
 
 #### PostGIS Distance between two sets of coordinates
 
 After you've extended PostgreSQL with PostGIS you can begin to use it. Type
-the following command into the `psql` command line:  
+the following command into the `psql` command line:
 
 ```sql
 SELECT ST_Distance(gg1, gg2) As spheroid_dist
@@ -179,11 +179,11 @@ Once you are serving the database from your computer
 VALUES ( col_value)`
 col_name only require if only some of the cols are being filled out
 
-- To edit a column to a table 
+- To edit a column to a table
 `ALTER TABLE table_name
   ALTER COLUMN column_name SET DEFAULT expression`
 
-- To add a column to a table 
+- To add a column to a table
 `ALTER TABLE table_name
   ADD COLUMN column_name data_type`
 
@@ -247,7 +247,8 @@ This will group the rows together by the venue_id, count is then performed on ea
 - [Tech Republic](http://www.techrepublic.com/blog/diy-it-guy/diy-a-postgresql-database-server-setup-anyone-can-handle/)
 - [PostGIS install](http://postgis.net/install/)
 - [PostGIS docs](http://postgis.net/docs/manual-2.3/)
-- [PostGIS ST_Distance](http://postgis.net/docs/ST_Distance.html)
+-  [Stating with Postgres](https://rajohnson-andry.tk/technique/2019/06/04/Postgresql/)
+
 
 
 <footer>By Andry Rajohnson</footer>
