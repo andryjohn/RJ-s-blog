@@ -193,7 +193,7 @@ Ce composant simple, néamoins indispensable sur les profils de nos réseaux soc
 [*Voir le code*](https://codepen.io/andryjohn/pen/ZdQRmb)
 <div class="row">
     <div class="col-xs-12 col-sm-4">
-    <div class="card" style="background-image: linear-gradient(rgba(0,0,0,0.2), rgba(0,0,0,0.3)), url('https://source.unsplash.com/hrlvr2ZlUNk');">
+    <div class="card" style="background-image: linear-gradient(rgba(0,0,0,0.1), rgba(0,0,0,0.3)), url('https://source.unsplash.com/hrlvr2ZlUNk');">
   <div class="card-category">Popular</div>
   <div class="card-description">
     <h2>Breakfast</h2>
@@ -204,7 +204,7 @@ Ce composant simple, néamoins indispensable sur les profils de nos réseaux soc
 </div>
     </div>
     <div class="col-xs-12 col-sm-4">
-  <div class="card" style="background-image: linear-gradient(rgba(0,0,0,0.2), rgba(0,0,0,0.3)), url('https://source.unsplash.com/Pt_YmiYm7a4');">
+  <div class="card" style="background-image: linear-gradient(rgba(0,0,0,0.1), rgba(0,0,0,0.3)), url('https://source.unsplash.com/Pt_YmiYm7a4');">
   <div class="card-category">Popular</div>
   <div class="card-description">
     <h2>Brunch</h2>
@@ -215,7 +215,7 @@ Ce composant simple, néamoins indispensable sur les profils de nos réseaux soc
 </div>
     </div>
     <div class="col-xs-12 col-sm-4">
-<div class="card" style="background-image: linear-gradient(rgba(0,0,0,0.2), rgba(0,0,0,0.3)), url('https://source.unsplash.com//D-vDQMTfAAU');">
+<div class="card" style="background-image: linear-gradient(rgba(0,0,0,0.1), rgba(0,0,0,0.3)), url('https://source.unsplash.com//D-vDQMTfAAU');">
   <div class="card-category">Popular</div>
   <div class="card-description">
     <h2>Asian Foods</h2>
@@ -281,11 +281,11 @@ Ce composant simple, néamoins indispensable sur les profils de nos réseaux soc
 }
 .card:hover {
    margin: 10px;
-   webkit-transform: scale(1.2);
-  -moz-transform: scale(1.2);
-  -ms-transform: scale(1.2);
-  -o-transform: scale(1.2);
-  transform: scale(1.2);
+   webkit-transform: scale(1.1);
+  -moz-transform: scale(1.1);
+  -ms-transform: scale(1.1);
+  -o-transform: scale(1.1);
+  transform: scale(1.1);
   transition: 0.9s;
 }
 
@@ -436,11 +436,11 @@ Ce composant simple, néamoins indispensable sur les profils de nos réseaux soc
 }
 
 .card-product:hover {
-  webkit-transform: scale(1.2);
-  -moz-transform: scale(1.2);
-  -ms-transform: scale(1.2);
-  -o-transform: scale(1.2);
-  transform: scale(1.2);
+  webkit-transform: scale(1.1);
+  -moz-transform: scale(1.1);
+  -ms-transform: scale(1.1);
+  -o-transform: scale(1.1);
+  transform: scale(1.1);
   transition: 0.8s;
 }
 </style>
@@ -529,11 +529,11 @@ Ce composant simple, néamoins indispensable sur les profils de nos réseaux soc
   border-radius: 50%;
 }
 .card-trip:hover {
-   webkit-transform: scale(1.1);
-  -moz-transform: scale(1.1);
-  -ms-transform: scale(1.1);
-  -o-transform: scale(1.1);
-  transform: scale(1.1);
+   webkit-transform: scale(1.05);
+  -moz-transform: scale(1.05);
+  -ms-transform: scale(1.05);
+  -o-transform: scale(1.05);
+  transform: scale(1.05);
   transition: 0.9s;
 }
   </style>
