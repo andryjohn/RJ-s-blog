@@ -24,7 +24,7 @@ Pour le code, le langage *Ruby* et l'utilisation de son framework [*"Ruby on Rai
 
 ---
 
-![rails](/images/rails.png)
+![rails](/images/rails.jpg)
 <div class="center"><p>All famous web application build with <a href="https://rubyonrails.org/">Ruby on Rails</a></p></div>
 
 
