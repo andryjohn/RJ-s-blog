@@ -10,29 +10,23 @@ headshot: /images/headshot.jpg
 
 Je suis un developpeur passionné, diplomé d'une Licence professionnelle spécialité **Management des Réseaux et Système d'Informations,** obtenu au sein de l'université [Panthéon-Assas Paris 2](https://www.u-paris2.fr).
 
-De part mes expériences, je me suis orienté vers la conception de "d'application web", avec une culture du *produit*.
-
- j'adopte un [workflow](https://rajohnson-andry.tk/developper/skills/2019/05/11/Technical-workflow/) inspiré de la méthode [lean startup by Eric Ries](http://theleanstartup.com/) centré autour du ["github flow"](https://guides.github.com/introduction/flow/), adoptant les bonnes pratiques de *l'integration continue*.
+ Avec une culture *produit*, je me suis orienté vers la conception de "d'application web".
 
 >"Le code n'est pas une finalité en soi, mais un outil puissant pour développer des produits utiles"
 
+Familié de la méthode [lean startup by Eric Ries](http://theleanstartup.com/), j'adopte un [workflow](https://rajohnson-andry.tk/developper/skills/2019/05/11/Technical-workflow/) centré autour du ["github flow"](https://guides.github.com/introduction/flow/), adoptant les bonnes pratiques de *l'integration continue*.
 
 
 
-Pour le code, le langage *Ruby* et l'utilisation de son framework [*"Ruby on Rails"*](https://rubyonrails.org/) m'a paru pertinent de part [sa grande productivité et sa flexibilité](https://rajohnson-andry.tk/developper/skills/2019/05/03/ruby-on-rails/).
 
+Au quotidien, je développe avec le langage *Ruby* et l'utilisation de son framework [*"Ruby on Rails"*](https://rubyonrails.org/) de part [sa grande productivité et sa flexibilité](https://rajohnson-andry.tk/developper/skills/2019/05/03/ruby-on-rails/).
+
+Membre de la communauté ["Ruby parisiène"](https://rubyparis.org/), je suis souvent présent lors des meetups, en essayant de joindre l'utile à l'agréable, donc si vous êtes une "Startup" ou un particulier avec "un projet Tech", n'hésitez pas à me [contacter](https://rajohnson-andry.tk/contact/), je serai ravi d'intégrer votre équipe ou vous orientez vers la *technologie appropriée* et vous aider à réaliser votre "Vision.
 
 ---
 
 ![rails](/images/rails.jpg)
 <div class="center"><p>All famous web application build with <a href="https://rubyonrails.org/">Ruby on Rails</a></p></div>
-
-
-
-*Vous êtes une "Startup" ou un particulier avec "un projet Tech", mais vous manquez de **connaissances techniques**, n'hésitez pas à me contacter, je serai ravi d'intégrer votre équipe ou vous orientez vers la *technologie appropriée* et vous aider à réaliser votre **"Vision"**
----
-
-
 
 
 
