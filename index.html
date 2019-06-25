@@ -4,14 +4,21 @@ layout: default
 tags: Accueil
 ---
 
- <h2>Un article en particulier?</h2>
+{% include google-search.html %}
 
+<<<<<<< HEAD
   {% include google-search.html %}
 
   <div class="center">
   {% include social_links.html %}
 </div>
 {% assign posts_count = (paginator.posts | size) %}
+=======
+ <div class="center">
+  {% include social_links.html %}
+ </div>
+{% assign posts_count = paginator.posts | size %}
+>>>>>>> reset
 
 <div class="clearfix">
 <div class="home">
