@@ -4,15 +4,11 @@ layout: default
 tags: Accueil
 ---
 
- <h2>Un article en particulier?</h2>
-
 {% include google-search.html %}
 
-
-  <div class="center">
+ <div class="center">
   {% include social_links.html %}
-
-</div>
+ </div>
 {% assign posts_count = paginator.posts | size %}
 
 <div class="clearfix">
