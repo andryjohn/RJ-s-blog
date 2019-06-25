@@ -6,12 +6,14 @@ tags: Accueil
 
  <h2>Un article en particulier?</h2>
 
-  {% include google-search.html %}
+{% include google-search.html %}
+
 
   <div class="center">
-  {% include share_buttons.html %}
+  {% include social_links.html %}
+
 </div>
-{% assign posts_count = (paginator.posts | size) %}
+{% assign posts_count = paginator.posts | size %}
 
 <div class="clearfix">
 <div class="home">
