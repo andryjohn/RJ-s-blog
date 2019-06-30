@@ -1,7 +1,7 @@
 <div class="container">
   <div class="banner">
      <div class="p-responsive wrap" role="main">
-    {% include mac.html %}
+               {% include mac.html %}
 
          <blockquote class="home">
             <h1 class="quote">Hello! I'm just a passionate developer who love sharing things!</h1>
@@ -13,6 +13,7 @@
     </div>
   </div>
 </div>
+
 <div class="center">
       <p>Students learning to code at Le Wagon</p>
 </div>
@@ -49,4 +50,39 @@
 .home {
   border-left: none!important;
 }
+@media(max-width: 992px) {
+ .quote {
+  display: flex;
+  justify-content: center;
+  font-size: 1.5em;
+ }
+}
+@media(max-width: 768px) {
+ .quote {
+  display: flex;
+  justify-content: center;
+  font-size: 1.5em;
+ }
+}
+@media(max-width: 480px) {
+.banner {
+   margin-left: 10px;
+  margin-right: 10px;
+}
+ .quote {
+    font-size: 1.5em;
+    margin-top: 90px;
+    margin-left: 60px;
+}
+}
+ .quote-p p {
+   padding: 51px;
+  color: white;
+  font-size: 1em;
+}
+
+  }
+}
+
+
 </style>

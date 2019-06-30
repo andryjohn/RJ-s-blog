@@ -1,6 +1,6 @@
 // Typography
-$base-font-size: 13px !default;
-$bold-font-weight: lighter !default;
+$base-font-size: 14px !default;
+$bold-font-weight: bolder !default;
 $font-family: 'Content', serif !default;
 $line-height: 1.5 !default;
 $heading-font-family: 'Content', serif !default;
@@ -27,8 +27,8 @@ $abbr-border-bottom: 1px black dotted;
 $measure-width: 42rem !default;
 
 // Viewport widths
-$viewport-small: 26em;
-$viewport-medium: 36em;
+$viewport-small: 30em;
+$viewport-medium: 40em;
 $viewport-large: 64em;
 
 // Header Colors
