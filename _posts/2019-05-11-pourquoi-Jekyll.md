@@ -25,7 +25,6 @@ Le problème justement réside dans sa popularité et aussi la technologie qu'il
 Wordpress est écrit en **PHP**, repose sur **une base de données MySQL** et est distribué par l'entreprise américaine [Automattic](https://automattic.com/).
 Du fait de sa popularité, (*je n'ai pas les chiffres en téte mais je crois que c'est 30% des sites mondiaux, c'est énorme*), les sites Wordpress subissent des attaques incessantes.
 
----
 
 ![cms](/images/cms.jpeg)
 
@@ -44,7 +43,7 @@ Cela peut paraître tout à fait absurde par rapport à un CMS mais cela apporte
 Les pages sont **statiques**, il n’y a donc pas mieux en termes de vitesse et de sécurité pour les visiteurs et l'utilisateur.
 Pas besoin de disposer d’un *serveur surdimensionné*, car les pages sont statiques, et les serveurs aiment bien ça, le contenu statique. En plus, [**Github pages**](http://localhost:4000/developper/skills/2019/05/05/Host-any-front-end/) est **gratuit**, oui vous avez bien lu, c'est *entièrement gratuit.*
 
----
+
 
 ![free](/images/free.jpeg)
 
@@ -64,6 +63,5 @@ Enfin, Jekyll n’est pas limité aux blogs, on peut tout à fait réaliser d'au
 
 
 
-<footer>
-	<cite title="author">Author: Andry Rajohnson</cite>
-</footer>
+
+<footer><cite title="Workshop">Credit: Andry Rajohnson, Fullstack Developer</cite></footer>
