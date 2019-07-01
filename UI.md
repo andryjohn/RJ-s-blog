@@ -452,38 +452,61 @@ Ce composant simple, néamoins indispensable sur les profils de nos réseaux soc
 [*Voir le code*](https://codepen.io/andryjohn/pen/agdRYm)
 
 <div class="card-trip">
-  <img src="/images/italia.jpg">
+  <img src="https://source.unsplash.com/vO0hUESehtc">
   <div class="card-trip-infos">
     <div>
       <h2>Italia </h2>
       <p>Come to my hometown, wine and pasta an awesome place!</p>
     </div>
     <h2 class="card-trip-pricing">£199.99</h2>
-    <img src="https://source.unsplash.com/ZHvM3XIOHoE" class="card-trip-user avatar-bordered"/>
+    <img src='https://source.unsplash.com/MTZTGvDsHFY' class="card-trip-user avatar-bordered"/>
   </div>
 </div>
   <div class="card-trip">
-  <img src="/images/japan.jpg">
+  <img src="https://source.unsplash.com/DpPutJwgyW8">
   <div class="card-trip-infos">
     <div>
       <h2>Kyoto </h2>
       <p>Come to my hometown, wine and pasta an awesome place!</p>
     </div>
     <h2 class="card-trip-pricing">£199.99</h2>
-    <img src="https://source.unsplash.com/ZHvM3XIOHoE" class="card-trip-user avatar-bordered"/>
+    <img src='https://source.unsplash.com/ZHvM3XIOHoE' class="card-trip-user avatar-bordered"/>
   </div>
 </div>
   <div class="card-trip">
-  <img src="/images/japan.jpg">
+  <img src="https://source.unsplash.com/oqFHLfLFtmc">
   <div class="card-trip-infos">
     <div>
       <h2>Japan </h2>
       <p>Come to my hometown, wine and pasta an awesome place!</p>
     </div>
     <h2 class="card-trip-pricing">£199.99</h2>
-    <img src="https://source.unsplash.com/ZHvM3XIOHoE" class="card-trip-user avatar-bordered"/>
+    <img src='https://source.unsplash.com/ZHvM3XIOHoE' class="card-trip-user avatar-bordered"/>
   </div>
 </div>
+  <div class="card-trip">
+  <img src="https://source.unsplash.com/9sz0RKcPAQw">
+  <div class="card-trip-infos">
+    <div>
+      <h2>Tokyo </h2>
+      <p>Come to my hometown, wine and pasta an awesome place!</p>
+    </div>
+    <h2 class="card-trip-pricing">£199.99</h2>
+    <img src='https://source.unsplash.com/ZHvM3XIOHoE' class="card-trip-user avatar-bordered"/>
+  </div>
+</div>
+  <div class="card-trip">
+  <img src="https://source.unsplash.com/QAwciFlS1g4">
+  <div class="card-trip-infos">
+    <div>
+      <h2>Paris </h2>
+      <p>Come to my hometown, wine and pasta an awesome place!</p>
+    </div>
+    <h2 class="card-trip-pricing">£199.99</h2>
+    <img src='https://source.unsplash.com/MTZTGvDsHFY' class="card-trip-user avatar-bordered"/>
+  </div>
+</div>
+
   <style>
 
 
