@@ -191,41 +191,42 @@ Ce composant simple, néamoins indispensable sur les profils de nos réseaux soc
 ## Card grid :
 
 [*Voir le code*](https://codepen.io/andryjohn/pen/ZdQRmb)
-<div class="row">
+
+  <div class="row">
     <div class="col-xs-12 col-sm-4">
-    <div class="card" style="background-image: linear-gradient(rgba(0,0,0,0.1), rgba(0,0,0,0.3)), url('http://unsplash.it/200/120/?random');">
+    <div class="card" style="background-image: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.2)), url('https://source.unsplash.com/hrlvr2ZlUNk');">
   <div class="card-category">Popular</div>
   <div class="card-description">
     <h2>Breakfast</h2>
-    <p>Awesome place</p>
+    <p>Awesome</p>
   </div>
-  <img class="card-user" src="http://unsplash.it/200/120/?random">
+  <img class="card-user" src="https://source.unsplash.com/OjvZ_2vSruk">
   <a class="card-link" href="#" ></a>
 </div>
     </div>
     <div class="col-xs-12 col-sm-4">
-  <div class="card" style="background-image: linear-gradient(rgba(0,0,0,0.1), rgba(0,0,0,0.3)), url('http://unsplash.it/200/120/?random');">
+  <div class="card" style="background-image: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.2)), url('https://source.unsplash.com/Pt_YmiYm7a4');">
   <div class="card-category">Popular</div>
   <div class="card-description">
     <h2>Brunch</h2>
     <p>Lovely place, "the best place"</p>
   </div>
-  <img class="card-user" src="http://unsplash.it/200/120/?random">
+  <img class="card-user" src="https://source.unsplash.com/OjvZ_2vSruk">
   <a class="card-link" href="#" ></a>
 </div>
     </div>
     <div class="col-xs-12 col-sm-4">
-<div class="card" style="background-image: linear-gradient(rgba(0,0,0,0.1), rgba(0,0,0,0.3)), url('http://unsplash.it/200/120/?random');">
+      <!-- insert <div class="card"> --><div class="card" style="background-image: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.2)), url('https://source.unsplash.com//D-vDQMTfAAU');">
   <div class="card-category">Popular</div>
   <div class="card-description">
     <h2>Asian Foods</h2>
     <p>Awesome place,we Love it!</p>
   </div>
-  <img class="card-user" src="http://unsplash.it/200/120/?random">
+  <img class="card-user" src="https://source.unsplash.com/OjvZ_2vSruk">
   <a class="card-link" href="#" ></a>
 </div>
     </div>
-</div>
+  </div>
 
 <style>
 
