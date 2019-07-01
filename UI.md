@@ -262,6 +262,7 @@ Ce composant simple, néamoins indispensable sur les profils de nos réseaux soc
   left: 10px;
 }
 .card-description h2 {
+
   font-size: 24px;
 }
 .card-description p {

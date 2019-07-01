@@ -4,7 +4,7 @@ title: Qui suis-je ?
 permalink: /about/
 tags: about
 flicker: true
-headshot: /images/head.png
+headshot: /images/headshot.png
 ---
 
 
