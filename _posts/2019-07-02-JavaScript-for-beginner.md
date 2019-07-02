@@ -277,7 +277,7 @@ alert(prior);
 ![prior](/images/prior.png)
 
 
-Ici, on commence par calculer ce qui est entre parenthèses, c’est-à-dire `4 + z` ce qui nous donne `4 + (-2) = 2.`
+Ici, on commence par calculer ce qui est *entre parenthèses*, c’est-à-dire `4 + z` ce qui nous donne `4 + (-2) = 2.`
 
 Ensuite, on divise donc la valeur contenue dans y par 2 ce qui nous donne 5 et on calcule le modulo de 5 par 3 qui est égal à 2.
 
@@ -288,7 +288,7 @@ Faites donc bien attention aux priorités de calcul lorsque vous effectuez des m
 
 ### Opérations simplifiées sur les variables JavaScript
 
-Sachez que l’on peut simplifier l’écriture de certaines opérations mathématiques sur les variables en JavaScript, afin de gagner en temps, en performance et en clarté.
+Sachez que l’on peut simplifier l’écriture de *certaines opérations mathématiques sur les variables en JavaScript*, afin de **gagner en temps, en performance et en clarté.**
 
 ```javascript
 var x = 5, y = , z = -2;
@@ -303,8 +303,19 @@ y %= x;
 ```
 La suite dans la deuxième partie, si vous ètes arrivé jusque là, bravo!
 
+Dans la deuxième partie, nous allons voir:
 
-## Un workshop pour complèter ce tutorial!
+* La concaténation
+* Présentation des conditions
+* Les conditions if, if...else, if...else if...else
+* Opérateurs logiques
+* Evaluation / Simplification des conditions
+* Conditions ternaires
+* Switch
+* Les boucles
+* Découverte des fonctions
+
+## Un excellent "workshop du wagon" pour revoir les concepts vus sur ce tutorial!
 
 <style>.embed-container { position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; max-width: 100%; } .embed-container iframe, .embed-container object, .embed-container embed { position: absolute; top: 0; left: 0; width: 100%; height: 100%; }</style><div class='embed-container'><iframe src='https://www.youtube.com/embed/cQZOfeKrWDs' frameborder='0' allowfullscreen></iframe></div>
 
