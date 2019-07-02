@@ -43,7 +43,7 @@ On va pouvoir placer du code JavaScript à trois endroits différents :
 * Dans l’élément `body` d’une page HTML ;
 * Dans un fichier portant l’extension « .js » séparé.
 
-Bien que cette dernière méthode soit généralement recommandée, notamment pour des gros projets, parfois vous serez « obligé » d’écrire votre code JavaScript dans votre fichier HTML.
+>Bien que cette dernière méthode soit généralement recommandée, notamment pour des gros projets, parfois vous serez « obligé » d’écrire votre code JavaScript dans votre fichier HTML.
 
 # Les variables en JavaScript:
 ![var](/images/var.png)
@@ -230,6 +230,7 @@ Pour des variables stockant des valeurs de type Number, on va donc pouvoir effec
 Ainsi, nous allons pouvoir additionner (les valeurs de) deux variables entre elles, les soustraire l’une à l’autre, les multiplier entre elles, etc.
 
 ```javascript
+
 var x = 5, y = 18, z = -2;
 
 //on ajoute 1 à la valeur de c qui stocke maitenant 6
