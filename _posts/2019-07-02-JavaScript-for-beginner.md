@@ -202,7 +202,7 @@ Le script ci-dessous affichera tous les résultats au sein d’une même instruc
 
 ```javascript
 
- var texte = "Bonjour", x = 4, b = true, n = null, u, nn = NaN;
+ var text = "Bonjour", x = 4, b = true, n = null, u, nn = NaN;
 
         alert("Variable texte : " + typeof(texte) +
               "\nVariable x : " + typeof(x) +
@@ -247,5 +247,57 @@ y = y * 2 //y contient maintenant 20
 
 var mult = x * y;
 
+/* On divise la derniere valeur contenue dans y par celle contenu dans z
+*On stocke le résultat (20/(-2) = -18) dans une varilable divi */
+var div = y / z;
 
+/* le modulo represente le reste de ka division entière d'une nombre par autre
+*Par exemple, si on divise 13 par 3 et qu'on ne conserve que la partie entière ,
+*le résultat est 4 et il reste 1. 1 est le modulo.*/
+var mod = 13 % 3;
+
+```
+**Le modulo correspond au reste de la division entière d’un nombre par un autre. On utilise le signe « % » pour le calculer.**
+
+### Priorité de calcul
+
+Faites attention à respecter les priorités de calcul lorsque vous effectuez des opérations sur les variables.
+
+En réalité, c’est très simple puisque ce sont les mêmes qu’en mathématiques : *les parenthèses sont prioritaires sur toute autre opération, puis viennent la multiplication, la division et le modulo et finalement l’addition et la soustraction.*
+
+```javascript
+var x = 5, y = 10, z = -2;
+
+// Les priorité de calcul sont les memes qu'ne math
+var prior = x + y / ( 4 + z ) % 3;
+
+alert(prior);
+
+```
+![prior](/images/prior.png)
+
+
+Ici, on commence par calculer ce qui est entre parenthèses, c’est-à-dire `4 + z` ce qui nous donne `4 + (-2) = 2.`
+
+Ensuite, on divise donc la valeur contenue dans y par 2 ce qui nous donne 5 et on calcule le modulo de 5 par 3 qui est égal à 2.
+
+Finalement, on additionne la valeur contenue dans x et 2 pour arriver au résultat final : `7`.
+
+Faites donc bien attention aux priorités de calcul lorsque vous effectuez des manipulations sur les variables, car le résultat peut s’avérer totalement différent de celui attendu si vous n’en tenez pas compte.
+
+
+### Opérations simplifiées sur les variables JavaScript
+
+Sachez que l’on peut simplifier l’écriture de certaines opérations mathématiques sur les variables en JavaScript, afin de gagner en temps, en performance et en clarté.
+
+```javascript
+var x = 5, y = , z = -2;
+//Equivaut à "x = x + 2", x = x - 3
+
+x += 2;
+X -= 3;
+// VOUS AVEZ COMPRIS !
+x *= 3;
+y %= x;
+...
 ```
