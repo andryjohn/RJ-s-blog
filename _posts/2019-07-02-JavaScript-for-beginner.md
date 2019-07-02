@@ -127,7 +127,125 @@ Les variables en JavaScript peuvent stocker
 
 Par simplification, on parlera **souvent (à tort) de « types de variables » au lieu de parler de « types de valeurs stockées par les variables ».**
 
+---
 ### Le type de valeurs Numbers:
-![var](/images/number.png)
 
 
+![numbers](/images/numbers.png)
+
+Le type de valeurs Number va représenter **tout nombre ou chiffre, qu’il soit positif, négatif, entier ou à virgule.**
+
+*Pour affecter une valeur de type Number à une variable, on n’utilise ni guillemet ni apostrophe.*
+
+### Le type de valeurs String:
+
+Le type de valeurs **String** va représenter les chaînes de caractères, c’est-à-dire les textes.
+
+Si l’on veut stocker *une chaîne de caractères dans une variable, il faut entourer notre chaîne par des apostrophes ou des guillemets.*
+
+>Ce sont justement ces apostrophes ou guillemets qui vont indiquer au JavaScript que l’on stocke une valeur de type String.
+
+
+```javascript
+
+var firstName = "Andry";
+var Name = "John";
+var gender = "Male"
+
+````
+### Le type de valeurs Boolean
+
+Une variable en JavaScript peut encore stocker une valer de type **Boolean**, *c’est-à-dire un booléen.*
+
+![boolean](/images/boolean.png)
+
+Une variable en JavaScript peut encore stocker une valer de type **Boolean**, *c’est-à-dire un booléen.*
+
+Un booléen, en algèbre, est *une valeur binaire (soit 0, soit 1). En informatique, un booléen va être soit la valeur true (vrai), soit la valeur false (faux).*
+
+>Faites bien attention : pour qu’une variable stocke bien un booléen, il faut lui faire stocker la valeur true ou false, sans guillemets ou apostrophes.
+
+Si vous rajoutez des guillemets ou des apostrophes, la variables stockera alors la chaîne de caractères **true ou la chaîne de caractères false.**
+
+```javascript
+
+// a et b sctockent un valeur de type boolean
+var a = true, b = false
+
+//c stocke la chaine de caractère true//
+var c = "true"
+
+```
+
+### Autres valeurs stockées en JavaScript
+
+Les variables en JavaScript peuvent stocker bien d’autres valeurs n'étant pas de type *String, Number ou Boolean.*
+
+![null](/images/null.png)
+
+Parmi les autres valeurs remarquables, on peut citer la valeur *«null»*, qui correspond **à la non connaissance à priori de la valeur ainsi que la valeur *«undefined»* qui correspond au fait de ne pas avoir défini de valeur pour notre variable.**
+
+Une variable peut encore contenir la valeur « NaN » qui signifie « Not a Number » (« n’est pas un nombre » en Français).
+
+### Tester le type de valeur d’une variable
+
+Pour tester le type de la valeur que contient une variable, on utilise généralement la fonction
+`typeof()`. Nous étudierons les fonctions en détail plus tard dans ce cours.
+
+>Attention cependant, cette fonction renvoie parfois des résultats contestables sur certaines valeurs.
+
+Voyons immédiatement un exemple d’utilisation de
+`typeof()` ensemble. Pour afficher le résultat de
+`typeof(`, nous allons l’utiliser avec une instruction `alert()`.
+
+Le script ci-dessous affichera tous les résultats au sein d’une même instruction `alert()`. Pour faire cela, j’utilise ce qu’on appelle la concaténation (avec les « + ») et la notation `\n` qui sert à créer un retour à la ligne en JavaScript.
+
+```javascript
+
+ var texte = "Bonjour", x = 4, b = true, n = null, u, nn = NaN;
+
+        alert("Variable texte : " + typeof(texte) +
+              "\nVariable x : " + typeof(x) +
+              "\nVariable b : " + typeof(b) +
+              "\nVariable n : " + typeof(n) +
+              "\nVariable u : " + typeof(u) +
+              "\nVariable nn : " + typeof(nn));
+
+````
+
+![type](/images/type.png)
+
+Sans surprise, notre variable `texte` est bien de type String, tandis que nos variables `x` et `b`sont respectivement de type Number et Boolean.
+
+Le résultat renvoyé par `typeof()` est undefined pour notre variable `u` puisqu’on ne l’a pas définie.
+
+En revanche, vous remarquez que le résultat renvoyé pour notre variable `nn` est Number, ce qui est très étrange sachant qu’on lui a justement donné la valeur « Not a Number ».
+
+Enfin, notez également que `typeof()` renvoie Object pour notre variable `n` qui contient la valeur `null`. Ce résultat fait également débat.
+
+
+# OPERATIONS SUR LES VARIABLES EN JAVASCRIPT
+
+Pour des variables stockant des valeurs de type Number, on va donc pouvoir effectuer les mêmes opérations qu’avec des nombres en mathématiques.
+
+Ainsi, nous allons pouvoir additionner (les valeurs de) deux variables entre elles, les soustraire l’une à l’autre, les multiplier entre elles, etc.
+
+```javascript
+var x = 5, y = 18, z = -2;
+
+//on ajoute 1 à la valeur de c qui stocke maitenant 6
+x = x + 1;
+
+//On soustrait 4 a x, x vaut maitenant 2
+x = x - 4;
+
+y = y * 2 //y contient maintenant 20
+
+/*On multiplie la derniere valeur contenu dan x (4) par la dernière
+* valeur contenu dans y (20). On stocke le resultat (80) dans une
+*nouvelle variable q'on appelera mult*/
+
+var mult = x * y;
+
+
+```
