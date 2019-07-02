@@ -12,11 +12,11 @@ mathjax: true
 
 Ce tutoriel est accessible à tous et pourra être bénéfique à chacun, que vous n'ayez jamais codé ou si vous ètes un expert, cela va vous permettre de révisé les bases.
 
-Mon objectif  étant de dédiabolisé le code en vous présentant son  fonctionnement et les possibilités offertes par ce langage.
+Mon objectif  étant de dédiabolisé le code en vous présentant le fonctionnement et les possibilités offertes par ce langage.
 
 ## Qu'est-ce ce que le JavaScript?
 
-Le Javascript est un langage de programmation plutot jeune créé en 1995. Il va nous permettre de créer des pages interactives et « vivantes » à l’aide de **scripts.**
+Le **JavaScript** est un langage de programmation plutot jeune créé en 1995. Il va nous permettre de créer des pages interactives et « vivantes » à l’aide de **scripts.**
 
 >Un **script**, c’est tout simplement une suite d’instructions qui vont être interprétées par un programme.
 
@@ -29,7 +29,7 @@ Ainsi, pour lire du code JavaScript, il va nous falloir un interpréteur. Heureu
 
 ### Choisir et utiliser un éditeur de code:
 
-Pour coder en JavaScript, les développeur on besoin d'un **éditeur de texte.** Moi j'utilise *Sublime text* mais il existe de nombreux éditeurs de texte sur le web et la majorité d’entre eux sont gratuits.
+Pour coder en JavaScript, les développeurs ont besoin d'un **éditeur de texte.** Moi j'utilise *Sublime text* mais il existe de nombreux éditeurs de texte sur le web et *la majorité d’entre eux sont gratuits.*
 ![sublime](/images/sublime.png)
 
 Vous pourrez également trouver sur le web de nombreux sites web vous permettant d’écrire du code en JavaScript et d’avoir immédiatement un aperçu du résultat. Je vous recommande
@@ -48,8 +48,7 @@ Bien que cette dernière méthode soit généralement recommandée, notamment po
 # Les variables en JavaScript:
 ![var](/images/var.png)
 
-Une **variable JavaScript** est un conteneur servant à **stocker temporairement une information**, comme un nombre ou une chaîne de caractères (c’est-à-dire un texte) par exemple, ici c'est
-**firstName**.
+Une **variable JavaScript** est un conteneur servant à **stocker temporairement une information**, comme un nombre ou une chaîne de caractères (c’est-à-dire un texte) par exemple, ici c'est **firstName**.
 
 ![var](/images/var2.png)
 
@@ -57,7 +56,7 @@ Une **variable JavaScript** est un conteneur servant à **stocker temporairement
 Comme son nom l’indique, le propre d’une *variable* est de pouvoir varier, c’est-à-dire de pouvoir stocker (tel une boite)
 *différentes valeurs dans le temps, en « écrasant » sa valeur précédente.*
 
-En JavaScript, on déclare une variable avec le mot clef « var » suivi du nom de notre variable. Chaque nouvelle variable doit avoir un nom unique qu’on appelle également en anglais « identifier ».
+>En JavaScript, on déclare une variable avec le mot clef « var » suivi du nom de notre variable. Chaque nouvelle variable doit avoir un nom unique qu’on appelle également en anglais « identifier ».
 
 ### Le nom des variables en JavaScript
 
