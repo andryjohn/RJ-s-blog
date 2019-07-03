@@ -53,7 +53,7 @@ for (var i = 0; i < 3; i++) {
   setTimeout(() => console.log(i), 1);
 }
 
-for (let i = 0; i < 3; i++) {
+for (let i = 0; i < 3; i+
   setTimeout(() => console.log(i), 1);
 }
 ```
@@ -73,7 +73,7 @@ for (let i = 0; i < 3; i++) {
 
 ---
 
-###### 3. What's the output?
+## 3. What's the output?
 
 ```javascript
 const shape = {
@@ -94,13 +94,13 @@ shape.perimeter();
 - D: `NaN` and `63`
 
 <details><summary><b>Answer</b></summary>
-<p>
 
-#### Answer: B
 
-Note that the value of `diameter` is a regular function, whereas the value of `perimeter` is an arrow function.
+<strong>Answer: B</strong>
 
-With arrow functions, the `this` keyword refers to its current surrounding scope, unlike regular functions! This means that when we call `perimeter`, it doesn't refer to the shape object, but to its surrounding scope (window for example).
+<p>Note that the value of `diameter` is a regular function, whereas the value of `perimeter` is an arrow function.<br>
+
+With arrow functions, the `this` keyword refers to its current surrounding scope, unlike regular functions! This means that when we call `perimeter`, it doesn't refer to the shape object, but to its surrounding scope (window for example).<br>
 
 There is no value `radius` on that object, which returns `undefined`.
 
@@ -109,7 +109,7 @@ There is no value `radius` on that object, which returns `undefined`.
 
 ---
 
-###### 4. What's the output?
+## 4. What's the output?
 
 ```javascript
 +true;
@@ -121,11 +121,11 @@ There is no value `radius` on that object, which returns `undefined`.
 - C: `false` and `false`
 
 <details><summary><b>Answer</b></summary>
+
+<strong>Answer: A</strong>
+
 <p>
-
-#### Answer: A
-
-The unary plus tries to convert an operand to a number. `true` is `1`, and `false` is `0`.
+The unary plus tries to convert an operand to a number. `true` is `1`, and `false` is `0`.<br>
 
 The string `'Lydia'` is a truthy value. What we're actually asking, is "is this truthy value falsy?". This returns `false`.
 
@@ -134,7 +134,7 @@ The string `'Lydia'` is a truthy value. What we're actually asking, is "is this 
 
 ---
 
-###### 5. Which one is true?
+## 5. Which one is true?
 
 ```javascript
 const bird = {
@@ -153,17 +153,17 @@ const mouse = {
 - D: All of them are valid
 
 <details><summary><b>Answer</b></summary>
-<p>
 
-#### Answer: A
 
-In JavaScript, all object keys are strings (unless it's a Symbol). Even though we might not _type_ them as strings, they are always converted into strings under the hood.
+<strong>Answer: A</strong>
 
-JavaScript interprets (or unboxes) statements. When we use bracket notation, it sees the first opening bracket `[` and keeps going until it finds the closing bracket `]`. Only then, it will evaluate the statement.
+<p>In JavaScript, all object keys are strings (unless it's a Symbol). Even though we might not _type_ them as strings, they are always converted into strings under the hood.<br>
 
-`mouse[bird.size]`: First it evaluates `bird.size`, which is `"small"`. `mouse["small"]` returns `true`
+JavaScript interprets (or unboxes) statements. When we use bracket notation, it sees the first opening bracket `[` and keeps going until it finds the closing bracket `]`. Only then, it will evaluate the statement.<br>
 
-However, with dot notation, this doesn't happen. `mouse` does not have a key called `bird`, which means that `mouse.bird` is `undefined`. Then, we ask for the `size` using dot notation: `mouse.bird.size`. Since `mouse.bird` is `undefined`, we're actually asking `undefined.size`. This isn't valid, and will throw an error similar to `Cannot read property "size" of undefined`.
+`mouse[bird.size]`: First it evaluates `bird.size`, which is <mark>"small"</mark>. <mark>mouse["small"]</mark> returns <mark>true</mark> <br>
+
+However, with dot notation, this doesn't happen. <mark>`mouse`</mark> does not have a key called <mark></mark>`bird`, which means that <mark></mark>`mouse.bird` is <mark></mark>`undefined`. Then, we ask for the `size` using dot notation: <mark></mark>`mouse.bird.size`. Since <mark></mark>`mouse.bird` is <mark></mark>`undefined`, we're actually asking <mark></mark>`undefined.size`. This isn't valid, and will throw an error similar to <mark></mark>`Cannot read property "size" of undefined`.
 
 </p>
 </details>
