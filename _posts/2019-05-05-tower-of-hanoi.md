@@ -2,22 +2,19 @@
 layout:     post
 title:      Tower of Hanoi in Ruby
 date:       2019-05-05
-summary:   
+summary:
 categories: Developper skills
 mathjax: true
 ---
 ![Tower of Hanoi](/images/Tower_of_Hanoi_4.gif)
 >"Our challenge today is solving the Tower of Hanoi Algorithm"
 
----
 
 The objective of the game is to move the entire stack to another rod, obeying the following simple rules:
 
 >1. Only one disk can be moved at a time.
 2. Each move consists of taking the upper disk from one of the stacks and placing it on top of another stack or on an empty rod.
 3. No larger disk may be placed on top of a smaller disk.
-
----
 
 ## Example
 
@@ -32,7 +29,7 @@ I need to have the steps (the moves) of each disk to know how to solve the Tower
 ```ruby
 # Move from A to C
 # Move from A to B
-# Move from C to B 
+# Move from C to B
 ```
 ## Explanation
 
@@ -40,9 +37,8 @@ I move the first disk (so the smallest) from A to C. Then I can place the bigges
 
 ### Code
 
----
 
-```ruby 
+```ruby
 def hanoi_tower(n, source = 'A', destination = 'B', auxiliary = 'C')
   return unless n
 
@@ -87,8 +83,5 @@ hanoi_tower(3)
 # Move from A to B
 ```
 
----
-
 <footer><cite title="Workshop">Credit: Andry Rajohnson</cite></footer>
 
----

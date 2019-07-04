@@ -23,7 +23,6 @@ Au quotidien, je développe avec le langage *Ruby* et l'utilisation de son frame
 
 Membre de la communauté ["Ruby parisiène"](https://rubyparis.org/), je suis souvent présent lors des meetups, en essayant de joindre l'utile à l'agréable, donc si vous êtes une "Startup" ou un particulier avec "un projet Tech", n'hésitez pas à me [contacter](https://rajohnson-andry.tk/contact/), je serai ravi d'intégrer votre équipe ou vous orientez vers la *technologie appropriée* et vous aider à réaliser votre "Vision.
 
----
 
 ![rails](/images/rails.jpg)
 <div class="center"><p>All famous web application build with <a href="https://rubyonrails.org/">Ruby on Rails</a></p></div>

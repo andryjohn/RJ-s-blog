@@ -1,6 +1,6 @@
 ---
 layout:     post
-title:      (French)Pourquoi apprendre "Ruby on Rails"?
+title:      Pourquoi apprendre "Ruby on Rails"?
 date:       2019-05-03
 summary:
 categories: Developper skills

@@ -1,6 +1,6 @@
 ---
 layout:     post
-title:      (french)Aglorithme en Ruby, calcul des nombres premiers
+title:      (french) Aglorithme en Ruby, calcul des nombres premiers
 date:       2019-05-05
 summary:
 categories: Developper skills

@@ -7,12 +7,9 @@ categories: Developper skills
 mathjax: true
 ---
 ![javascript](/images/javascript.jpg)
+> Ce tutoriel est accessible à tous et pourra être bénéfique à chacun, que vous n'ayez jamais codé ou si vous ètes un expert, cela va vous permettre de révisé les bases.
 
-# A qui s'adresse ce tutoriel?
-
-Ce tutoriel est accessible à tous et pourra être bénéfique à chacun, que vous n'ayez jamais codé ou si vous ètes un expert, cela va vous permettre de révisé les bases.
-
-Mon objectif  étant de dédiabolisé le code en vous présentant le fonctionnement et les possibilités offertes par ce langage.
+Mon objectif  étant de *dédiabolisé* le code en vous présentant le fonctionnement et les possibilités offertes par ce langage.
 
 ## Qu'est-ce ce que le JavaScript?
 
