@@ -23,7 +23,6 @@ In addition to being free and open source, PostgreSQL is highly extensible. For 
 
 ![data](/images/data.jpeg)
 
----
 In this tutorial you will learn how to use PostgreSQL to store your relational data.
 
 ### Installation
