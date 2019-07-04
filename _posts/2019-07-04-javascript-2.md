@@ -66,6 +66,7 @@ Si l’on tente « d’additionner » un nombre et une chaîne de caractères, t
             alert("Variable x : " + x +
                   "\nVariable y : " + y +
                   "\nVariable z : " + z);
+
 ````
 ![alert](/images/concatenation2.png)
 
@@ -165,6 +166,7 @@ Voyons immédiatement plusieurs exemples afin d’être sûrs de bien comprendre
                   "\negalvaltype stocke : " + egalvaltype +
                   "\ndifval stocke : " + difval +
                   "\ndifvaltype stocke : " + difvaltype);
+
 ````
 ![compar](/images/comparateur.png)
 
@@ -174,3 +176,9 @@ Dans le code ci-dessus, nous comparons des valeurs entre elles. A la suite de ch
 On stocke le résultat renvoyé par le JavaScript dans une variable pour chaque comparaison puis on affiche tout cela grâce à une instruction `alert()`.
 
 Maintenant que vous savez véritablement comment fonctionne le JavaScript avec les opérateurs de comparaisons, nous allons pouvoir aborder sereinement les conditions en soi.
+
+
+
+## Un excellent "workshop Le Wagon" pour revoir les concepts vus sur ce tutorial!
+
+<style>.embed-container { position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; max-width: 100%; } .embed-container iframe, .embed-container object, .embed-container embed { position: absolute; top: 0; left: 0; width: 100%; height: 100%; }</style><div class='embed-container'><iframe src='https://www.youtube.com/embed/cQZOfeKrWDs' frameborder='0' allowfullscreen></iframe></div>
