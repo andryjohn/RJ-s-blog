@@ -1,6 +1,6 @@
 ---
 layout:     post
-title:     (French) Règles de vol ou 'Flight rules' pour Git
+title:     (Fr) Règles de vol ou 'Flight rules' pour Git
 date:       2019-06-02
 summary:
 categories: Technique

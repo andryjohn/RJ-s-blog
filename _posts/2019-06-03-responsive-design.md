@@ -1,6 +1,6 @@
 ---
 layout:     post
-title:   (French) Responsive design
+title:   (Fr) Responsive design
 date:       2019-06-03
 summary:
 categories: Technique

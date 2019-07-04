@@ -1,8 +1,8 @@
 ---
 layout:     post
-title:      Learn how to create video popup with Magnific Popup!
+title:      Learn how to create video popup with Magnific Popup on HTML5!
 date:       2019-05-31
-summary:    
+summary:
 categories: Developper skills
 mathjax: true
 ---
@@ -13,9 +13,7 @@ Video remains one of the most popular forms of content marketing around -- and i
 This is a simple example with basic HTML/CSS and JS method, to insert mp4 video in your website. Enjoy!
 
 
-## HTML 
-
----
+## HTML
 
 ```html
 <div class="container">
@@ -32,12 +30,10 @@ This is a simple example with basic HTML/CSS and JS method, to insert mp4 video 
 <div class="icons">
   <a href="#" class="fas fa-play-circle" onclick="lightbox_open();"> See a Demo </a>
   </div>
-  </div> 
+  </div>
 ```
 
 ## CSS
-
----
 
 ```css
 .container{
@@ -50,7 +46,7 @@ a {
   text-decoration: none;
   color: #EF5E46;
   opacity: 0.6;
-  
+
 }
 a:hover {
   text-decoration: none;
@@ -87,9 +83,7 @@ a:hover {
 
 ```
 
-## JAVASCRIPT
-
----
+## JS
 
 ```js
 window.document.onkeydown = function(e) {
@@ -117,9 +111,9 @@ function lightbox_close() {
 }
 ````
 
----
+Et Voilà!
 
-<h2><a href="https://codepen.io/andryjohn/pen/xNWvdo"> See a demo</a> on codepen</h2>
+<h3><a href="https://codepen.io/andryjohn/pen/xNWvdo"> See a demo on codepen.io </a> </h3>
 
 
 <footer><cite title="Workshop">Credit: Andry Rajohnson</cite></footer>
