@@ -163,7 +163,7 @@ JavaScript interprets (or unboxes) statements. When we use bracket notation, it 
 
 `mouse[bird.size]`: First it evaluates `bird.size`, which is <mark>"small"</mark>. <mark>mouse["small"]</mark> returns <mark>true</mark> <br>
 
-However, with dot notation, this doesn't happen. <mark>`mouse`</mark> does not have a key called <mark></mark>`bird`, which means that <mark></mark>`mouse.bird` is <mark></mark>`undefined`. Then, we ask for the `size` using dot notation: <mark></mark>`mouse.bird.size`. Since <mark></mark>`mouse.bird` is <mark></mark>`undefined`, we're actually asking <mark></mark>`undefined.size`. This isn't valid, and will throw an error similar to <mark></mark>`Cannot read property "size" of undefined`.
+However, with dot notation, this doesn't happen. <mark>`mouse`</mark> does not have a key called <mark>`bird`,</mark> which means that <mark>mouse.bird</mark> is <mark>`undefined`</mark>. Then, we ask for the `size` using dot notation: <mark>`mouse.bird.size`.</mark> Since <mark>mouse.bird</mark> is <mark>undefined</mark>, we're actually asking <mark>`undefined.size`</mark>. This isn't valid, and will throw an error similar to <mark> Cannot read </mark>property "size" of undefined.
 
 </p>
 </details>
@@ -172,7 +172,7 @@ However, with dot notation, this doesn't happen. <mark>`mouse`</mark> does not h
 
 ---
 
-###### 6. What's the output?
+## 6. What's the output?
 
 ```javascript
 let c = { greeting: "Hey!" };
@@ -190,11 +190,11 @@ console.log(d.greeting);
 - E: `TypeError`
 
 <details><summary><b>Answer</b></summary>
-<p>
 
-#### Answer: A
 
-In JavaScript, all objects interact by _reference_ when setting them equal to each other.
+<strong>Answer: A</strong>
+
+<p>In JavaScript, all objects interact by _reference_ when setting them equal to each other.<br>
 
 First, variable `c` holds a value to an object. Later, we assign `d` with the same reference that `c` has to the object.
 
@@ -207,7 +207,7 @@ When you change one object, you change all of them.
 
 ---
 
-###### 7. What's the output?
+## 7. What's the output?
 
 ```javascript
 let a = 3;
@@ -224,7 +224,9 @@ console.log(b === c);
 - C: `true` `false` `false`
 - D: `false` `true` `true`
 
+
 <details><summary><b>Answer</b></summary>
+
 <p>
 
 #### Answer: C
@@ -236,6 +238,7 @@ When we use the `==` operator, it only checks whether it has the same _value_. T
 However, when we use the `===` operator, both value _and_ type should be the same. It's not: `new Number()` is not a number, it's an **object**. Both return `false.`
 
 </p>
+
 </details>
 
 ---

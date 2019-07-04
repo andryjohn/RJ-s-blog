@@ -1,34 +1,34 @@
 // Typography
 $base-font-size: 14px !default;
-$bold-font-weight: bolder !default;
-$font-family: 'Content', serif !default;
+$bold-font-weight: bold !default;
+$font-family: 'Roboto', serif !default;
 $line-height: 1.5 !default;
-$heading-font-family: 'Content', serif !default;
-$heading-font-weight: 520 !default;
+$heading-font-family: 'Roboto', sans-serif !default;
+$heading-font-weight: 600 !default;
 $heading-line-height: 1.25 !default;
 $monospace-font-family: 'Source Code Pro', Consolas, monospace !default;
-$h1: 1.5rem !default;
-$h2: 1.1rem !default;
-$h3: 1rem !default;
-$h4: 0.9rem !default;
+$h1: 2.299rem !default;
+$h2: 1.5rem !default;
+$h3: 1.25rem !default;
+$h4: 1rem !default;
 $h5: .875rem !default;
 $h6: .75rem !default;
 $h00: 4rem !default;
 $h0: 3rem !default;
-$h00-responsive: 6vw !default;
-$h0-responsive: 4vw !default;
-$h1-responsive: 2vw !default;
-$h00-responsive-max: 6.68rem !default;
-$h0-responsive-max: 4.76rem !default;
-$h1-responsive-max: 2.84rem !default;
+$h00-responsive: 8vw !default;
+$h0-responsive: 6vw !default;
+$h1-responsive: 4vw !default;
+$h00-responsive-max: 7.68rem !default;
+$h0-responsive-max: 5.76rem !default;
+$h1-responsive-max: 3.84rem !default;
 $abbr-border-bottom: 1px black dotted;
 
 // Page width
 $measure-width: 42rem !default;
 
 // Viewport widths
-$viewport-small: 30em;
-$viewport-medium: 40em;
+$viewport-small: 32em;
+$viewport-medium: 48em;
 $viewport-large: 64em;
 
 // Header Colors
