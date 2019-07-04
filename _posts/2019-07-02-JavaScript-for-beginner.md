@@ -1,6 +1,6 @@
 ---
 layout:     post
-title:      (French) JavaScript From Zero to Hero(Part I)
+title:      (Fr) JavaScript From Zero to Hero (Part I)
 date:       2019-07-02
 summary:
 categories: Developper skills
