@@ -536,7 +536,7 @@ Pour faire très simple, la différence entre la boucle `do… while` et la bouc
           }
           while (count < 10)
 ```
-![dowhile](/images/dowhile.png)
+![dowhile](/images/dowhile2.png)
 
 ### La boucle for
 
