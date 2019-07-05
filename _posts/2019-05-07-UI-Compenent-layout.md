@@ -270,6 +270,9 @@ We've almost done, the last one is  **Banner**. Great for building your *landing
 Ok, we're done, just in case, when a component is needed in a specific part of a specific app, it might need some adjustments and modifications.
 All the source code are available on my github account [right here](https://github.com/andryjohn/UI-sprint)
 
+*This article is inspired by this workshop, you will learn to code navbars, buttons, cards, dropdown-lists, banners, badges, etc… and other UI components that you retrieve in most web apps.*
+
+<style>.embed-container { position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; max-width: 100%; } .embed-container iframe, .embed-container object, .embed-container embed { position: absolute; top: 0; left: 0; width: 100%; height: 100%; }</style><div class='embed-container'><iframe src='https://www.youtube.com/embed/GNtohfhj_A4' frameborder='0' allowfullscreen></iframe></div>
 
   <footer><cite title="Workshop">Credit: Andry Rajohnson from "workshop le wagon UI"</cite></footer>
 
