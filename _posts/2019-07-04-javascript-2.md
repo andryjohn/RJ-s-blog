@@ -327,12 +327,56 @@ NON                    !
 
 Nous allons pouvoir utiliser ces**opérateurs logiques au sein même de nos conditions**, afin de pouvoir par exemple effectuer plusieurs comparaisons au sein d’un même test.
 
-Plus précisément, l’opérateur logique « ET » va nous permettre de créer *un intervalle de comparaison pour une variable.*
+* Plus précisément, l’opérateur logique « ET » va nous permettre de créer *un intervalle de comparaison pour une variable.*
 
 On va par exemple pouvoir tester si la valeur contenue dans une variable
 `hour` est comprise entre `0 et 12`.
 
 >Grâce à cet opérateur, nous allons pouvoir lever l’ambiguïté sur certaines valeurs (ambiguïté vue dans la partie précédente) en ne travaillant plus qu’avec des intervalles.
+
+```javascript
+
+    var hour = 9;
+
+     if (hour >= 0 && hour < 12 == true){
+      alert("c'est le matin")
+     }
+     else if (hour === 12 == true) {
+       alert("il est midi pile!")
+
+     }
+     else if (hour > 12 && hour <= 24 == true) {
+       alert ("c'est le soir!")
+     }
+     else {
+       alert("la valeur n'est pas valide..")
+     }
+
+```
+
+![matin](/images/matin.png)
+
+* L’opérateur « OU » va nous permettre de *comparer la valeur d’une variable à deux valeurs différentes.* Si l’une des deux comparaisons affiche le résultat attendu, *le reste du code sera exécuté.*
+
+On peut par exemple tester si la valeur contenue dans une variable `hour` est
+`inférieure à 0 ou supérieure à 24`.
+
+```javascript
+    var hour = 26;
+    if (hour < 0 || hour > 24 == true) {
+       alert("L'heure est invalide !")
+    }
+    else {
+      alert("l'heure semble valide")
+    }
+
+```
+
+![invalide](/images/invalide.png)
+
+* Finalement, l’opérateur logique « NON » va nous permettre de nier une comparaison. Ainsi, des comparaisons évaluées de base à false vont être évaluées à true et inversement.
+
+
 
 
 ## Un excellent "workshop Le Wagon" pour revoir les concepts vus sur ce tutorial!
