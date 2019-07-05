@@ -2,7 +2,7 @@
 layout:     post
 title:      Building a UI Component for better design
 date:       2019-05-07
-summary:    
+summary:
 categories: Developper skills
 mathjax: true
 ---
@@ -32,9 +32,8 @@ So let's begin with a simple one, useful for your *profile* for example.
 
 ![avatar](/images/ladies.png)
 
----
 ## HTML
-```ruby
+```html
 	<div class="container">
 		<h2>Avatar design</h2>
       		<img src="./ladies.jpeg" alt="" class="avatar">
@@ -42,7 +41,7 @@ So let's begin with a simple one, useful for your *profile* for example.
      </div>
 ```
 ## CSS
-```ruby
+```css
 .avatar {
   border-radius: 50%;
   width: 70px;
@@ -54,11 +53,9 @@ So let's begin with a simple one, useful for your *profile* for example.
 }
 ```
 
----
 
 Then, **Button**, I choose to design two kind of button, [*Medium*](https://medium.com/) and [*Treehouse*](https://teamtreehouse.com/).
 
----
 <html>
 <div class="container">
     <h2>Button design</h2>
@@ -104,9 +101,8 @@ Then, **Button**, I choose to design two kind of button, [*Medium*](https://medi
 
 *Let's code!* [*Try it here*](https://codepen.io/andryjohn/pen/gJpQeq)
 
----
 ## HTML
-```ruby
+```html
 	<div class="container">
 		<h2>Button design</h2>
      	 <a href="#" class="btn-medium">Write stories</a>
@@ -116,7 +112,7 @@ Then, **Button**, I choose to design two kind of button, [*Medium*](https://medi
 ```
 ## CSS
 
-```ruby
+```css
 .btn-medium {
   color: #999999;
   border: 1px solid #999999;
@@ -148,9 +144,7 @@ Then, **Button**, I choose to design two kind of button, [*Medium*](https://medi
 }
 ```
 
----
-
-# Cards design: 
+# Cards design:
 
 Let's move on! The next one is, **cards**
 
@@ -159,11 +153,10 @@ Let's move on! The next one is, **cards**
 
 *Let's code!* [*Try it here*](https://codepen.io/andryjohn/pen/MdaOEY)
 
----
 
 ## HTML
 
-``` ruby
+```html
   <h2>Card design</h2>
       <div class="row">
         <div class="col-xs-12 col-sm-4">
@@ -201,7 +194,7 @@ Let's move on! The next one is, **cards**
 
 ## CSS
 
-```ruby
+```css
 .card {
   position: relative;
   height: 175px;
@@ -228,7 +221,6 @@ Let's move on! The next one is, **cards**
 }
 ```
 
----
 
 # Banner:
 
@@ -238,10 +230,8 @@ We've almost done, the last one is  **Banner**. Great for building your *landing
 
 *Let's code!* [*Try it here*](https://codepen.io/andryjohn/pen/EzVoWQ)
 
----
-
 ## HTML
-```ruby
+```html
 <h2>Banner design</h2>
       <div class="banner">
         <div class="banner-content">
@@ -253,7 +243,7 @@ We've almost done, the last one is  **Banner**. Great for building your *landing
 ```
 
 ## CSS
-```ruby
+```css
 .banner {
   display: flex;
   height: 100vh;
@@ -276,12 +266,10 @@ We've almost done, the last one is  **Banner**. Great for building your *landing
 }
 ```
 
----
 
-Ok, we're done, just in case, when a component is needed in a specific part of a specific app, it might need some adjustments and modifications. 
-All the source code are available on my github account [right here](https://github.com/andryjohn/UI-sprint) 
+Ok, we're done, just in case, when a component is needed in a specific part of a specific app, it might need some adjustments and modifications.
+All the source code are available on my github account [right here](https://github.com/andryjohn/UI-sprint)
 
 
   <footer><cite title="Workshop">Credit: Andry Rajohnson from "workshop le wagon UI"</cite></footer>
 
----

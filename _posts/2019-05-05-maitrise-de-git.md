@@ -1,6 +1,6 @@
 ---
 layout:     post
-title:     (French) Introduction à Git
+title:     (Fr) Introduction à Git
 date:       2019-05-05
 summary:
 categories: Developper skills
