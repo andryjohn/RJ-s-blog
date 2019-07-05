@@ -36,6 +36,7 @@ $header-bg: white !default;
 $header-fg: #2B2B2B !default;
 
 // Colors
+$white: #fff !default;
 $blue: #0076df !default;
 $red: #f95020 !default;
 $green: #459069 !default;
@@ -99,13 +100,13 @@ $form-field-padding-x: .5rem;
 $pre-border-radius: 0;
 $pre-background-color: #fafafa;
 $hljs-comment: $mid-gray;
-$hljs-keyword: $dark-blue;
-$hljs-name: $dark-gray;
-$hljs-number: $dark-green;
-$hljs-string: $red;
+$hljs-keyword: $green;
+$hljs-name: $purple;
+$hljs-number: $blue;
+$hljs-string: $white;
 $hljs-title: $red;
 $hljs-type: $dark-blue;
-$hljs-tag: $dark-blue;
+$hljs-tag: $orange;
 $hljs-attribute: $dark-green;
 $hljs-regexp: $dark-green;
 $hljs-symbol: $purple;

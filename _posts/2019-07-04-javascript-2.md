@@ -7,22 +7,20 @@ categories: Developper skills
 mathjax: true
 ---
 ![javascript](/images/javascript.jpg)
->Ce tutoriel est accessible à tous et pourra être bénéfique à chacun, que vous n'ayez jamais codé ou si vous ètes un expert, cela va vous permettre de révisé les bases.
+>Dans cette deuxième partie nous allons voir: **La concaténation, la présentation des conditions,les conditions if, if…else, if…else if…else, les opérateurs logiques,l'évaluation / Simplification des conditions,les  onditions ternaires, le switch, les boucles et enfin la découverte des fonctions.**
 
 ##  La concaténation : définition et exemples
 
-Concaténer signifie tout simplement mettre bout à bout deux chaînes de caractères afin d’en former une troisième, nouvelle.
+Concaténer signifie tout simplement *mettre bout à bout deux chaînes de caractères afin d’en former une troisième, nouvelle.*
 
 
-Concaténer, c’est donc « additionner » des chaînes de caractères.
-
-En JavaScript, on va pouvoir concaténer grâce à l’opérateur « + ».
+>Concaténer, c’est donc « additionner » des chaînes de caractères et en JavaScript, on va pouvoir concaténer grâce à l’opérateur « + ».
 
 Evidemment, nous allons pouvoir appliquer cet opérateur directement à nos variables afin de concaténer leurs contenus respectifs.
 
 ```javascript
 //La variable espace stocke... un espace
-        var lastName = 'Lennon', space = ' ', firstName = 'John';
+        var lastName = 'John', space = ' ', firstName = 'Lennon';
 
         /*On peut concaténer et stocker le résultat dans
          *une nouvelle variable*/
@@ -44,19 +42,21 @@ Evidemment, nous allons pouvoir appliquer cet opérateur directement à nos vari
 
 ![alert](/images/concatenation.png)
 
-Ici, nous avons utilisé la concaténation pour « additionner » les valeurs contenues dans `lastName`, `space` et dans `name`. Nous avons ensuite stocké le résultat de cette concaténation dans une nouvelle variable `me`.
+### Qu'avons-nous fait ici ?
 
-Ensuite, nous avons fait de même avec la variable toi en concaténant cette fois-ci non plus des variables, mais directement des valeurs entre elles.
+* Nous avons utilisé la concaténation pour « additionner » les valeurs contenues dans `lastName`, `space` et dans `name`. Nous avons ensuite stocké le résultat de cette concaténation dans une nouvelle variable `me`.
+* Ensuite, nous avons fait de même avec la variable `me` en concaténant cette fois-ci non plus des variables, mais directement des valeurs entre elles.
+* Finalement, nous avons concaténé une variable avec une valeur.
 
-Finalement, nous avons concaténé une variable avec une valeur. A noter évidemment qu’on ne concatène jamais véritablement des variables (c’est un abus de langage), mais seulement les valeurs contenues dans ces variables.
+>A noter évidemment qu’on **ne concatène jamais véritablement des variables (c’est un abus de langage), mais seulement les valeurs contenues dans ces variables.**
 
-Finalement, nous avons utilisé la concaténation pour afficher le contenu de toutes nos variables d’un coup au sein d’un même alert().
+* Et enfin, nous avons utilisé la concaténation pour afficher le contenu de toutes nos variables d’un coup au sein d’un même `alert()`.
 
->La seule chose à laquelle vous devez faire attention ici est l’utilisation des apostrophes / guillemets : on ne s’en sert que pour entourer les chaînes de caractères, et non pas pour les variables.
+>La seule chose à laquelle vous devez faire attention ici est **l’utilisation des apostrophes / guillemets : on ne s’en sert que pour entourer les chaînes de caractères, et non pas pour les variables.**
 
 ## Additionner un nombre et une chaîne de caractères
 
-Si l’on tente « d’additionner » un nombre et une chaîne de caractères, tout ce qu’il y a derrière la chaîne de caractères sera également considéré comme une chaine de caractères par le JavaScript.
+Si l’on tente « d’additionner » un nombre et une chaîne de caractères, *tout ce qu’il y a derrière la chaîne de caractères sera également considéré comme une chaine de caractères par le JavaScript.*
 
 ```javascript
             var x = 4 + 2 + "1";
@@ -70,27 +70,24 @@ Si l’on tente « d’additionner » un nombre et une chaîne de caractères, t
 ````
 ![alert](/images/concatenation2.png)
 
-Ici, pour notre variable `x`, le JavaScript va commencer par additionner 2 et 4 naturellement, puis va ajouter la chaîne de caractères « 1 » au résultat (c’est-à-dire à 6). Cela donne donc le résultat « 61 ».
+* Ici, pour notre variable `x`, le JavaScript va commencer par additionner `2 et 4` naturellement, puis va ajouter la chaîne de caractères « 1 » au résultat (c’est-à-dire à 6). Cela donne donc le résultat « 61 ».
 
-Dans le second cas, le JavaScript va considérer tout ce qui se trouve derrière la chaîne de caractères « 1 » comme une chaîne de caractères, et va donc concaténer 1, 2 et 4 pour donner « 124 ».
+* Dans le second cas, le JavaScript va considérer tout ce qui se trouve derrière la chaîne de caractères « 1 » comme une chaîne de caractères, et va donc concaténer 1, 2 et 4 pour donner « 124 ».
 
 On peut également observer plus clairement cela avec notre troisième variable `z`, qui va stocker « 2un4 ».
 
 ## Découverte des conditions en JavaScript
 En JavaScript, nous allons souvent vouloir effectuer différentes actions selon la valeur d’un paramètre, afin de dynamiser notre site et d’y ajouter une certaine interaction.
 
-*Par exemple, on va vouloir afficher le message « Bonjour » si il est moins de 18h ou « Bonsoir » dans le cas contraire, ou encore afficher le message « Bonjour john » si votre visiteur à indiqué au préalable qu’il s’appelait John.*
+>*Par exemple, on va vouloir afficher le message « Bonjour » si il est moins de 18h ou « Bonsoir » dans le cas contraire, ou encore afficher le message « Bonjour john » si votre visiteur à indiqué au préalable qu’il s’appelait John.*
 
 Une façon simple de faire cela est d’utiliser les conditions.
 
-Les conditions vont s’articuler autour d’un test. Généralement, nous allons comparer la valeur contenue dans une variable à une certaine autre valeur.
+Les conditions vont s’articuler autour d’un **test**. Généralement, nous allons comparer la valeur contenue dans une variable à une certaine autre valeur.
 
 Selon le résultat du test, nous allons ensuite pouvoir exécuter un bloc de code plutôt qu’un autre à l’intérieur de notre condition.
 
-Les opérateurs de comparaison
-Pour effectuer des comparaiosns à l’intérieur d’une condition, nous allons avoir besoin d’opérateurs de comparaison.
-
-Ces opérateurs sont représentés par les symboles suivants :
+Pour effectuer des comparaisons à l’intérieur d’une condition, nous allons avoir besoin d’opérateurs de comparaison qui sont les suivants:
 
 ### Symbole Signification
 
@@ -124,7 +121,7 @@ A chaque fois que l’on va comparer deux valeurs, le JavaScript va renvoyer *un
 
 Par exemple, si l’on écrit en JavaScript « 7 < 14 », le JavaScript renverra « true » car 7 est bien inférieur à 14.
 
-Dans nos conditions, nous n’allons donc pas directement tester si une valeur est *inférieure*, égale ou *supérieure* à une autre, mais tester si le JavaScript nous renvoie *true* ou *false*.
+>Dans nos conditions, nous n’allons donc pas directement tester si une valeur est **inférieure**, égale ou **supérieure** à une autre, mais tester si le JavaScript nous renvoie *true* ou *false*.
 
 **C’est une distinction très importante que malheureusement très peu de développeurs font ou comprennent.**
 
@@ -176,6 +173,12 @@ Dans le code ci-dessus, nous comparons des valeurs entre elles. A la suite de ch
 On stocke le résultat renvoyé par le JavaScript dans une variable pour chaque comparaison puis on affiche tout cela grâce à une instruction `alert()`.
 
 Maintenant que vous savez véritablement comment fonctionne le JavaScript avec les opérateurs de comparaisons, nous allons pouvoir aborder sereinement les conditions en soi.
+
+## La condition if
+« If » en anglais signifie « si ». Avec cette première structure conditionnelle, on va pouvoir tester si une valeur répond à un certain critère, et exécuter un bloc de code le cas échéant.
+
+Par exemple, on peut choisir d’afficher le message « Bonjour » si une variable heure stocke une valeur inférieure à 18.
+
 
 
 
