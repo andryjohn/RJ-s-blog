@@ -174,12 +174,165 @@ On stocke le résultat renvoyé par le JavaScript dans une variable pour chaque 
 
 Maintenant que vous savez véritablement comment fonctionne le JavaScript avec les opérateurs de comparaisons, nous allons pouvoir aborder sereinement les conditions en soi.
 
+---
+
 ## La condition if
 « If » en anglais signifie « si ». Avec cette première structure conditionnelle, on va pouvoir tester si une valeur répond à un certain critère, et exécuter un bloc de code le cas échéant.
 
-Par exemple, on peut choisir d’afficher le message « Bonjour » si une variable heure stocke une valeur inférieure à 18.
+Par exemple, on peut choisir d’afficher le message « Bonjour » si une variable
+`hour` stocke une valeur inférieure à 18.
+
+```javascript
+ /*On commence par définir une variable heure.
+             *Plus tard, nous utiliserons les fonctions pour
+             *toujours avoir l'heure exacte*/
+            var hour = 15;
+
+            //On écrit notre première condition if
+            if (hour <= 18 == true) {
+                alert("Bonjour");
+            }
+
+```
+![bonjour](/images/bonjour.png)
+
+Dans le cas où le JavaScript renvoie false, rien ne se passe.
+
+```javascript
+ /*On commence par définir une variable heure.
+             *Plus tard, nous utiliserons les fonctions pour
+             *toujours avoir l'heure exacte*/
+            var hour = 21;
+
+            //On écrit notre première condition if
+            if (hour <= 18 == true) {
+                alert("Bonjour");
+            }
+                    //Rien ne s'affiche!
+```
+>Dans la pratique, on comparera souvent la valeur renvoyée par le JavaScript à l'issue de la comparaison à la valeur true. Cependant, on peut également évidemment comparer cette valeur à false et exécuter notre bloc de code le cas échéant.
+
+```javascript
+
+            var hour = 21;
+
+            //On écrit notre première condition if
+            if (hour <= 18 == false) {
+                alert("Bonsoir");
+            }
+
+```
+
+![bonsoir](/images/Bonsoir.png)
+
+## La condition if…else
+
+La condition `if…else` (« si… sinon » en Français) va nous permettre d’exécuter un bloc de code si le JavaScript renvoie bien la valeur attendue, et un autre bloc de code s’il ne renvoie pas la valeur attendue.
+
+En reprenant notre exemple précédent, on va donc pouvoir dorénavant afficher « Bonjour » si notre variable contient bien une valeur inférieure à 18 et « Bonsoir » dans le cas contraire.
+
+```javascript
+  var hour = 21;
+
+            if (hour <= 18 == true) {
+                alert("Bonjour");
+            }
+            else {
+                alert("Bonsoir");
+            }
+```
+![bonsoir](/images/Bonsoir.png)
+
+>Notez dès à présent qu’on n’effectue jamais aucun test au sein du `else`, car le `else` va tout simplement prendre en charge tous les cas non supportés par le `if`.
+
+## La condition if…else if…else
+
+La condition `if…else if…else` signifie « si… sinon si… sinon » en Français.
+
+>Cette condition va être très puissante et très pratique puisqu’elle va nous permettre de gérer autant de cas que l’on souhaite et d’exécuter un code différent pour chaque nouveau cas créé.
+
+**On va pouvoir insérer autant de `else if` que l’on veut au sein de notre condition pour pouvoir gérer un nombre infini de cas.**
+
+```javascript
+        var hour = 9;
+
+        if (hour < 12 == true) {
+          alert("c'est le matin!");
+        }
+        else if (hour == 12 == true) {
+          alert("il est midi!");
+        }
+        else if (hour <= 18 == true) {
+          alert("c'est l'après midi!")
+        }
+        else {
+          alert("cest le soir");
+        }
+
+```
+![matin](/images/matin.png)
+
+## Limitations et solutions
+
+Cependant, ce code est encore *loin d’être parfait*. Les plus malins d’entre vous se demandent peut être *comment le JavaScript fait pour savoir si « c’est le matin » ou « c’est l’après midi » lorsque notre variable stocke une valeur inférieure à 12 ?*
+
+La réponse est simple : il ne le sait pas.
+
+>**Le code JavaScript va simplement être lu de façon linéaire et dès qu’un test va être évalué à true, nous allons sortir de la condition.**
+
+Si nous avions construit notre condition différemment, le JavaScript aurait renvoyé le « mauvais » message.
+
+```javascript
+        var hour = 9;
+
+        /*if (hour < 12 == true) {
+          alert("c'est le matin!");
+        }*/
+        if (hour <= 18 == true) {
+          alert("c'est l'après midi!");
+        }
+
+        else if (hour == 12 == true) {
+          alert("il est midi!");
+        }
+
+        else if (hour <= 18 == true) {
+          alert("c'est l'après midi!")
+        }
+        else {
+          alert("cest le soir");
+        }
+
+```
+![après-midi](/images/amidi.png)
+
+Nous allons pouvoir régler ce premier défaut grâce aux opérateurs logiques, objet du prochain chapitre.
 
 
+## Operateurs logiques et conditions:
+
+### Les opérateurs logiques
+
+En JavaScript, il existe trois opérateurs logiques très utilisés : l’opérateur logique « ET », l’opérateur logique « OU » et l’opérateur logique « CONTRAIRE » ou « NON ».
+
+```quote
+
+Opérateur logique    Symbole
+ET (AND)              &&
+OU (OR)               ||
+NON                    !
+
+```
+### Opérateurs logiques et conditions
+
+Nous allons pouvoir utiliser ces**opérateurs logiques au sein même de nos conditions**, afin de pouvoir par exemple effectuer plusieurs comparaisons au sein d’un même test.
+
+Plus précisément, l’opérateur logique « ET » va nous permettre de créer *un intervalle de comparaison pour une variable.*
+
+On va par exemple pouvoir tester si la valeur contenue dans une variable
+`hour` est comprise entre `0 et 12`.
+
+>Grâce à cet opérateur, nous allons pouvoir lever l’ambiguïté sur certaines valeurs (ambiguïté vue dans la partie précédente) en ne travaillant plus qu’avec des intervalles.
 
 
 ## Un excellent "workshop Le Wagon" pour revoir les concepts vus sur ce tutorial!
