@@ -7,10 +7,13 @@ pre code {
 pre,
 code {
   font-family: $monospace-font-family;
+  background-color: #383838!important;
+  padding-left: 5px;
+  padding-right: 5px;
 }
 
 code {
-  color: #7a7a7a;
+  color: #e5d535;
 }
 
 pre {
