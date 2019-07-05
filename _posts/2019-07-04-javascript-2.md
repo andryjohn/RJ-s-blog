@@ -7,7 +7,7 @@ categories: Developper skills
 mathjax: true
 ---
 ![javascript](/images/javascript.jpg)
->Dans cette deuxième partie nous allons voir: **La concaténation, la présentation des conditions,les conditions if, if…else, if…else if…else, les opérateurs logiques,l'évaluation / Simplification des conditions,les  onditions ternaires, le switch, les boucles et enfin la découverte des fonctions.**
+>Dans cette deuxième partie nous allons voir: **La concaténation, la présentation des conditions,les conditions if, if…else, if…else if…else, les opérateurs logiques,l'évaluation / Simplification des conditions,les boucles.**
 
 ##  La concaténation : définition et exemples
 
@@ -376,8 +376,195 @@ On peut par exemple tester si la valeur contenue dans une variable `hour` est
 
 * Finalement, l’opérateur logique « NON » va nous permettre de nier une comparaison. Ainsi, des comparaisons évaluées de base à false vont être évaluées à true et inversement.
 
+```javascript
+  var hour = 18;
+
+   /* l'opérateur logique "!" inverse la valeur logique
+     d'un test. Ici, cela correspond à écrire :
+     if(hour > 16 == true)*/
+    if (!(hour <= 16) == true) {
+      alert("il est plus dde 16h!")
+    }
+    else {
+      alert("Il est moin de 16h!")
+    }
+
+```
+![16h](/images/16h.png)
+
+>Il est possible que vous ne compreniez pas immédiatement l’utilité de ces opérateurs logiques, notamment en ce qui concerne l’opérateur logique « NON ».
+retenez juste que chacun d’entre eux est très puissant et ils vont tous nous être très utiles par la suite.
+
+## Simplifier ses conditions
+
+La façon dont nous avons écrit nos conditions jusqu’à présent est tout à fait valide. Cependant, nous allons pouvoir simplifier cette écriture.
+
+En effet, vous devez savoir que lorsqu’on écrit une condition, le JavaScript va par défaut exécuter le code contenu dans un `if` ou dans un `else if` si la comparaison a été évaluée à `true`.
+
+En d’autres termes, il est inutile de préciser le `== true` dans nos conditions.
+
+```javascript
+   var hour = 18;
+
+  //Avant on écrivait :
+  if ( hour > 12 == true){
+    alert("Il est midi passé!");
+  }
+  //En simplifiant, ce code équivaut à:
+  if (hour > 12) {
+    alert("Il est midi passé!");
+  }
+
+```
+ **A partir de maintenant, je vous encourage fortement pour des raisons de simplicité et de lisibilité à écrire vos conditions de façon abrégée.**
 
 
+Pour évaluer de cette manière si une comparaison est évaluée à
+`false`, nous allons avoir besoin de l’opérateur logique « NON » qui, rappelons le, va inverser la valeur logique d’un test, ce qui donne :
+
+```javascript
+   var hour = 18;
+
+   //Avant on écrivait:
+   if (hour < 12 == false) {
+     alert("Il est midi passé!");
+   }
+   //Ce code équivaut à:
+   if(!(hour < 12)) {
+    alert("il est midi passé!")
+   }
+```
+
+## L’évaluation des valeurs
+
+Il y a un autre point que vous devez connaître afin de véritablement comprendre les conditions : *une valeur peut être évaluée à true ou false même sans opérateur de comparaison.*
+
+Ainsi, toute valeur différente de `null`, `undefined`, `NaN`, `0` et `la chaîne de caractères vide` sera évaluée par défaut par le JavaScript à `true`.
+
+Savoir cela nous permet de comprendre bien des choses et de résoudre certaines situations en JavaScript.
+
+```javascript
+var x = 6, y = "";
+
+            //Correspond à if(x == true)
+            if (x) {
+                alert("x est évaluée à true par le JavaScript");
+            }
+
+            if (y){
+                alert("y est évaluée à true")
+            }
+            else{
+                alert("y est évaluée à false");
+            }
+
+```
+![true](/images/true.png)
+
+---
+
+![false](/images/false.png)
+
+Dans le code ci-dessus, la variable `x` contient la valeur `6`. Le code `if(x)` demande à JavaScript de comparer la valeur de `x` à `true` par défaut.
+
+* Si la valeur de `x` a été évaluée à `true`, alors *une boîte d'alerte apparaitra*. Cela va être le cas d'après ce que nous avons dit précédemment.
+
+* En revanche, notre variable `y` contient *une chaîne de caractères vide*. La chaine de caractères vide est par défaut évaluée à `false` par le JavaScript.
+
+* Ainsi, nous allons entrer dans le `else` de notre deuxième condition et exécuter le code qui se trouve à l'intérieur.
+
+## Les boucles en Javascript:
+
+### Présentation des boucles
+
+Les boucles vont nous permettre *d’exécuter un bloc de code un certain nombre de fois, tant qu’une certaine condition est remplie.*
+
+>Par exemple, on va pouvoir exécuter une certaine instruction tant qu’une certaine variable n’aura pas atteint telle ou telle valeur.
+
+**Attention cependant : la condition donnée doit toujours être fausse à un moment donné, sinon la boucle ne s’arrêtera jamais !**
+
+Nous allons étudier trois boucles dans cette partie :
+
+* La boucle `while` (« tant que ») ;
+* La boucle `do… while` (« faire… tant que ») ;
+* La boucle `for` (« pour »).
+
+#### La boucle "while"
+
+La boucle `while` va nous permettre de répéter une série d’instructions tant qu’une condition donnée est vraie.
+
+```javascript
+
+   //On commence par initialisé un variable
+
+   var count = 0;
+
+   //Tant que...
+   while (count < 10){
+    //On affiche la valeur de 'count'
+    alert('count contient la valeur : ' + count);
+   }
+    //Et on incrémente cette valeur
+                count++; //Equivaut à x = x + 1 ou x += 1
+
+          //Tester le chez vous!!
+```
+![while](/images/while.png)
+
+* Dans le code ci-dessus, on commence par initialiser une variable
+`count` en lui faisant stocker la valeur `0`.
+
+* Ensuite, on crée notre boucle `while`. Tant que `count` contient une valeur `strictement inférieure à 10`, on ne sort pas de la boucle et on retourne au début de celle-ci pour effectuer un nouveau passage.
+
+* A chaque nouveau passage dans la boucle, on demande à afficher la valeur de `count` et on *incrémente* la valeur de `count`, c’est-à-dire on ajoute `1` à cette valeur.
+
+>Comme vous pouvez le voir, pour incrémenter, il suffit d’ajouter deux signes « + » après notre variable.
+
+### La boucle "do… while"
+
+Pour faire très simple, la différence entre la boucle `do… while` et la boucle
+`while` va être de même type que ce que nous venons de voir avec l’incrémentation : *cela va être une question d'ordre des opérations.*
+
+>Dans une boucle while, si la condition donnée est fausse dès le départ, la boucle ne sera jamais exécutée.
+
+
+```javascript
+
+  var count = 100;
+         do {
+          alert ("count contient la valeur : " + count);
+          }
+          while (count < 10)
+```
+![dowhile](/images/dowhile.png)
+
+### La boucle for
+
+La boucle `for` (« pour ») va nous permettre de *répéter une série d’instructions à partir d’une valeur donnée, jusqu’à une certaine valeur seuil.*
+
+>Cette boucle utilise une syntaxe assez condensée qui fait qu’elle est la plus utilisée en JavaScript car elle est la plus simple à écrire, la plus performante et au final la plus lisible.
+
+Dans une boucle `for`, nous allons tout d’abord devoir initialiser une variable, puis poser notre condition, et finalement incrémenter ou décrémenter notre variable.
+
+```javascript
+  var i;
+
+            /*i = 0 est appelée phase d'initialisation
+             *i < 10 correspond à la condition
+             *i++ est la phase d'incrémentation*/
+
+            for(i = 0; i < 10; i++){
+                alert ('i contient la valeur : ' + i);
+            }
+
+            /*Note : l'incrémentation se fait APRES le passage dans
+             *la boucle. Ainsi, i contient 0 lors du premier passage*/
+```
+* Notez que l’on sépare les différentes phases ou déclarations à l’intérieur de notre boucle `for` par des points virgules.
+
+* Retenez aussi que l’initialisation est exécutée avant tout passage dans la boucle `for`, tandis que l’incrémentation est exécutée à la fin de chaque passage dans la boucle `for`.
+
+* Finalement, notez également que vous n’êtes obligé ni d’initialiser, ni d’écrire la condition, ni d’incrémenter à l’intérieur de la boucle `for`.
 
 ## Un excellent "workshop Le Wagon" pour revoir les concepts vus sur ce tutorial!
 
