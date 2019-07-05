@@ -8,7 +8,7 @@ mathjax: true
 
 >"99% du design d'une application web est contistué des mêmes composants, j'ai décidé d'en coder quelques uns et de vous les partagés!"
 
-Ce sont des **"composants web"** que l'on trouve de manière **récurrents**.
+Ce sont des *"Composants Web"* que l'on trouve de manière *récurrents*.
 
  je vais en intégrer les plus connus, tels que les avatars, les boutons, les bannières,... afin de vous les partagés  et cela me permettra d'avoir ma propre librairie.
 
@@ -24,6 +24,7 @@ Ce composant simple, néamoins indispensable sur les profils de nos réseaux soc
 
 ![avatar](/images/avatar.png)
 ##### HTML
+
 ```html
   <div class="container">
     <h2>Avatar design</h2>
@@ -32,6 +33,7 @@ Ce composant simple, néamoins indispensable sur les profils de nos réseaux soc
      </div>
 ```
 ##### CSS
+
 ```css
 .avatar {
   border-radius: 50%;
@@ -399,9 +401,10 @@ Ce composant simple, néamoins indispensable sur les profils de nos réseaux soc
 <style>
 
 .card {
-  width: 15em;
-  height: 8em;
+  width: 25em;
+  height: 12em;
   text-shadow: 0 1px 3px rgba(0,0,0,0.6);
+  box-shadow: 0 0 15px rgba(0,0,0,0.2);
   background-size: cover !important;
   background-position: center;
   color: whitesmoke;
@@ -421,7 +424,7 @@ Ce composant simple, néamoins indispensable sur les profils de nos réseaux soc
   position: absolute;
   top: 10px;
   left: 10px;
-  font-size: 15px;
+  font-size: 35px;
   text-transform: uppercase;
 }
 .card-description {
@@ -431,10 +434,11 @@ Ce composant simple, néamoins indispensable sur les profils de nos réseaux soc
 }
 .card-description h2 {
 
-  font-size: 24px;
+  font-size: 25px;
+  font-weight: bold;
 }
 .card-description p {
-  font-size: 14px;
+  font-size: 20px;
   opacity: 0.7;
   font-weight: lighter;
   color: #ffff;
@@ -975,7 +979,7 @@ D'autres liens sur RJ'blog:
 <style>
   .highlight {
   background-color: #252525;
-  box-shadow: 0 0 15px rgba(0,0,0,0.3);
+  box-shadow: 0 0 20px rgba(0,0,0,0.2);
   border-radius: 5px;
 }
 </style>
