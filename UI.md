@@ -21,19 +21,37 @@ Pour chaques éléments, les codes sont visible sur [codepen.io](https://codepen
 
 Ce composant simple, néamoins indispensable sur les profils de nos réseaux sociaux.
 
-[*Voir le code*](https://codepen.io/andryjohn/pen/KjVzbw)
 
 ![avatar](/images/avatar.png)
+##### HTML
+```html
+  <div class="container">
+    <h2>Avatar design</h2>
+          <img src="./ladies.jpeg" alt="" class="avatar">
+           <img src="./ladies.jpeg" alt="" class="avatar-small">
+     </div>
+```
+##### CSS
+```css
+.avatar {
+  border-radius: 50%;
+  width: 70px;
+}
 
+.avatar-small {
+  border-radius: 50%;
+  width: 50px;
+}
+```
 ## Buttons:
 
-[*Voir le code*](https://codepen.io/andryjohn/pen/KjVzbw)
 
 <div class="container-card">
   <a href="#" class="btn-medium">Write a stories</a>
   <a href="#" class="btn-treehouse">Free Trial</a>
   </div>
-  <style>.btn-medium {
+  <style>
+    .btn-medium {
   color: #999999;
   border: 1px solid #999999;
   padding: 10px 15px;
@@ -60,11 +78,51 @@ Ce composant simple, néamoins indispensable sur les profils de nos réseaux soc
   text-decoration: none;
   color: #4AB66A;
   opacity: 1;
-} </style>
+}
+ </style>
 
+##### HTML
+
+```html
+<div class="container-card">
+  <a href="#" class="btn-medium">Write a stories</a>
+  <a href="#" class="btn-treehouse">Free Trial</a>
+  </div>
+```
+##### CSS
+
+```css
+  .btn-medium {
+  color: #999999;
+  border: 1px solid #999999;
+  padding: 10px 15px;
+  margin: 10px;
+  border-radius: 50px;
+  font-weight: lighter;
+  opacity: 0.6;
+}
+.btn-medium:hover {
+  text-decoration: none;
+  color: #999999;
+  opacity: 1;
+}
+
+.btn-treehouse {
+  border: 2px solid #4AB66A;
+  padding: 10px 15px;
+  color: #4AB66A;
+  font-weight: bold;
+  border-radius: 4px;
+  opacity: 0.7;
+}
+.btn-treehouse:hover {
+  text-decoration: none;
+  color: #4AB66A;
+  opacity: 1;
+}
+
+```
 ## Nav Bar:
-
-[*Voir le code*](https://codepen.io/andryjohn/pen/rELRwx)
 
 <div class="container">
   <ul>
@@ -129,10 +187,70 @@ Ce composant simple, néamoins indispensable sur les profils de nos réseaux soc
   }
 </style>
 
+#### HTML
 
+```html
+<div class="container">
+  <ul>
+    <li class="default"><a href="#"><i class="fa fa-home"></i></a></li>
+    <li><a href="#">About</a></li>
+    <li><a href="#">Services</a></li>
+    <li><a href="#">Blog</a></li>
+    <li><a href="#">Contact</a></li>
+  </ul>
+</div>
+```
+#### CSS
+```css
+.container {
+  display: flex;
+  text-align: center;
+  font-size: 1.35em;
+  }
+
+.container ul {
+  width: 100%;
+  padding: 0px;
+  border-radius: .25em;
+  background: whitesmoke;
+  list-style:none;
+  text-align: center;
+  }
+
+.container li {
+  position:relative;
+  display:inline-block;
+  border-bottom: none;
+  border-radius: .25em .25em 0 0;
+  }
+
+.container li:hover { box-shadow: 0 -5px 0 #f47321; }
+
+.container a {
+  color:#f47321;
+  display:block;
+  padding: .5em;
+  text-decoration:none;
+  }
+
+.container a:hover {
+  border-radius: 0 0 .25em .25em;
+  background: #f47321;
+  box-shadow: 0 5px 0 #dc6519;
+  color:white;
+  text-shadow: 0 -1px 0 rgba(0,0,0,0.3);
+  }
+.default { box-shadow: 0 -5px 0 #f47321; }
+
+.default a {
+  background: #f47321;
+  box-shadow: 0 5px 0 #dc6519;
+  color:white;
+  border-radius: 0 0 .25em .25em;
+  text-shadow: 0 -1px 0 rgba(0,0,0,0.3);
+  }
+```
 ## Alerts!
-
-[*Voir le code*](https://codepen.io/andryjohn/pen/OYywBd)
 
 <div class="flash flash-success alert alert-dismissible fade show" role="alert">
   <span><strong>Yay!</strong> 🎉 you successfully signed in to our service.</span>
@@ -181,7 +299,57 @@ Ce composant simple, néamoins indispensable sur les profils de nos réseaux soc
 }
 </style>
 
+#### HTML
 
+```html
+<div class="flash flash-success alert alert-dismissible fade show" role="alert">
+  <span><strong>Yay!</strong> 🎉 you successfully signed in to our service.</span>
+</div>
+
+<div class="flash flash-warning alert alert-dismissible fade show" role="alert">
+  <span><strong>Mmh</strong> 🤔 seems like you don't have <a href="#">profile picture</a> yet.</span>
+</div>
+
+<div class="flash flash-danger alert alert-dismissible fade show" role="alert">
+  <span><strong>Oops!</strong> 😱 a problem has occurred while processing your booking.</span>
+</div>
+
+```
+#### CSS
+```css
+.flash {
+  padding: 16px 24px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: whitesmoke;
+  box-shadow: 0 0 8px rgba(0,0,0,0.2);
+  border-radius: 4px;
+  margin: 8px;
+}
+
+.flash-success {
+  border: 2px solid #1EDD88;
+}
+
+.flash-warning {
+  border: 2px solid #FFC65A;
+}
+
+.flash-danger {
+  border: 2px solid #FD1015;
+}
+.flash:hover {
+  webkit-transform: scale(1.2);
+  -moz-transform: scale(1.2);
+  -ms-transform: scale(1.2);
+  -o-transform: scale(1.2);
+  transform: scale(1.2);
+  transition: 0.9s;
+
+}
+
+```
 ## Landing page:
 
 [*Voir le code*](https://codepen.io/andryjohn/pen/EzVoWQ)
@@ -291,7 +459,114 @@ Ce composant simple, néamoins indispensable sur les profils de nos réseaux soc
   transition: 0.9s;
 }
 
+
 </style>
+
+#### HTML
+
+```html
+<div class="row">
+    <div class="col-xs-12 col-sm-4">
+    <div class="card" style="background-image: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.2)), url('https://source.unsplash.com/hrlvr2ZlUNk');">
+  <div class="card-category">Popular</div>
+  <div class="card-description">
+    <h2>Breakfast</h2>
+    <p>Awesome</p>
+  </div>
+  <img class="card-user" src="https://source.unsplash.com/OjvZ_2vSruk">
+  <a class="card-link" href="#" ></a>
+</div>
+    </div>
+    <div class="col-xs-12 col-sm-4">
+  <div class="card" style="background-image: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.2)), url('https://source.unsplash.com/Pt_YmiYm7a4');">
+  <div class="card-category">Popular</div>
+  <div class="card-description">
+    <h2>Brunch</h2>
+    <p>Lovely place, "the best place"</p>
+  </div>
+  <img class="card-user" src="https://source.unsplash.com/OjvZ_2vSruk">
+  <a class="card-link" href="#" ></a>
+</div>
+    </div>
+    <div class="col-xs-12 col-sm-4">
+      <!-- insert <div class="card"> --><div class="card" style="background-image: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.2)), url('https://source.unsplash.com//D-vDQMTfAAU');">
+  <div class="card-category">Popular</div>
+  <div class="card-description">
+    <h2>Asian Foods</h2>
+    <p>Awesome place,we Love it!</p>
+  </div>
+  <img class="card-user" src="https://source.unsplash.com/OjvZ_2vSruk">
+  <a class="card-link" href="#" ></a>
+</div>
+    </div>
+  </div>
+
+```
+#### CSS
+```css
+.card {
+  width: 15em;
+  height: 8em;
+  text-shadow: 0 1px 3px rgba(0,0,0,0.6);
+  background-size: cover !important;
+  background-position: center;
+  color: whitesmoke;
+  position: relative;
+  border-radius: 7px;
+  margin: 10px;
+}
+.card-user {
+  position: absolute;
+  right: 10px;
+  top: 10px;
+  width: 60px;
+  border-radius: 50%;
+  height: 55px;
+}
+.card-category {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  font-size: 15px;
+  text-transform: uppercase;
+}
+.card-description {
+  position: absolute;
+  bottom: 10px;
+  left: 10px;
+}
+.card-description h2 {
+
+  font-size: 24px;
+}
+.card-description p {
+  font-size: 14px;
+  opacity: 0.7;
+  font-weight: lighter;
+  color: #ffff;
+}
+.card-link {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  width: 100%;
+  z-index: 2;
+  background: black;
+  opacity: 0;
+}
+.card:hover {
+   margin: 10px;
+   webkit-transform: scale(1.1);
+  -moz-transform: scale(1.1);
+  -ms-transform: scale(1.1);
+  -o-transform: scale(1.1);
+  transform: scale(1.1);
+  transition: 0.9s;
+}
+
+
+```
 
 ## Product Hunt list:
 
@@ -568,8 +843,6 @@ Ce composant simple, néamoins indispensable sur les profils de nos réseaux soc
 
 ## Card category:
 
-[*Voir le code*](https://codepen.io/andryjohn/pen/XwqBOZ)
-
 <div class="pizza">
   <div class="pizza__herro">
       <img src="https://images.unsplash.com/photo-1474600056930-615c3d706456?ixlib=rb-1.2.1&auto=format&fit=crop&w=1052&q=80" alt="pizza" class="pizza__img">
@@ -670,139 +943,6 @@ Ce composant simple, néamoins indispensable sur les profils de nos réseaux soc
 </style>
 
 
-<!-- ## Contact form:
-
-[*Voir le code*](https://codepen.io/andryjohn/pen/Wqxpox)
-
-<form id="contact" action="" method="post">
-    <h3>Get in Touch</h3>
-    <fieldset>
-      <input placeholder="Your name" type="text" tabindex="1" required autofocus>
-    </fieldset>
-    <fieldset>
-      <input placeholder="Your Email Address" type="email" tabindex="2" required>
-    </fieldset>
-    <fieldset>
-      <textarea placeholder="Type your message here...." tabindex="3" required></textarea>
-    </fieldset>
-    <fieldset>
-      <button name="submit" type="submit" id="contact-submit" data-submit="...Sending">Submit</button>
-    </fieldset>
-  </form>
-<style>
-#contact input[type="text"],
-#contact input[type="email"],
-#contact input[type="tel"],
-#contact input[type="url"],
-#contact textarea,
-#contact button[type="submit"] {
-  font: 400 12px/16px "Roboto", Helvetica, Arial, sans-serif;
-}
-
-#contact {
-  background: #F9F9F9;
-  padding: 25px;
-  margin: 90px 0;
-  box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24);
-}
-
-#contact h3 {
-  display: block;
-  font-size: 30px;
-  font-weight: 300;
-  margin-bottom: 10px;
-}
-
-#contact h4 {
-  margin: 5px 0 15px;
-  display: block;
-  font-size: 13px;
-  font-weight: 400;
-}
-
-fieldset {
-  border: medium none !important;
-  margin: 0 0 10px;
-  min-width: 100%;
-  padding: 0;
-  width: 100%;
-}
-
-#contact input[type="text"],
-#contact input[type="email"],
-#contact input[type="tel"],
-#contact input[type="url"],
-#contact textarea {
-  width: 100%;
-  border: 1px solid #ccc;
-  background: #FFF;
-  margin: 0 0 5px;
-  padding: 10px;
-}
-
-#contact input[type="text"]:hover,
-#contact input[type="email"]:hover,
-#contact input[type="tel"]:hover,
-#contact input[type="url"]:hover,
-#contact textarea:hover {
-  -webkit-transition: border-color 0.3s ease-in-out;
-  -moz-transition: border-color 0.3s ease-in-out;
-  transition: border-color 0.3s ease-in-out;
-  border: 1px solid #aaa;
-}
-
-#contact textarea {
-  height: 100px;
-  max-width: 100%;
-  resize: none;
-}
-
-#contact button[type="submit"] {
-  cursor: pointer;
-  width: 100%;
-  border: none;
-  background: #4CAF50;
-  color: #FFF;
-  margin: 0 0 5px;
-  padding: 10px;
-  font-size: 15px;
-}
-
-#contact button[type="submit"]:hover {
-  background: #43A047;
-  -webkit-transition: background 0.3s ease-in-out;
-  -moz-transition: background 0.3s ease-in-out;
-  transition: background-color 0.3s ease-in-out;
-}
-
-#contact button[type="submit"]:active {
-  box-shadow: inset 0 1px 3px rgba(0, 0, 0, 0.5);
-}
-
-#contact input:focus,
-#contact textarea:focus {
-  outline: 0;
-  border: 1px solid #aaa;
-}
-
-::-webkit-input-placeholder {
-  color: #888;
-}
-
-:-moz-placeholder {
-  color: #888;
-}
-
-::-moz-placeholder {
-  color: #888;
-}
-
-:-ms-input-placeholder {
-  color: #888;
-}
-</style>-->
-
-
 ## Messages:
 
 [*Voir le code*](https://codepen.io/andryjohn/pen/RmrrLd)
@@ -832,3 +972,10 @@ D'autres liens sur RJ'blog:
 
  <footer><cite title="Workshop">Credit: Made by ©Andry Rajohnson, inspired by le wagon UI kit </cite></footer>
 
+<style>
+  .highlight {
+  background-color: #252525;
+  box-shadow: 0 0 15px rgba(0,0,0,0.3);
+  border-radius: 5px;
+}
+</style>
