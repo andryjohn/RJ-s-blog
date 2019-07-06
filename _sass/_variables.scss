@@ -4,7 +4,7 @@ $bold-font-weight: bold !default;
 $font-family: 'Roboto', serif !default;
 $line-height: 1.5 !default;
 $heading-font-family: 'Roboto', sans-serif !default;
-$heading-font-weight: 600 !default;
+$heading-font-weight: 550 !default;
 $heading-line-height: 1.25 !default;
 $monospace-font-family: 'Source Code Pro', Consolas, monospace !default;
 $h1: 2.299rem !default;
@@ -105,7 +105,7 @@ $hljs-name: $purple;
 $hljs-number: $blue;
 $hljs-string: $white;
 $hljs-title: $red;
-$hljs-type: $blue;
+$hljs-type: $light-green;
 $hljs-tag: $orange;
 $hljs-attribute: $dark-green;
 $hljs-regexp: $dark-green;
@@ -114,7 +114,7 @@ $hljs-built-in: $dark-blue;
 $hljs-preprocessor: $mid-gray;
 $hljs-deletion: $light-pink;
 $hljs-addition: $light-green;
-$hljs-change: $dark-blue;
+$hljs-change: $light-pink;
 $hljs-chunk: $light-gray;
 
 // Footer
