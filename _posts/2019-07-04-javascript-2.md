@@ -7,7 +7,15 @@ categories: Developper skills
 mathjax: true
 ---
 ![javascript](/images/javascript.jpg)
->Dans cette deuxième partie nous allons voir: **La concaténation, la présentation des conditions,les conditions if, if…else, if…else if…else, les opérateurs logiques,l'évaluation / Simplification des conditions,les boucles.**
+>Dans cette deuxième partie nous allons voir:
+* La concaténation,
+* la présentation des conditions,
+* les conditions if,
+* if…else,
+* if…else if…else,
+* les opérateurs logiques,
+* l'évaluation / Simplification des conditions,
+* les boucles.
 
 ##  La concaténation : définition et exemples
 
