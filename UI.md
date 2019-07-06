@@ -46,7 +46,7 @@ Ce composant simple, néamoins indispensable sur les profils de nos réseaux soc
 }
 ```
 ## Buttons:
-
+<!--rendering button-->
 
 <div class="container-card">
   <a href="#" class="btn-medium">Write a stories</a>
@@ -82,7 +82,7 @@ Ce composant simple, néamoins indispensable sur les profils de nos réseaux soc
   opacity: 1;
 }
  </style>
-
+<!-- end rendering button-->
 ##### HTML
 
 ```html
@@ -126,6 +126,7 @@ Ce composant simple, néamoins indispensable sur les profils de nos réseaux soc
 ```
 ## Nav Bar:
 
+<!--rendering Navbar-->
 <div class="container">
   <ul>
     <li class="default"><a href="#"><i class="fa fa-home"></i></a></li>
@@ -188,6 +189,7 @@ Ce composant simple, néamoins indispensable sur les profils de nos réseaux soc
   text-shadow: 0 -1px 0 rgba(0,0,0,0.3);
   }
 </style>
+<!-- end rendering Navbar-->
 
 #### HTML
 
@@ -253,7 +255,7 @@ Ce composant simple, néamoins indispensable sur les profils de nos réseaux soc
   }
 ```
 ## Alerts!
-
+<!--rendering Alert-->
 <div class="flash flash-success alert alert-dismissible fade show" role="alert">
   <span><strong>Yay!</strong> 🎉 you successfully signed in to our service.</span>
 </div>
@@ -300,7 +302,7 @@ Ce composant simple, néamoins indispensable sur les profils de nos réseaux soc
 
 }
 </style>
-
+<!--rendering Alert-->
 #### HTML
 
 ```html
@@ -358,13 +360,13 @@ Ce composant simple, néamoins indispensable sur les profils de nos réseaux soc
 
 ![Card](/images/landing-page.png)
 
-## Card grid :
+## Cards grid :
 
-[*Voir le code*](https://codepen.io/andryjohn/pen/ZdQRmb)
+<!--rendering Card grid-->
 
   <div class="row">
     <div class="col-xs-12 col-sm-4">
-    <div class="card" style="background-image: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.2)), url('https://source.unsplash.com/hrlvr2ZlUNk');">
+    <div class="card" style="background-image: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.2)), url('https://source.unsplash.com/6ZWhi3YhDY8');">
   <div class="card-category">Popular</div>
   <div class="card-description">
     <h2>Breakfast</h2>
@@ -375,7 +377,7 @@ Ce composant simple, néamoins indispensable sur les profils de nos réseaux soc
 </div>
     </div>
     <div class="col-xs-12 col-sm-4">
-  <div class="card" style="background-image: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.2)), url('https://source.unsplash.com/Pt_YmiYm7a4');">
+  <div class="card" style="background-image: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.2)), url('https://source.unsplash.com/osblobZQL8c');">
   <div class="card-category">Popular</div>
   <div class="card-description">
     <h2>Brunch</h2>
@@ -386,7 +388,7 @@ Ce composant simple, néamoins indispensable sur les profils de nos réseaux soc
 </div>
     </div>
     <div class="col-xs-12 col-sm-4">
-      <!-- insert <div class="card"> --><div class="card" style="background-image: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.2)), url('https://source.unsplash.com//D-vDQMTfAAU');">
+      <!-- insert <div class="card"> --><div class="card" style="background-image: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.2)), url('https://source.unsplash.com//JnFGgVaFpmE');">
   <div class="card-category">Popular</div>
   <div class="card-description">
     <h2>Asian Foods</h2>
@@ -401,8 +403,8 @@ Ce composant simple, néamoins indispensable sur les profils de nos réseaux soc
 <style>
 
 .card {
-  width: 25em;
-  height: 12em;
+  width: 18em;
+  height: 10em;
   text-shadow: 0 1px 3px rgba(0,0,0,0.6);
   box-shadow: 0 0 15px rgba(0,0,0,0.2);
   background-size: cover !important;
@@ -422,9 +424,10 @@ Ce composant simple, néamoins indispensable sur les profils de nos réseaux soc
 }
 .card-category {
   position: absolute;
+  font-family: 'Roboto', sans-serif;
   top: 10px;
   left: 10px;
-  font-size: 35px;
+  font-size: 25px;
   text-transform: uppercase;
 }
 .card-description {
@@ -434,11 +437,11 @@ Ce composant simple, néamoins indispensable sur les profils de nos réseaux soc
 }
 .card-description h2 {
 
-  font-size: 25px;
+  font-size: 15px;
   font-weight: bold;
 }
 .card-description p {
-  font-size: 20px;
+  font-size: 12px;
   opacity: 0.7;
   font-weight: lighter;
   color: #ffff;
@@ -462,10 +465,9 @@ Ce composant simple, néamoins indispensable sur les profils de nos réseaux soc
   transform: scale(1.1);
   transition: 0.9s;
 }
-
-
 </style>
 
+<!--rendering Card grid-->
 #### HTML
 
 ```html
@@ -576,7 +578,6 @@ Ce composant simple, néamoins indispensable sur les profils de nos réseaux soc
 
 ## Product Hunt list:
 
-[*Voir le code*]()
 
 <div class="wrap">
   <ul class="list-unstyled">
@@ -917,8 +918,6 @@ Ce composant simple, néamoins indispensable sur les profils de nos réseaux soc
 
 ## Card trip:
 
-[*Voir le code*](https://codepen.io/andryjohn/pen/agdRYm)
-
 <div class="card-trip">
   <img src="https://source.unsplash.com/vO0hUESehtc">
   <div class="card-trip-infos">
@@ -976,8 +975,6 @@ Ce composant simple, néamoins indispensable sur les profils de nos réseaux soc
 </div>
 
   <style>
-
-
 .card-trip {
   margin: 35px;
   overflow: hidden;
@@ -1029,8 +1026,119 @@ Ce composant simple, néamoins indispensable sur les profils de nos réseaux soc
 }
   </style>
 
+#### HTML
+
+```html
+<div class="card-trip">
+  <img src="https://source.unsplash.com/vO0hUESehtc">
+  <div class="card-trip-infos">
+    <div>
+      <h2>Italia </h2>
+      <p>Come to my hometown, wine and pasta an awesome place!</p>
+    </div>
+    <h2 class="card-trip-pricing">£199.99</h2>
+    <img src='https://source.unsplash.com/MTZTGvDsHFY' class="card-trip-user avatar-bordered"/>
+  </div>
+</div>
+  <div class="card-trip">
+  <img src="https://source.unsplash.com/DpPutJwgyW8">
+  <div class="card-trip-infos">
+    <div>
+      <h2>Kyoto </h2>
+      <p>Come to my hometown, wine and pasta an awesome place!</p>
+    </div>
+    <h2 class="card-trip-pricing">£199.99</h2>
+    <img src='https://source.unsplash.com/ZHvM3XIOHoE' class="card-trip-user avatar-bordered"/>
+  </div>
+</div>
+  <div class="card-trip">
+  <img src="https://source.unsplash.com/oqFHLfLFtmc">
+  <div class="card-trip-infos">
+    <div>
+      <h2>Japan </h2>
+      <p>Come to my hometown, wine and pasta an awesome place!</p>
+    </div>
+    <h2 class="card-trip-pricing">£199.99</h2>
+    <img src='https://source.unsplash.com/ZHvM3XIOHoE' class="card-trip-user avatar-bordered"/>
+  </div>
+</div>
+  <div class="card-trip">
+  <img src="https://source.unsplash.com/9sz0RKcPAQw">
+  <div class="card-trip-infos">
+    <div>
+      <h2>Tokyo </h2>
+      <p>Come to my hometown, wine and pasta an awesome place!</p>
+    </div>
+    <h2 class="card-trip-pricing">£199.99</h2>
+    <img src='https://source.unsplash.com/ZHvM3XIOHoE' class="card-trip-user avatar-bordered"/>
+  </div>
+</div>
+  <div class="card-trip">
+  <img src="https://source.unsplash.com/QAwciFlS1g4">
+  <div class="card-trip-infos">
+    <div>
+      <h2>Paris </h2>
+      <p>Come to my hometown, wine and pasta an awesome place!</p>
+    </div>
+    <h2 class="card-trip-pricing">£199.99</h2>
+    <img src='https://source.unsplash.com/MTZTGvDsHFY' class="card-trip-user avatar-bordered"/>
+  </div>
+</div>
+```
+#### CSS
+
+```css
+.card-trip {
+  margin: 35px;
+  overflow: hidden;
+  background: whitesmoke;
+  box-shadow: 0 0 15px rgba(0,0,0,0.5);
+}
+
+.card-trip > img {
+  height: 200px;
+  width: 100%;
+  object-fit: cover;
+}
+
+.card-trip h2 {
+  font-size: 17px;
+  font-weight: bold;
+  margin: 0;
+}
+
+.card-trip p {
+  font-size: 12px;
+  opacity: 0.7;
+  margin: 0;
+}
 
 
+.card-trip .card-trip-infos {
+  padding: 16px;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+  position: relative;
+}
+
+.card-trip-infos .card-trip-user {
+  position: absolute;
+  right: 16px;
+  top: -20px;
+  width: 45px;
+  border-radius: 50%;
+}
+.card-trip:hover {
+   webkit-transform: scale(1.05);
+  -moz-transform: scale(1.05);
+  -ms-transform: scale(1.05);
+  -o-transform: scale(1.05);
+  transform: scale(1.05);
+  transition: 0.9s;
+}
+
+```
 
 ## Card category:
 
@@ -1108,7 +1216,7 @@ Ce composant simple, néamoins indispensable sur les profils de nos réseaux soc
 }
 .pizza__details {
   display: flex;
-  margin-top: auto;
+  margin: -12px;
 }
 .pizza__detail {
   font-size: 15px;
@@ -1133,7 +1241,111 @@ Ce composant simple, néamoins indispensable sur les profils de nos réseaux soc
 }
 </style>
 
+#### HTML
 
+```html
+<div class="pizza">
+  <div class="pizza__herro">
+      <img src="https://images.unsplash.com/photo-1474600056930-615c3d706456?ixlib=rb-1.2.1&auto=format&fit=crop&w=1052&q=80" alt="pizza"   class="pizza__img">
+         </div>
+    <div class="pizza__content">
+        <div class="pizza__title">
+            <h1 class="pizza__heading">Pizza Végétarienne 👌</h1>
+               <div class="pizza__tag pizza__tag--1">#vegetarian</div>
+                  <div class="pizza__tag pizza__tag--2">#italian</div>
+                     </div>
+                        <p class="pizza__description">Une délicieuse pizza veggie composé d'une sauce tomate maison, mozzarella, champignons, oignons rouges, olives & origan </p>
+                          <div class="pizza__details">
+                            <p class="pizza__detail"><span class="emoji">🍕</span>850 kcal</p>
+                              <p class="pizza__detail"><span class="emoji">⏱</span>30 min</p>
+                                 <p class="pizza__detail"><span class="emoji">⭐</span>4.7 / 5</p>
+                            </div>
+                        </div>
+                      <div class="pizza__price">$11.99</div>
+                   </div>
+```
+#### CSS
+
+```css
+.pizza {
+  max-width: 800px;
+  border-radius: 4px;
+  overflow: hidden;
+  box-shadow: 0 30px 80px 10px rgba(0, 0, 0, 0.2);
+  display: flex;
+  height: 250px;
+}
+.pizza__herro {
+  flex: 0 0 45%;
+}
+.pizza__img {
+  width: 100%;
+  height: 100%;
+}
+.pizza__content {
+  flex: 1;
+  background-color: white;
+  padding: 10px 45px;
+  display: flex;
+  flex-direction: column;
+}
+.pizza__price {
+  flex: 0 0 50px;
+  background: linear-gradient(to bottom, #67b26f, #4ca2cd);
+  color: white;
+  writing-mode: vertical-rl;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.pizza__title {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+}
+.pizza__heading {
+  font-size: 20px;
+  margin-right: auto;
+}
+.pizza__tag {
+  font-size: 10px;
+  text-transform: uppercase;
+  padding: 2px 7px;
+  margin-left: 7px;
+  border-radius: 100px;
+}
+.pizza__tag--1 { background-color: #67b26f; }
+.pizza__tag--2 { background-color: #4ca2cd; }
+.pizza__description {
+  font-size: 14px;
+}
+.pizza__details {
+  display: flex;
+  margin-top: auto;
+}
+.pizza__detail {
+  font-size: 15px;
+  text-transform: uppercase;
+  margin-right: 20px;
+  font-weight: 700;
+  display: flex;
+  align-items: center;
+}
+.emoji {
+  font-size: 18px;
+  margin-right: 3px;
+}
+.pizza:hover {
+ webkit-transform: scale(1.025);
+  -moz-transform: scale(1.025);
+  -ms-transform: scale(1.025);
+  -o-transform: scale(1.025);
+  transform: scale(1.025);
+  transition: 0.6s;
+
+}
+
+```
 ## Messages:
 
 [*Voir le code*](https://codepen.io/andryjohn/pen/RmrrLd)
