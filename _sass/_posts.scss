@@ -36,7 +36,8 @@
 
 }
 .post-link .post-title:hover {
-  color: #252525;
+  color: $link-color;
+  transition: 0.6s;
 }
 
 .post-footer {
