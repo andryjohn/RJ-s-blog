@@ -507,6 +507,8 @@ Ce composant simple, néamoins indispensable sur les profils de nos réseaux soc
 
 ```
 #### CSS
+
+
 ```css
 .card {
   width: 15em;
@@ -667,6 +669,134 @@ Ce composant simple, néamoins indispensable sur les profils de nos réseaux soc
 }
 </style>
 
+#### HTML
+
+```html
+<div class="wrap">
+  <ul class="list-unstyled">
+        <li class="product">
+ <div class="product-upvote text-center">
+            <i class="fa fa-caret-up"></i>
+            <p>685</p>
+       </div>
+<img src="http://unsplash.it/200/120/?random" alt="" class="product-image img-rounded">
+<div class="product-description">
+            <h3>Slack</h3>
+            <p>The best chat tool.</p>
+          </div>
+<ul class="list-inline product-controls">
+            <li><a href=""><i class="fa fa-heart"></i></a></li>
+            <li><a href=""><i class="fa fa-share"></i></a></li>
+            <li><a href=""><i class="fa fa-star"></i></a></li>
+          </ul>
+        </li>
+        <li class="product">
+<div class="product-upvote text-center">
+            <i class="fa fa-caret-up"></i>
+            <p>1250</p>
+          </div>
+<img src="http://unsplash.it/200/120/?random" alt="" class="product-image img-rounded">
+<div class="product-description">
+            <h3>Stripe</h3>
+            <p>The best payment API.</p>
+    </div>
+<ul class="list-inline product-controls">
+            <li><a href=""><i class="fa fa-heart"></i></a></li>
+            <li><a href=""><i class="fa fa-share"></i></a></li>
+            <li><a href=""><i class="fa fa-star"></i></a></li>
+          </ul>
+        </li>
+        <li class="product">
+ <div class="product-upvote text-center">
+            <i class="fa fa-caret-up"></i>
+            <p>542</p>
+          </div>
+ <img src="http://unsplash.it/200/120/?random" alt="" class="product-image img-rounded">
+<div class="product-description">
+            <h3>Intercom</h3>
+            <p>The best CRM tool.</p>
+          </div>
+<ul class="list-inline product-controls">
+            <li><a href=""><i class="fa fa-heart"></i></a></li>
+            <li><a href=""><i class="fa fa-share"></i></a></li>
+            <li><a href=""><i class="fa fa-star"></i></a></li>
+          </ul>
+        </li>
+      </ul>
+</div>
+
+```
+
+
+#### CSS
+
+```css
+.card {
+  width: 25em;
+  height: 12em;
+  text-shadow: 0 1px 3px rgba(0,0,0,0.6);
+  box-shadow: 0 0 15px rgba(0,0,0,0.2);
+  background-size: cover !important;
+  background-position: center;
+  color: whitesmoke;
+  position: relative;
+  border-radius: 7px;
+  margin: 10px;
+}
+.card-user {
+  position: absolute;
+  right: 10px;
+  top: 10px;
+  width: 60px;
+  border-radius: 50%;
+  height: 55px;
+}
+.card-category {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  font-size: 35px;
+  text-transform: uppercase;
+}
+.card-description {
+  position: absolute;
+  bottom: 10px;
+  left: 10px;
+}
+.card-description h2 {
+
+  font-size: 25px;
+  font-weight: bold;
+}
+.card-description p {
+  font-size: 20px;
+  opacity: 0.7;
+  font-weight: lighter;
+  color: #ffff;
+}
+.card-link {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  width: 100%;
+  z-index: 2;
+  background: black;
+  opacity: 0;
+}
+.card:hover {
+   margin: 10px;
+   webkit-transform: scale(1.1);
+  -moz-transform: scale(1.1);
+  -ms-transform: scale(1.1);
+  -o-transform: scale(1.1);
+  transform: scale(1.1);
+  transition: 0.9s;
+}
+
+
+
+```
 ## Card product :
 
 [*Voir le code*](https://codepen.io/andryjohn/pen/XwmYqw)
@@ -726,7 +856,64 @@ Ce composant simple, néamoins indispensable sur les profils de nos réseaux soc
 }
 </style>
 
+#### HTML
 
+```html
+<div class="card-product">
+  <img src="https://images.unsplash.com/photo-1517336714731-489689fd1ca8?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=926&q=80">
+  <div class="card-product-infos">
+    <h2>Macbook Pro</h2>
+    <p>Product description with <strong>relevant info</strong> only.</p>
+   </div>
+</div>
+```
+#### css
+
+```css
+.card-product {
+  margin: 35px;
+  overflow: hidden;
+  height: 120px;
+  background: white;
+  box-shadow: 0 0 15px rgba(0,0,0,0.2);
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+}
+
+.card-product img {
+  height: 100%;
+  width: 120px;
+  object-fit: cover;
+}
+
+.card-product h2 {
+  font-size: 16px;
+  font-weight: bold;
+  margin: 0;
+}
+
+.card-product p {
+  font-size: 12px;
+  line-height: 1.4;
+  opacity: .7;
+  margin-bottom: 0;
+  margin-top: 8px;
+}
+
+.card-product .card-product-infos {
+  padding: 16px;
+}
+
+.card-product:hover {
+  webkit-transform: scale(1.1);
+  -moz-transform: scale(1.1);
+  -ms-transform: scale(1.1);
+  -o-transform: scale(1.1);
+  transform: scale(1.1);
+  transition: 0.8s;
+}
+```
 
 ## Card trip:
 
