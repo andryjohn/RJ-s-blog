@@ -13,7 +13,7 @@ Ce guide n’a pas été conçu pour vous apprendre JavaScript à partir de rien
 
 De plus, je vous donnerai parfois des conseils personnels qui pourraient porter à débat, mais je prendrai le soin de le mentionner lorsque je le ferai.
 
-> **Note :** La plupart des concepts introduits ici viennent d’une mise à jour du langage JavaScript (ES2015, souvent appelé ES6. Vous pouvez trouver les nouvelles fonctionnalités. ajoutées par cette mise à jour [ici](http://es6-features.org) (ce site est vraiment bien fait !).
+> **Note:** La plupart des concepts introduits ici viennent d’une mise à jour du langage JavaScript (ES2015, souvent appelé ES6. Vous pouvez trouver les nouvelles fonctionnalités. ajoutées par cette mise à jour [ici](http://es6-features.org) (ce site est vraiment bien fait !).
 
 ### Ressources complémentaires
 
@@ -28,7 +28,7 @@ Lorsque vous avez de la peine à comprendre une notion, je vous suggère de cher
 - [Google](https://www.google.com/) pour trouver des blogs et des ressources spécifiques
 - [StackOverflow](https://stackoverflow.com/questions/tagged/javascript)
 
-> **Note :** Presque toutes les ressources externes listées dans ce document sont en anglais, à l’exception des liens menant vers le Mozilla Developer Network (MDN) qui lui est traduit en français.
+> **Note:** Presque toutes les ressources externes listées dans ce document sont en anglais, à l’exception des liens menant vers le Mozilla Developer Network (MDN) qui lui est traduit en français.
 
 ## Table des matières
 * [Modern JavaScript Cheatsheet](#modern-javascript-cheatsheet)
