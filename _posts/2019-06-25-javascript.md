@@ -25,6 +25,7 @@ function sayHi() {
 }
 
 sayHi();
+
 ```
 
 - A: `Lydia` and `undefined`
@@ -37,10 +38,11 @@ sayHi();
 
 <strong>Answer: D</strong>
 
-<p>Within the function, we first declare the `name` variable with the `var` keyword. This means that the variable gets hoisted (memory space is set up during the creation phase) with the default value of `undefined`, until we actually get to the line where we define the variable. We haven't defined the variable yet on the line where we try to log the `name` variable, so it still holds the value of `undefined`.</p>
+<p>Within the function, we first declare the <mark>name</mark> variable with the <mark>var</mark> keyword.</p>
 
-<p>Variables with the `let` keyword (and `const`) are hoisted, but unlike `var`, don't get <i>initialized</i>. They are not accessible before the line we declare (initialize) them. This is called the "temporal dead zone". When we try to access the variables before they are declared, JavaScript throws a `ReferenceError`.
+<p>This means that the variable gets hoisted (memory space is set up during the creation phase) with the default value of <mark>undefined</mark> until we actually get to the line where we define the variable. We haven't defined the variable yet on the line where we try to log the  <mark>name</mark> variable, so it still holds the value of  <mark>undefined</mark>.</p>
 
+<p>Variables with the <mark>let</mark> keyword (and <mark>const</mark>) are hoisted, but unlike <mark>var</mark>, don't get <i>initialized</i>. They are not accessible before the line we declare (initialize) them. This is called the "temporal dead zone". When we try to access the variables before they are declared, JavaScript throws a <mark>ReferenceError</mark>.
 </p>
 </details>
 
@@ -66,9 +68,9 @@ for (let i = 0; i < 3; i+
 
 <strong>Answer: C</strong>
 
-<p>Because of the event queue in JavaScript, the `setTimeout` callback function is called _after_ the loop has been executed. Since the variable `i` in the first loop was declared using the `var` keyword, this value was global. During the loop, we incremented the value of `i` by `1` each time, using the unary operator `++`. By the time the `setTimeout` callback function was invoked, `i` was equal to `3` in the first example.</p>
+<p>Because of the event queue in JavaScript, the <mark>setTimeout</mark> callback function is called _after_ the loop has been executed. Since the variable <mark>i</mark> in the first loop was declared using the <mark>var</mark> keyword, this value was global. During the loop, we incremented the value of <mark>i</mark> by <mark>1</mark> each time, using the unary operator <mark>++</mark>. By the time the <mark>setTimeout</mark> callback function was invoked, <mark>i</mark> was equal to <mark></mark>` in the first example.</p>
 
-<p>In the second loop, the variable `i` was declared using the `let` keyword: variables declared with the `let` (and `const`) keyword are block-scoped (a block is anything between `{ }`). During each iteration, `i` will have a new value, and each value is scoped inside the loop.</p>
+<p>In the second loop, the variable <mark>i</mark> was declared using the <mark>let</mark> keyword: variables declared with the <mark>let</mark> (and <mark>const</mark>) keyword are block-scoped (a block is anything between <mark>{ }</mark>). During each iteration, <mark>i</mark> will have a new value, and each value is scoped inside the loop.</p>
 </details>
 
 ---
@@ -98,11 +100,11 @@ shape.perimeter();
 
 <strong>Answer: B</strong>
 
-<p>Note that the value of `diameter` is a regular function, whereas the value of `perimeter` is an arrow function.<br>
+<p>Note that the value of <mark>diameter</mark> is a regular function, whereas the value of <mark>perimeter</mark> is an arrow function.<br>
 
-With arrow functions, the `this` keyword refers to its current surrounding scope, unlike regular functions! This means that when we call `perimeter`, it doesn't refer to the shape object, but to its surrounding scope (window for example).<br>
+With arrow functions, the <mark>this</mark> keyword refers to its current surrounding scope, unlike regular functions! This means that when we call <mark>perimeter</mark>, it doesn't refer to the shape object, but to its surrounding scope (window for example).<br>
 
-There is no value `radius` on that object, which returns `undefined`.
+There is no value <mark>radius</mark> on that object, which returns <mark>undefined</mark>.
 
 </p>
 </details>
@@ -125,9 +127,9 @@ There is no value `radius` on that object, which returns `undefined`.
 <strong>Answer: A</strong>
 
 <p>
-The unary plus tries to convert an operand to a number. `true` is `1`, and `false` is `0`.<br>
+The unary plus tries to convert an operand to a number. <mark>true</mark> is <mark>1</mark>, and <mark>false</mark> is <mark>0</mark>.<br>
 
-The string `'Lydia'` is a truthy value. What we're actually asking, is "is this truthy value falsy?". This returns `false`.
+The string <mark>'Lydia'</mark> is a truthy value. What we're actually asking, is "is this truthy value falsy?". This returns <mark>false</mark>.
 
 </p>
 </details>
@@ -225,11 +227,13 @@ console.log(b === c);
 - D: `false` `true` `true`
 
 
-<details><summary><b>Answer</b></summary>
 
-<p>
 
-#### Answer: C
+<details> <summary><b>Answer</b></summary></details>
+
+
+<strong>Answer: C</strong>
+
 
 `new Number()` is a built-in function constructor. Although it looks like a number, it's not really a number: it has a bunch of extra features and is an object.
 
@@ -237,13 +241,12 @@ When we use the `==` operator, it only checks whether it has the same _value_. T
 
 However, when we use the `===` operator, both value _and_ type should be the same. It's not: `new Number()` is not a number, it's an **object**. Both return `false.`
 
-</p>
 
-</details>
+
 
 ---
 
-###### 8. What's the output?
+## 8. What's the output?
 
 ```javascript
 class Chameleon {
@@ -266,14 +269,17 @@ freddie.colorChange("orange");
 - C: `green`
 - D: `TypeError`
 
-<details><summary><b>Answer</b></summary>
+<details>
+
+<summary><b>Answer</b></summary>
+
+<strong>Answer: D</strong>
 <p>
-
-#### Answer: D
-
-The `colorChange` function is static. Static methods are designed to live only on the constructor in which they are created, and cannot be passed down to any children. Since `freddie` is a child, the function is not passed down, and not available on the `freddie` instance: a `TypeError` is thrown.
-
+  The `colorChange` function is static. Static methods are designed to live only on the constructor in which they are created, and cannot be passed down to any children. Since `freddie` is a child, the function is not passed down, and not available on the `freddie` instance: a `TypeError` is thrown.
 </p>
+
+
+
 </details>
 
 ---
@@ -1294,3 +1300,23 @@ A string is an iterable. The spread operator maps every character of an iterable
 
 </p>
 </details>
+
+
+
+
+<style>
+mark {
+background-color: #252525;
+color: yellow;
+padding-left: 5px;
+padding-right: 5px;
+padding-bottom: 5px;
+box-shadow: 0 0 5px rgba(0,0,0,0.3);
+border-radius: 5px;
+}
+
+:focus {
+    outline: none!important;
+}
+
+</style>
