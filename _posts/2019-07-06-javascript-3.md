@@ -178,3 +178,17 @@ L’objet Number possède cinq propriétés qui lui appartiennent exclusivement.
 * Les propriétés `MIN_VALUE` et `MAX_VALUE` vont respectivement retourner le plus petit et le plus grand nombre possible en JavaScript ;
 * Les propriétés `NEGATIVE_INFINITY` et `POSITIVE_INFINITY` représentent l’infini côté négatif et positif ;
 * La propriété `NaN` représentant une valeur qui n’est pas un nombre.
+
+# L'objet  javaScript Array:
+
+Un tableau (« array » en anglais) est un type de variable spécial qui peut contenir plusieurs valeurs.
+
+Les tableaux vont être gérés par *l’objet Array*, un objet natif en JavaScript qui possède ses propres propriétés et méthodes.
+
+Lorsque l’on crée un tableau, un indice (ou une clef) numérique unique est automatiquement affectée à chaque valeur de notre tableau.
+
+Ainsi, la première valeur de notre tableau va être associée à l’index 0 (et non pas 1, faites bien attention !), la deuxième valeur va recevoir la clef 1, etc.
+
+L’association automatique d’une clef numérique unique et d’une valeur va s’avérer très pratique pour cibler et travailler précisément sur chaque valeur du tableau par la suite.
+
+
