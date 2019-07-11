@@ -827,6 +827,7 @@ Ce composant simple, néamoins indispensable sur les profils de nos réseaux soc
   height: 100%;
   width: 120px;
   object-fit: cover;
+  border-radius: none!important;
 }
 
 .card-product h2 {

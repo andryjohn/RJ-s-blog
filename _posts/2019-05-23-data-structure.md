@@ -1,6 +1,6 @@
 ---
 layout:     post
-title:    (French)Les structures de données, Array et Set en Ruby
+title:    Les structures de données, Array et Set en Ruby tiré du Paris Ruby Workshops
 
 date:       2019-05-23
 summary:
@@ -62,9 +62,6 @@ puts anagrams("god";"dog")
 
 "The `chars method` returns an enumeration of the string's characters."
 
-Et sa nous donne:
-
-![anagram](/images/anagram.png)
 
 ---
 
